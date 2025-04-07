@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(94, 172, 232);
+    color: white;
+}
+
+.titleName{
+    font-size: 80px;
+    margin: 0%;
+}
+
+.currentPositionName{
+    font-size: 40px;
+    margin-top: -20;
+}
+
+.subTitles {
+    color: greenyellow;
+}
+
+
+.contactTitles {
+    color: rgb(80, 255, 173);
+    font-weight: bold;
+
+}
+
