@@ -1,12 +1,23 @@
 body {
     /* background-color: rgb(94, 172, 232); */
-    background-color: rgb(39, 116, 175);
-    color: white;
+    background-color: rgb(255, 250, 260);
+    color: grey;
+    margin: 0;
+
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin-left: 20px;
+    
 }
 
 .titleName{
     font-size: 80px;
-    margin: 0%;
+    background-color: rgb(68, 151, 211);
+    color: white;
+    margin: 0;
+    margin-left: -20px;
 }
 
 .currentPositionName{
@@ -14,13 +25,19 @@ body {
     margin-top: -20;
 }
 
+.socialMediaIcons{
+    background-color: white;
+    margin-left: -20px;
+}
+
 .subTitles {
-    color: greenyellow;
+    color: rgb(11, 41, 79);
+    
 }
 
 
 .contactTitles {
-    color: rgb(80, 255, 173);
+    color: rgb(112, 120, 140);
     font-weight: bold;
 
 }
