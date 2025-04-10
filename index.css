@@ -45,12 +45,17 @@ ul {
 
 
 .subTitles {
-    color: rgb(11, 41, 79);
+    color: rgb(72, 87, 103);
+    margin-top: 70px;
+}
+
+.subTitleContact {
+    color: rgb(230, 232, 236);
     margin-top: 70px;
 }
 
 .techExpertiseDivs {
-    background-color:rgb(233, 255, 220);
+    background-color: rgb(233, 255, 220);
     margin-left: 8%;
     margin-right: 8%;
     margin-top: 2%;
@@ -62,8 +67,14 @@ ul {
 
 }
 
-.experiencesDivs{
-    background-color:rgb(252, 255, 207);
+table {
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+.experiencesDivs {
+    background-color: rgb(252, 255, 207);
     /* background-color:rgb(253, 255, 222); */
     margin-left: 8%;
     margin-right: 8%;
@@ -76,15 +87,63 @@ ul {
 }
 
 
+.educationsDivs {
+    background-color: rgb(236, 221, 246);
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-top: 0.2px;
+    padding-bottom: 5%;
+    border-radius: 25px;
+    box-shadow: 3px 2px 2px rgb(197, 203, 214);
+}
 
-table {
-    margin: 0 auto;
-    text-align: left;
+.languagesDivs {
+    background-color: rgb(254, 231, 195);
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-top: 0.2px;
+    padding-bottom: 5%;
+    border-radius: 25px;
+    box-shadow: 3px 2px 2px rgb(197, 203, 214);
+}
+
+.hobbiesDivs {
+    background-color: rgb(250, 209, 222);
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-top: 0.2px;
+    padding-bottom: 5%;
+    border-radius: 25px;
+    box-shadow: 3px 2px 2px rgb(197, 203, 214);
 }
 
 
 .contactTitles {
-    color: rgb(112, 120, 140);
+    color: rgb(171, 183, 214);
     font-weight: bold;
+}
+
+.contactSubTitle {
+    color: rgb(230, 232, 236);
+    margin-top: 70px;
+}
+
+.contactDivs {
+    background-color: rgb(54, 63, 73);
+    color: rgb(250, 245, 260);
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-top: 0.2px;
+    padding-bottom: 5%;
+    border-radius: 25px;
+    box-shadow: 3px 2px 2px rgb(197, 203, 214);
 }
 
