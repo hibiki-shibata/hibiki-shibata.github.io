@@ -26,28 +26,11 @@ body {
 }
 
 .socialMediaIcons{
-    background-color: white;
+    background-color: rgb(51, 119, 168);
     margin-left: -20px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 0;
-    padding: 0;
-    size: 10px;
-}
+    size: 20px;
 
-.linkedInImage {
-    margin: 0;
-    padding: 0;
-}
 
-.githubImage {
-    margin: 0; 
-    padding: 0;
-}
-
-.instagramImage {
-    margin: 0; 
-    padding: 0;
 }
 
 
