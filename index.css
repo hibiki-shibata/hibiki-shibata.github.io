@@ -22,13 +22,21 @@ ul {
     font-size: 80px;
     background-color: rgb(68, 151, 211);
     color: white;
-    margin: 0;
     margin-left: -20px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
 }
 
 .currentPositionName {
     font-size: 40px;
     margin-top: -20;
+}
+
+.profilePhoto {
+    width: 100px;
+    margin-right: 20px;
+    margin-top: 30px;
 }
 
 .socialMediaIcons {
@@ -40,15 +48,21 @@ ul {
 
 .subTitles {
     color: rgb(11, 41, 79);
-
+    margin-top: 70px;
 }
 
 
 .contactTitles {
     color: rgb(112, 120, 140);
     font-weight: bold;
-
 }
+
+
+.contactsSection {
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
 
 table {
     margin: 0 auto;
