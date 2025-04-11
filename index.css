@@ -44,6 +44,16 @@ ul {
 }
 
 
+.linkedInButton:hover path:first-of-type {
+    fill: red;
+    /* fill: #3682bb;  */
+}
+
+.githubInButton:hover path {
+    fill: red;
+}
+
+
 .subTitles {
     color: rgb(72, 87, 103);
     margin-top: 70px;
@@ -137,13 +147,12 @@ table {
 .contactDivs {
     background-color: rgb(54, 63, 73);
     color: rgb(250, 245, 260);
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin: 0;
     padding-top: 0.2px;
     padding-bottom: 5%;
-    border-radius: 25px;
     box-shadow: 3px 2px 2px rgb(197, 203, 214);
 }
 
+.copyRightDivs{
+    background-color: rgb(54, 63, 73);
+}
