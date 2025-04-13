@@ -90,7 +90,7 @@ th {
 }
 
 table li {
-    margin-left: 90px;
+    margin-left: 20px;
 }
 
 .experiencesDivs {
@@ -106,13 +106,15 @@ table li {
     box-shadow: 3px 2px 2px rgb(197, 203, 214);
 }
 
+.educationsDivs {
+    background-color: rgb(236, 221, 246);
+}
 
 .techExpertiseDivs,
 .experiencesDivs,
 .languagesDivs,
 .hobbiesDivs,
 .educationsDivs {
-    /* background-color: rgb(236, 221, 246); */
     margin-left: 8%;
     margin-right: 8%;
     margin-top: 2%;
