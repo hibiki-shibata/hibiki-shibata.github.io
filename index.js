@@ -1,14 +1,16 @@
-const section = document.querySelector('.educationsDivs');
+const sections = document.querySelectorAll('.techExpertiseDivs, .educationsDivs, .experiencesDivs, .languagesDivs, .hobbiesDivs');
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
-      section.classList.add('visible');
-      observer.unobserve(section); // Slide only once
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target); // Slide only once per section
     }
   });
 }, {
-  threshold: 0.2 // Trigger when 20% visible
+  threshold: 0.2
 });
 
-observer.observe(section);
+sections.forEach(section => {
+  observer.observe(section);
+});

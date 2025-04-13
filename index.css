@@ -8,6 +8,7 @@ body {
     font-weight: weight;
     font-style: normal;
     text-align: center;
+    font-size: 19.2px;
 }
 
 
@@ -16,9 +17,10 @@ ul {
     text-align: left;
 }
 
+
 .titleName {
     font-size: 80px;
-    background-color: rgb(68, 151, 211);
+    background-color: #4497d3;
     color: white;
     margin-left: 0;
     margin-top: 0;
@@ -38,19 +40,20 @@ ul {
 }
 
 .socialMediaIcons {
-    background-color: rgb(51, 119, 168);
+    background-color: #3377a8;
     margin-left: -20px;
     size: 20px;
 }
 
 
 .linkedInButton:hover path:first-of-type {
-    fill: red;
+    /*fill: red; */
     /* fill: #3682bb;  */
+    fill: #0165b1;
 }
 
 .githubInButton:hover path {
-    fill: red;
+    fill: #000;
 }
 
 
@@ -65,7 +68,7 @@ ul {
 }
 
 .techExpertiseDivs {
-    background-color: rgb(233, 255, 220);
+    background-color: #f5f2db;
     margin-left: 8%;
     margin-right: 8%;
     margin-top: 2%;
@@ -82,9 +85,16 @@ table {
     text-align: left;
 }
 
+th {
+    text-align: center;
+}
+
+table li {
+    margin-left: 90px;
+}
 
 .experiencesDivs {
-    background-color: rgb(252, 255, 207);
+    background-color: #dbeef6;
     /* background-color:rgb(253, 255, 222); */
     margin-left: 8%;
     margin-right: 8%;
@@ -97,8 +107,12 @@ table {
 }
 
 
+.techExpertiseDivs,
+.experiencesDivs,
+.languagesDivs,
+.hobbiesDivs,
 .educationsDivs {
-    background-color: rgb(236, 221, 246);
+    /* background-color: rgb(236, 221, 246); */
     margin-left: 8%;
     margin-right: 8%;
     margin-top: 2%;
@@ -113,10 +127,10 @@ table {
     opacity: 0;
 }
 
-.educationsDivs.visible {
+.visible {
     opacity: 1;
     transform: translateX(0);
-  }
+}
 
 .languagesDivs {
     background-color: rgb(254, 231, 195);
@@ -165,3 +179,7 @@ table {
 .copyRightDivs {
     background-color: rgb(54, 63, 73);
 }
+
+
+
+/* .experiencesDivs .languagesDivs .hobbiesDivs .contactDivs, .copyRightDivs */
