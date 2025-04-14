@@ -26,6 +26,7 @@ ul {
     margin-top: 0;
     margin-right: 0;
     margin-bottom: 0;
+    box-shadow: 15px 40px 40px #306c97;
 }
 
 .currentPositionName {
