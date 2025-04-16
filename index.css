@@ -107,6 +107,30 @@ table li {
     box-shadow: 3px 2px 2px rgb(197, 203, 214);
 }
 
+.experienceDescriotionsTitle {
+    margin-bottom: 0;
+}
+
+.experienceDescriptionContent {
+    display: none;
+}
+
+.shoeDescriptionButton {
+    background-color: #00C2E8;
+    border: 0;
+    color: white;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.shoeDescriptionButton:hover{
+    background-color: rgb(2, 210, 251);
+}
+
+.shoeDescriptionButton:active{
+    background-color: #02b6da;
+}
+
 .educationsDivs {
     background-color: rgb(236, 221, 246);
 }
