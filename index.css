@@ -123,11 +123,11 @@ table li {
     border-radius: 6px;
 }
 
-.shoeDescriptionButton:hover{
+.shoeDescriptionButton:hover {
     background-color: rgb(2, 210, 251);
 }
 
-.shoeDescriptionButton:active{
+.shoeDescriptionButton:active {
     background-color: #02b6da;
 }
 
