@@ -1,6 +1,11 @@
+:root {
+    --body-bg-color: rgb(250, 245, 260);
+}
+
+
 body {
     /* background-color: rgb(94, 172, 232); */
-    background-color: rgb(250, 245, 260);
+    background-color: var(--body-bg-color);
     color: grey;
     margin: 0;
     font-family: "Source Sans 3", sans-serif;
@@ -9,6 +14,11 @@ body {
     font-style: normal;
     text-align: center;
     font-size: 19.2px;
+    transition: background-color 0.3s ease;
+}
+
+body.dark {
+    --body-bg-color: black;
 }
 
 
@@ -51,8 +61,6 @@ ul {
 
 
 .linkedInButton:hover path:first-of-type {
-    /*fill: red; */
-    /* fill: #3682bb;  */
     fill: #0165b1;
 }
 
@@ -60,15 +68,19 @@ ul {
     fill: white;
 }
 
-.darkModeIcon{
-    margin-top: 6px; 
+.darkModeIcon {
+    margin-top: 7px;
     position: absolute;
     right: 3%;
-
+    /* border-radius: 5px; */
 }
 
-.darkModeIcon:hover{
+.darkModeIcon:hover {
     fill: rgba(255, 255, 255, 0.714);
+}
+
+.darkModeIcon:active {
+    fill: white;
 }
 
 
