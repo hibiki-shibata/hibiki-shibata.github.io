@@ -35,7 +35,7 @@ body.dark {
 }
 
 
-a { 
+a {
     margin-right: 5px;
     margin-left: 5px;
 }
@@ -92,7 +92,7 @@ ul {
 }
 
 .darkModeIcon {
-    margin-top: 7px;
+    margin-top: 11.5px;
     position: absolute;
     right: 3%;
     /* border-radius: 5px; */
