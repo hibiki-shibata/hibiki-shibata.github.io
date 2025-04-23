@@ -74,11 +74,13 @@ ul {
 
 .socialMediaIcons {
     background-color: #3377a8;
-    margin-left: -20px;
+    margin-left: -52.3px;
     size: 20px;
     display: flex;
     gap: 0;
-    padding-left: 46.5%;
+    /* padding-left: 46%; */
+    padding-left: 50%;
+    padding-right: 50%;
 }
 
 
