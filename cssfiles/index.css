@@ -20,7 +20,7 @@ body {
     font-style: normal;
     text-align: center;
     font-size: 19.2px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.6s ease;
 }
 
 body.dark {
@@ -86,22 +86,23 @@ ul {
 
 .linkedInButton:hover path:first-of-type {
     fill: #0165b1;
-    margin-top: 100px;
+    transition: fill 0.3s ease; 
 }
 
 .githubInButton:hover path {
     fill: white;
+    transition: fill 0.3s ease; 
 }
 
 .darkModeIcon {
     margin-top: 11.5px;
     position: absolute;
     right: 3%;
-    /* border-radius: 5px; */
 }
 
 .darkModeIcon:hover {
     fill: rgba(255, 255, 255, 0.714);
+    transition: fill 0.4s ease; 
 }
 
 .darkModeIcon:active {
@@ -198,6 +199,7 @@ table li {
     color: white;
     padding: 6px;
     border-radius: 6px;
+    /* transition: fill 0.3s ease;  */
 }
 
 .shoeDescriptionButton:hover {
@@ -262,6 +264,7 @@ table li {
 
 .copyRightDivs {
     background-color: rgb(54, 63, 73);
+    padding-bottom: 8px;
 }
 
 
