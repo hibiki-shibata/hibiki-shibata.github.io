@@ -86,12 +86,12 @@ ul {
 
 .linkedInButton:hover path:first-of-type {
     fill: #0165b1;
-    transition: fill 0.3s ease; 
+    transition: fill 0.3s ease;
 }
 
 .githubInButton:hover path {
     fill: white;
-    transition: fill 0.3s ease; 
+    transition: fill 0.3s ease;
 }
 
 .darkModeIcon {
@@ -102,7 +102,7 @@ ul {
 
 .darkModeIcon:hover {
     fill: rgba(255, 255, 255, 0.714);
-    transition: fill 0.4s ease; 
+    transition: fill 0.4s ease;
 }
 
 .darkModeIcon:active {
@@ -171,6 +171,25 @@ th {
 table li {
     margin-left: 20px;
 }
+
+.skillIconsDiv {
+    /* flex: auto; */
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 3%;
+}
+
+
+.skillIcons {
+    background-color: white;
+    margin: 2px;
+    border-radius: 5px;
+}
+
 
 .experiencesDivs {
     /* background-color: #dbeef6; */
