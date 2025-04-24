@@ -1,5 +1,6 @@
 :root {
     --body-bg-color: rgb(250, 245, 260);
+    --skillIcons-bg-color: white;
     --techExpertiseDivs-bg-color: #f5f2db;
     --experiencesDivs-bg-color: #dbeef6;
     --educationsDivs-bg-color: rgb(236, 221, 246);
@@ -25,13 +26,16 @@ body {
 
 body.dark {
     --body-bg-color: black;
+    --skillIcons-bg-color: rgba(255, 255, 255, 0.323);
+
     --techExpertiseDivs-bg-color: #f5f2dbaf;
     --experiencesDivs-bg-color: #dbeef69e;
     --educationsDivs-bg-color: rgba(236, 221, 246, 0.665);
     --languagesDivs-bg-color: rgba(254, 231, 195, 0.525);
     --hobbiesDivs-bg-color: rgba(250, 209, 222, 0.666);
     color: rgb(232, 230, 230);
-    --subTitles-font-color: white:
+    --subTitles-font-color: white;
+
 }
 
 
@@ -95,7 +99,7 @@ ul {
 }
 
 .darkModeIcon {
-    margin-top: 11.5px;
+    margin-top: 10px;
     position: absolute;
     right: 3%;
 }
@@ -185,7 +189,8 @@ table li {
 
 
 .skillIcons {
-    background-color: white;
+    /* background-color: white; */
+    background-color: var(--skillIcons-bg-color);
     margin: 2px;
     border-radius: 5px;
 }
