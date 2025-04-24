@@ -90,18 +90,18 @@ ul {
 
 .linkedInButton:hover path:first-of-type {
     fill: #0165b1;
-    transition: fill 0.3s ease;
+    transition: fill 0.2s ease;
 }
 
 .githubInButton:hover path {
     fill: white;
-    transition: fill 0.3s ease;
+    transition: fill 0.2s ease;
 }
 
 .darkModeIcon {
     margin-top: 10px;
     position: absolute;
-    right: 3%;
+    right: 35px;
 }
 
 .darkModeIcon:hover {
@@ -109,8 +109,24 @@ ul {
     transition: fill 0.4s ease;
 }
 
+
 .darkModeIcon:active {
     fill: white;
+}
+
+.changeLanguageIcon {
+    margin-top: 10px;
+    position: absolute;
+    right: 90px;
+}
+
+.changeLanguageIcon:hover {
+    fill: rgba(255, 255, 255, 0.714);
+    transition: fill 0.2s ease;
+}
+
+.changeLanguageIcon:active {
+    fill: rgba(255, 255, 255, 0.461);
 }
 
 /* Div Movement */
@@ -223,7 +239,6 @@ table li {
     color: white;
     padding: 6px;
     border-radius: 6px;
-    /* transition: fill 0.3s ease;  */
 }
 
 .shoeDescriptionButton:hover {
