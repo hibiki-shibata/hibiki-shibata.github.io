@@ -7,7 +7,7 @@ const toggleButtons = document.getElementById("changeLanguageIcon");
 const translations = {
   en: {
     currentPositionName: "Tech Support Engineer",
-    languageTitle: "Français",
+    changeLanguageTitle: "Français",
     techExpertiseTitle: "TECH EXPERTISE",
 
     techExpertiseSkilled: "Skilled",
@@ -64,13 +64,32 @@ const translations = {
       organization while being inspired by Product+ team for tech world. So, I decided to apply for a position in which I was
       also qualified at that point to join the Product+ organization.
     `,
-    woltSAExperienceDescriptionContent: "EDUCATIONS",
+    educationTitle: "EDUCATIONS",
+    educationGenDiploma: "- General Diploma",
+    educationYears: "April 2018 - April 2021",
+    educationDesc: `
+    I studied general subject, focusing on the Science field. (Math, Physics, Chemistry, Biology,
+    Computer science, English). I graduated with honors and on most of the examinations when I was in
+    school, the Total scores in all subjects was in the top ten out of 400 of students - it was 5th/400 on
+    average. I had been getting high scores all years of school in every single subject by studying so hard.
+    `,
+    languageTitle: "LANGUAGES",
+    languageEn: "English (Bilingual proficiency)",
+    languageJp: "Japanese (Native)",
+    languageFr: "French (Ently level)",
+    hobbiesTitle: "HOBBIES",
+    hobbiesFood: "Foods : I love exploring new foods, in particular international foods.",
+    hobbiesWalk: "Walking/WorkOut : It's my key to be confident and be relaxed in my free time.",
+    hobbiesStudy: "Languages : I keep learning French for years for better communication with my partners.",
+    contactAddress: "Address:",
+    contactPhonenumber: "Phone number:",
+
   },
 
 
   fr: {
     currentPositionName: "Ingénieur de support technique",
-    languageTitle: "English",
+    changeLanguageTitle: "English",
     techExpertiseTitle: "EXPERTISE TECHNIQUE",
 
     techExpertiseSkilled: "Qualifié",
@@ -114,7 +133,22 @@ const translations = {
     woltSAExperienceDescriptionContent: `
     J'ai rejoint ce poste juste après avoir obtenu mon diplôme. Au départ, c'était principalement pour économiser les frais de scolarité universitaires. À ce poste, je travaillais à temps plein et j'étais responsable du support des clients et de tous les partenaires de l'entreprise. Je traitais diverses demandes et facilitais la communication entre eux. Au fil du temps, je me suis familiarisée avec la culture et les talents de l'entreprise (notamment l'équipe Produit) et j'ai commencé à penser que je souhaitais continuer à travailler dans cette organisation, inspirée par l'équipe Produit+ pour le monde de la technologie. J'ai donc décidé de postuler à un poste pour lequel j'étais également qualifiée à ce moment-là pour rejoindre l'équipe Produit+.
     `,
-    woltSAExperienceDescriptionContent: "ÉDUCATIONS",
+    educationTitle: "ÉDUCATIONS",
+    educationGenDiploma: "- Diplôme général",
+    educationYears: "Avril 2018 - Avril 2021",
+    educationDesc: `
+    J'ai étudié des matières générales, en me concentrant sur les sciences (mathématiques, physique, chimie, biologie, informatique, anglais). J'ai obtenu mon diplôme avec mention et, à la plupart des examens, j'ai obtenu une moyenne de 5e/400 élèves, toutes matières confondues. J'ai obtenu d'excellents résultats tout au long de ma scolarité, et ce, grâce à mes efforts.
+    `,
+    languageTitle: "LANGAGES",
+    languageEn: "Anglais (maîtrise bilingue)",
+    languageJp: "Japonais (langue maternelle)",
+    languageFr: "Français (niveau Ently)",
+    hobbiesTitle: "LOISIRS",
+    hobbiesFood: "Nourriture : J'aime explorer de nouveaux aliments, en particulier les aliments internationaux.",
+    hobbiesWalk: "Marche/Entraînement : C'est ma clé pour avoir confiance en moi et être détendu pendant mon temps libre.",
+    hobbiesStudy: "Langues : J'apprends le français depuis des années pour une meilleure communication avec mes partenaires.",
+    contactAddress: "Adresse:",
+    contactPhonenumber: "Numéro de téléphone:",
   }
 };
 
