@@ -7,7 +7,7 @@ const toggleButtons = document.getElementById("changeLanguageIcon");
 const translations = {
   en: {
     currentPositionName: "Tech Support Engineer",
-    changeLanguageTitle: "Français",
+    changeLanguageTitle: "Fr",
     techExpertiseTitle: "TECH EXPERTISE",
 
     techExpertiseSkilled: "Skilled",
@@ -89,7 +89,7 @@ const translations = {
 
   fr: {
     currentPositionName: "Ingénieur de support technique",
-    changeLanguageTitle: "English",
+    changeLanguageTitle: "En",
     techExpertiseTitle: "EXPERTISE TECHNIQUE",
 
     techExpertiseSkilled: "Qualifié",
