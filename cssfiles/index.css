@@ -106,15 +106,19 @@ li {
 
 .languageTitle {
     position: absolute;
-    right: 125px;
-    margin-top: 13.5px;
+    right: 82.5px;
+    font-size: 15px;
+    /* right: 106px; */
+    /* margin-top: 13.5px; */
+    margin-top: 32px;
     color: white;
 }
 
 .changeLanguageIcon {
-    margin-top: 10px;
+    margin-top: 6px;
     position: absolute;
-    right: 90px;
+    right: 75px;
+
 }
 
 .changeLanguageIcon:hover {
@@ -126,10 +130,18 @@ li {
     fill: rgba(255, 255, 255, 0.461);
 }
 
-.darkModeIcon {
-    margin-top: 10px;
+.darkModeTitle {
+    color: black;
     position: absolute;
-    right: 35px;
+    right: 32px;
+    font-size: 13px;
+    margin-top: 34px;
+}
+
+.darkModeIcon {
+    margin-top: 6px;
+    position: absolute;
+    right: 30px;
 }
 
 .darkModeIcon:hover {
