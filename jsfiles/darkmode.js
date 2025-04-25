@@ -1,11 +1,9 @@
 const toggleButton = document.getElementById("darkModeIcon");
 
 toggleButton.addEventListener("click", () => {
-    console.log("Dark mode button clicked")
-    try {
-        console.log("Dark mode button clicked")
-        document.body.classList.toggle("dark");
-        console.log("Dark mode button clicked")
+    
+    try {    
+        document.body.classList.toggle("dark");    
 
         // Optional: save preference in local storage
         if (document.body.classList.contains("dark")) {

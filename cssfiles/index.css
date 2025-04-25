@@ -26,7 +26,8 @@ body {
 
 body.dark {
     --body-bg-color: black;
-    --skillIcons-bg-color: rgba(255, 255, 255, 0.323);
+    /* --skillIcons-bg-color: rgba(255, 255, 255, 0.323); */
+    --skillIcons-bg-color: rgba(139, 139, 139, 0.323);
 
     --techExpertiseDivs-bg-color: #f5f2dbaf;
     --experiencesDivs-bg-color: #dbeef69e;
@@ -48,6 +49,10 @@ a {
 ul {
     display: inline-block;
     text-align: left;
+}
+
+li {
+    margin: 5px;
 }
 
 
@@ -98,20 +103,12 @@ ul {
     transition: fill 0.2s ease;
 }
 
-.darkModeIcon {
-    margin-top: 10px;
+
+.languageTitle {
     position: absolute;
-    right: 35px;
-}
-
-.darkModeIcon:hover {
-    fill: rgba(255, 255, 255, 0.714);
-    transition: fill 0.4s ease;
-}
-
-
-.darkModeIcon:active {
-    fill: white;
+    right: 125px;
+    margin-top: 12.5px;
+    color: white;
 }
 
 .changeLanguageIcon {
@@ -128,6 +125,23 @@ ul {
 .changeLanguageIcon:active {
     fill: rgba(255, 255, 255, 0.461);
 }
+
+.darkModeIcon {
+    margin-top: 10px;
+    position: absolute;
+    right: 35px;
+}
+
+.darkModeIcon:hover {
+    fill: rgba(255, 255, 255, 0.714);
+    transition: fill 0.4s ease;
+}
+
+
+.darkModeIcon:active {
+    fill: white;
+}
+
 
 /* Div Movement */
 .techExpertiseDivs,
