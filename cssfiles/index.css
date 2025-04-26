@@ -7,6 +7,9 @@
     --languagesDivs-bg-color: rgb(254, 231, 195);
     --hobbiesDivs-bg-color: rgb(250, 209, 222);
     --subTitles-font-color: rgb(72, 87, 103);
+    --darkModeButton-colort: #232b4c;
+    /* --darkModeButton-colort-hover: rgba(255, 255, 255, 0.714); */
+    --darkModeButton-colort-hover: black;
 }
 
 
@@ -36,6 +39,8 @@ body.dark {
     --hobbiesDivs-bg-color: rgba(250, 209, 222, 0.666);
     color: rgb(232, 230, 230);
     --subTitles-font-color: white;
+    --darkModeButton-colort: rgba(255, 255, 255, 0.807);
+    --darkModeButton-colort-hover: white;
 
 }
 
@@ -111,7 +116,7 @@ li {
     /* right: 106px; */
     /* margin-top: 13.5px; */
     margin-top: 32px;
-    color: white;
+    color: rgba(255, 255, 255, 0.807);
 }
 
 .changeLanguageIcon {
@@ -122,7 +127,8 @@ li {
 }
 
 .changeLanguageIcon:hover {
-    fill: rgba(255, 255, 255, 0.714);
+    /* fill: rgba(255, 255, 255, 0.807); */
+    fill: white;
     transition: fill 0.2s ease;
 }
 
@@ -131,21 +137,24 @@ li {
 }
 
 .darkModeTitle {
-    color: black;
+    color: var(--darkModeButton-colort);
     position: absolute;
     right: 32px;
     font-size: 13px;
     margin-top: 34px;
+    transition: color 0.4s ease;
 }
 
 .darkModeIcon {
     margin-top: 6px;
     position: absolute;
     right: 30px;
+    fill: var(--darkModeButton-colort);
 }
 
 .darkModeIcon:hover {
-    fill: rgba(255, 255, 255, 0.714);
+    /* fill: rgba(255, 255, 255, 0.714); */
+    fill: var(--darkModeButton-colort-hover);
     transition: fill 0.4s ease;
 }
 
