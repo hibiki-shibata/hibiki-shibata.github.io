@@ -7,14 +7,15 @@ const toggleButtons = document.getElementById("changeLanguageIcon");
 const translations = {
   en: {
     // currentPositionName: "Tech Support Engineer",
-    currentPositionName: "President of Hibikingdom",
+    currentPositionName: "Princess",
     changeLanguageTitle: "Fr",
     techExpertiseTitle: "TECH EXPERTISE",
 
     techExpertiseSkilled: "Skilled",
     techExpertiseExperienced: "Experienced",
     experiencesTitle: "EXPERIENCES",
-    woltTechJobTitle: "- Technical support Engineer I3",
+    woltTechJobTitle: "- Princess",
+    // woltTechJobTitle: "- Technical support Engineer I3",
     woltTechYears: "March 2022 - Present ( 3 years )",
     woltTechExperienceSoftwareDev: "Software development:",
     woltTechExperienceSoftwareDevDescr: `
