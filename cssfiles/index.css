@@ -10,6 +10,7 @@
         --darkModeButton-colort: #232b4c;
         /* --darkModeButton-colort-hover: rgba(255, 255, 255, 0.714); */
         --darkModeButton-colort-hover: black;
+
     }
 
     html {
@@ -102,10 +103,10 @@
 
     .menuBarButton {
         position: absolute;
-        padding: 7.5px;
+        padding: 7px;
         padding-bottom: 0;
-        margin-left: 11px;
-        margin-top: 3.5px;
+        margin-left: 12px;
+        margin-top: 6.5px;
         border-radius: 40px;
         border: 0;
         left: 0;
@@ -140,6 +141,7 @@
     }
 
     .menuSidebar a {
+        /* font-family: serif; */
         padding: 10px 20px;
         text-decoration: none;
         color: white;
@@ -220,8 +222,8 @@
 
     /* Div Movement */
     .techExpertiseDivs,
-    .educationsDivs,
     .experiencesDivs,
+    .educationsDivs,
     .languagesDivs,
     .hobbiesDivs {
         margin-left: 8%;
@@ -312,6 +314,23 @@
         padding-bottom: 5%;
         border-radius: 25px;
         box-shadow: 3px 2px 2px rgb(197, 203, 214);
+    }
+
+    .experienceWoltTitleAndRef,
+    .educationChikuzenTitleAndRef {
+        margin: 0;
+        padding: 0;
+        color: grey;
+        text-decoration: none;
+    }
+
+    .experienceWoltTitleAndRef:hover {
+        color: #00C2E8;
+        text-decoration: none;
+    }
+
+    .educationChikuzenTitleAndRef:hover {
+        color: #8D092D;
     }
 
     .experienceDescriotionsTitle {
@@ -412,7 +431,7 @@
         font-size: 15px;
     }
 
-    .toTop:hover{
+    .toTop:hover {
         /* background-color: rgb(72, 72, 72); */
         background-color: #00b1d5;
     }

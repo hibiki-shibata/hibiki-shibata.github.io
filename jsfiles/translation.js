@@ -6,7 +6,8 @@ const toggleButtons = document.getElementById("changeLanguageIcon");
 
 const translations = {
   en: {
-    currentPositionName: "Tech Support Engineer",
+    // currentPositionName: "Tech Support Engineer",
+    currentPositionName: "President of Hibikingdom",
     changeLanguageTitle: "Fr",
     techExpertiseTitle: "TECH EXPERTISE",
 
