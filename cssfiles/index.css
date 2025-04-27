@@ -158,12 +158,12 @@
 
     .linkedInButton:hover path:first-of-type {
         fill: #0165b1;
-        transition: fill 0.2s ease;
+        transition: fill 0.3s ease;
     }
 
     .githubInButton:hover path {
         fill: white;
-        transition: fill 0.2s ease;
+        transition: fill 0.3s ease;
     }
 
 
@@ -188,7 +188,7 @@
     .changeLanguageIcon:hover {
         /* fill: rgba(255, 255, 255, 0.807); */
         fill: white;
-        transition: fill 0.2s ease;
+        transition: fill 0.3s ease;
     }
 
     .changeLanguageIcon:active {
@@ -311,6 +311,7 @@
         padding: 0;
         color: var(--body-font-color);
         text-decoration: none;
+        transition: color 0.3s ease;
     }
 
     .experienceWoltTitleAndRef:hover {
@@ -336,6 +337,7 @@
         color: white;
         padding: 6px;
         border-radius: 6px;
+        transition: background-color 0.3s ease;
     }
 
     .shoeDescriptionButton:hover {
@@ -360,6 +362,10 @@
     .hobbiesDivs {
         /* background-color: rgb(250, 209, 222); */
         background-color: var(--hobbiesDivs-bg-color);
+    }
+
+    .hobbyTitles {
+        font-weight: bold;
     }
 
 

@@ -24,7 +24,7 @@ const translations = {
     woltTechExperienceDebug: "Debugging support:",
     woltTechExperienceDebugDescr: `
     Analyze the system logs through Datadog or similar data logging tools and elaborate the
-    issues so to make it engineers can easily fix the software bugs
+    issues so to make it engineers can easily fix the software bugs.
     `,
     woltTechExperienceAnalytics: "Analytics:",
     woltTechExperienceAnalyticsDescr: `
@@ -80,8 +80,11 @@ const translations = {
     languageJp: "Japanese (Native)",
     languageFr: "French (Ently level)",
     hobbiesTitle: "HOBBIES",
-    hobbiesFood: "Foods : I love exploring new foods, in particular international foods.",
+    hobbiesFoodTitle: "Foods : ",
+    hobbiesFood: "I love exploring new foods, in particular international foods.",
+    hobbiesWalkTitle: "Walking/WorkOut : ",
     hobbiesWalk: "Walking/WorkOut : It's my key to be confident and be relaxed in my free time.",
+    hobbiesStudyTitle: "Languages : ",
     hobbiesStudy: "Languages : I keep learning French for years for better communication with my partners.",
     contactAddress: "Address:",
     contactPhonenumber: "Phone number:",
@@ -146,9 +149,12 @@ const translations = {
     languageJp: "Japonais (langue maternelle)",
     languageFr: "Français (niveau Ently)",
     hobbiesTitle: "LOISIRS",
-    hobbiesFood: "Nourriture : J'aime explorer de nouveaux aliments, en particulier les aliments internationaux.",
-    hobbiesWalk: "Marche/Entraînement : C'est ma clé pour avoir confiance en moi et être détendu pendant mon temps libre.",
-    hobbiesStudy: "Langues : J'apprends le français depuis des années pour une meilleure communication avec mes partenaires.",
+    hobbiesFoodTitle: "Nourriture : ",
+    hobbiesFood: "J'aime explorer de nouveaux aliments, en particulier les aliments internationaux.",
+    hobbiesWalkTitle: "Marche/Entraînement : ",
+    hobbiesWalk: "C'est ma clé pour avoir confiance en moi et être détendu pendant mon temps libre.",
+    hobbiesStudyTitle: "Langues : ",
+    hobbiesStudy: "J'apprends le français depuis des années pour une meilleure communication avec mes partenaires.",
     contactAddress: "Adresse:",
     contactPhonenumber: "Numéro de téléphone:",
   }
