@@ -1,4 +1,4 @@
-const sections = document.querySelectorAll('.techExpertiseDivs, .educationsDivs, .experiencesDivs, .languagesDivs, .hobbiesDivs');
+const sections = document.querySelectorAll('.techExpertiseDivs, .educationsDivs, .experiencesDivs, .languagesDivs, .hobbiesDivs, .inquiryFormDivs');
 
 const observer = new IntersectionObserver((targetDivs) => {
   targetDivs.forEach(entry => {

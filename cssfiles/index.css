@@ -229,7 +229,8 @@
     .experiencesDivs,
     .educationsDivs,
     .languagesDivs,
-    .hobbiesDivs {
+    .hobbiesDivs,
+    .inquiryFormDivs {
         margin-left: 8%;
         margin-right: 8%;
         margin-top: 2%;
@@ -260,7 +261,9 @@
 
     .subTitleContact {
         color: rgb(230, 232, 236);
-        margin-top: 70px;
+        /* margin-top: 70px; */
+        margin-top: 35px;
+
     }
 
     .techExpertiseDivs {
@@ -369,6 +372,10 @@
         font-weight: bold;
     }
 
+    .inquiryFormDivs {
+        background-color: red;
+
+    }
 
     .contactTitles {
         color: rgb(171, 183, 214);
@@ -378,6 +385,7 @@
     .contactSubTitle {
         color: rgb(230, 232, 236);
         margin-top: 70px;
+        margin-left: 20px;
     }
 
     .contactDivs {
@@ -385,7 +393,53 @@
         color: rgb(250, 245, 260);
         margin: 0;
         padding-top: 0.2px;
-        padding-bottom: 5%;
+        /* padding-bottom: 5%; */
+        padding-bottom: 2%;
+    }
+
+
+    .inquiryForm input {
+        padding: 9px 20% 9px 10px;
+        border-radius: 15px;
+        font-weight: bold;
+        font-size: 15px;
+        border-color: grey;
+        background-color: rgb(238, 238, 238);
+    }
+
+
+    .inquiryForm textarea {
+        padding: 12px 50% 12px 10px;
+        border-radius: 15px;
+        font-family: -apple-system, "system-ui", Roboto, "Segoe UI", Arimo, "Open Sans", sans-serif;
+        background-color: rgb(238, 238, 238);
+        margin-bottom: -10px;
+    }
+
+
+    .inquiryForm button {
+        background-color: #00C2E8;
+        padding: 10px 20px 10px 20px;
+        color: white;
+        border: none;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+
+    .inquiryForm button:hover {
+        background-color: rgb(2, 210, 251);
+    }
+
+    .inquiryForm button:active {
+        background-color: #02b6da;
+    }
+
+
+    .contactInfos {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        font-size: 15px;
     }
 
     .copyRightDivs {
@@ -393,6 +447,7 @@
         padding-bottom: 8px;
         color: rgb(128, 128, 128);
     }
+
 
     .toTop {
         position: fixed;

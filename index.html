@@ -609,25 +609,49 @@
         </ul>
     </div>
 
+
+    <!-- <div class="inquiryFormDivs">
+     
+    </div> -->
+
+
+
     <div class="contactDivs" id="contactDivs">
         <h2 class="subTitleContact">CONTACT</h2>
 
-        <ul>
-            <li>
+
+        <form class="inquiryForm" action="/send-contact" method="POST">
+            <!-- <label>Name:</label><br> -->
+            <input type="text" name="username" placeholder="Name"><br><br>
+
+            <!-- <label>Email:</label><br> -->
+            <input type="email" name="email" placeholder="Email Address" required><br><br>
+
+            <!-- <label>Inquiry:</label><br> -->
+            <textarea name="message" rows="8" placeholder="Write your inquiry here" required></textarea><br><br>
+
+            <button type="submit">Send</button>
+        </form>
+
+
+        <div class="contactInfos">
+
+            <div>
                 <p1 class="contactSubTitle" data-i18n="contactAddress">Address:</p1>
                 <p1>Tokyo, Japan</p1>
-            </li>
+            </div>
 
-            <li>
+            <div>
                 <p1 class="contactSubTitle" data-i18n="contactPhonenumber">Phone number:</p1>
                 <p1>(+81)7089737939</p1>
-            </li>
+            </div>
 
-            <li>
+            <div>
                 <p1 class="contactSubTitle">Email:</p1>
                 <p1>hibiki.shibata@wolt.com</p1>
-            </li>
-        </ul>
+            </div>
+
+        </div>
 
     </div>
 
