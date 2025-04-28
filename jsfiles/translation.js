@@ -76,9 +76,9 @@ const translations = {
     average. I had been getting high scores all years of school in every single subject by studying so hard.
     `,
     languageTitle: "LANGUAGES",
-    languageEn: "English (Bilingual proficiency)",
-    languageJp: "Japanese (Native)",
-    languageFr: "French (Ently level)",
+    languageEn: "English ( Business Proficieny )",
+    languageJp: "Japanese ( Native )",
+    languageFr: "French ( Ently level )",
     hobbiesTitle: "HOBBIES",
     hobbiesFoodTitle: "Foods : ",
     hobbiesFood: "I love exploring new foods, in particular international foods.",

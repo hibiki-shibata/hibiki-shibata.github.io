@@ -133,7 +133,7 @@
         width: 160px;
         height: 100%;
         background-color: #30546e;
-        opacity: 0.9;
+        /* opacity: 0.9; */
         padding-top: 70px;
         transition: left 0.4s ease;
         z-index: 1000;
@@ -150,6 +150,7 @@
         color: white;
         display: block;
         border-radius: 10px;
+        /* border-bottom: 0.5px solid white; */
     }
 
     .menuSidebar a:hover {
@@ -397,12 +398,12 @@
         position: fixed;
         /* background-color: rgb(111, 111, 111); */
         /* background-color: #306c97; */
-        background-color: #00C2E8;
-        bottom: 0;
-        right: 0;
+        background-color: #00b1d5;
+        bottom: 0.5%;
+        left: 3px;
         padding: 6px 10px 6px 10px;
         margin: 0px 2px 2px 0px;
-        border-radius: 10px;
+        border-radius: 50px;
         opacity: 0.7;
         color: white;
         text-decoration: none;
@@ -411,5 +412,5 @@
 
     .toTop:hover {
         /* background-color: rgb(72, 72, 72); */
-        background-color: #00b1d5;
+        background-color: #00C2E8;
     }
