@@ -13,6 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
         rel="stylesheet">
 
+    <!-- Email dependency -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
     <meta charset="UTF-8">
     <meta name="description" content="Hibiki Shibata's career infomation">
     <meta name="keywords" content="hibiki, shibata, engineer, career, resume, cv, hiring, job, wolt">
@@ -620,14 +623,12 @@
         <h2 class="subTitleContact">CONTACT</h2>
 
 
-        <form class="inquiryForm" action="/send-contact" method="POST">
-            <!-- <label>Name:</label><br> -->
-            <input type="text" name="username" placeholder="Name"><br><br>
+        <form class="inquiryForm" id="inquiryForm">
 
-            <!-- <label>Email:</label><br> -->
-            <input type="email" name="email" placeholder="Email Address" required><br><br>
+            <input type="text" name="name" placeholder="*Name" required><br><br>
 
-            <!-- <label>Inquiry:</label><br> -->
+            <input type="email" name="email" placeholder="*Your Email Address" required><br><br>
+
             <textarea name="message" rows="8" placeholder="Write your inquiry here" required></textarea><br><br>
 
             <button type="submit">Send</button>
@@ -666,6 +667,8 @@
     <script src="./jsfiles/darkmode.js"></script>
     <script src="./jsfiles/translation.js"></script>
     <script src="./jsfiles/menuBar.js"></script>
+    <script src="./jsfiles/inquiryForm.js"></script>
+
 
 </body>
 
