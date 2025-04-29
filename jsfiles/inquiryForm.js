@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 submitButton.disabled = false;
                 submitButton.textContent = 'Submit';
 
-                alert('Thank you for contact:)\nYour inquiry has been sent !');
+                alert('Thank you for your inquiry:)\nYour message has been sent !');
 
             }, (error) => {
                 alert('Something went wrong:/\nYour inquiry couldn\'t be sent..');
