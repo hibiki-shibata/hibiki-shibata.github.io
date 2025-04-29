@@ -80,6 +80,11 @@ const translations = {
     contactAddress: "Address:",
     contactPhonenumber: "Tel:",
 
+    formName: "*Name",
+    formEmail: "*Your Email Address",
+    formTextArea: "Write your inquiry here",
+    formSend: "Send",
+
   },
 
 
@@ -166,6 +171,11 @@ const translations = {
     hobbiesStudy: "Engagé dans l'apprentissage continu, notamment du français, pour améliorer la communication avec les partenaires internationaux.",
     contactAddress: "Adresse :",
     contactPhonenumber: "Téléphone :",
+
+    formName: "*Nom",
+    formEmail: "*Votre Email",
+    formTextArea: "Écrire votre demande",
+    formSend: "Envoyer",
   }
 };
 
@@ -175,17 +185,25 @@ const translations = {
 
 
 function setLanguage(lang) {
+
+  const nameInput = document.querySelector('input[name="name"]');
+  const emailInput = document.querySelector('input[name="email"]');
+  const messageTextarea = document.querySelector('textarea[name="message"]');
+
   const elements = document.querySelectorAll('[data-i18n]');
   console.log(elements)
 
   elements.forEach(el => {
     const key = el.getAttribute('data-i18n');
+
     if (translations[lang][key]) {
-      el.textContent = translations[lang][key];
+      if (el.placeholder !== undefined) {
+        el.placeholder = translations[lang][key];
+      } else {
+        el.textContent = translations[lang][key];
+      }
     }
-
   }
-
   );
 }
 
