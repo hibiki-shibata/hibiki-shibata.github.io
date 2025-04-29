@@ -62,7 +62,7 @@ const translations = {
     languageTitle: "LANGUAGES",
     languageEn: "English ( Business Proficieny )",
     languageJp: "Japanese ( Native )",
-    languageFr: "French ( Ently level )",
+    languageFr: "French ( Entry level )",
     hobbiesTitle: "HOBBIES",
     hobbiesFoodTitle: "Food Exploration: ",
     hobbiesFood: "Passionate about discovering and enjoying a wide variety of international cuisines.",
