@@ -11,6 +11,13 @@ const translations = {
     changeLanguageTitle: "Fr",
     techExpertiseTitle: "TECH EXPERTISE",
 
+    menuBarHome: "HOME",
+    menuBarTechExpat: "Tech Expert",
+    menuBarExperience: "Experiences",
+    menuBarEducation: "Educations",
+    menuBarLang: "Languages",
+    menuBarHobby: "Hobbies",
+
     techExpertiseSkilled: "Skilled",
     techExpertiseExperienced: "Experienced",
     experiencesTitle: "EXPERIENCES",
@@ -81,6 +88,13 @@ const translations = {
     currentPositionName: "Princesse",
     changeLanguageTitle: "En",
     techExpertiseTitle: "EXPERTISE TECHNIQUE",
+
+    menuBarHome: "HAUT",
+    menuBarTechExpat: "Expertise Tech",
+    menuBarExperience: "Eexpériences",
+    menuBarEducation: "Formations",
+    menuBarLang: "Langues",
+    menuBarHobby: "Loisirs",
 
     techExpertiseSkilled: "Compétent",
     techExpertiseExperienced: "Expérimenté",
