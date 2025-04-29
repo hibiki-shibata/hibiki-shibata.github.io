@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 })
 
                 submitButton.disabled = false;
-                submitButton.textContent = 'Submit';
+                submitButton.textContent = 'Send';
 
                 alert('Thank you for your inquiry:)\nYour message has been sent !');
 
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 console.log('FAILED...', error);
 
                 submitButton.disabled = false;
-                submitButton.textContent = 'Submit';
+                submitButton.textContent = 'Send';
             });
     });
 });

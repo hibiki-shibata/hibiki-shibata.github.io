@@ -5,7 +5,6 @@ toggleButton.addEventListener("click", () => {
     try {
         document.body.classList.toggle("dark");
 
-        // Optional: save preference in local storage
         if (document.body.classList.contains("dark")) {
             localStorage.setItem("theme", "dark");
             changeButtonTitle("dark")
@@ -33,7 +32,6 @@ function changeButtonTitle(isDarkMode) {
 
 }
 
-// Apply saved theme on page load
 window.addEventListener("DOMContentLoaded", () => {
     const savedTheme = localStorage.getItem("theme");
     if (savedTheme === "dark") {
