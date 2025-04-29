@@ -17,40 +17,32 @@ const translations = {
     woltTechJobTitle: "- Princess",
     // woltTechJobTitle: "- Technical support Engineer I3",
     woltTechYears: "March 2022 - Present ( 3 years )",
-    woltTechExperienceSoftwareDev: "Software development:",
+    woltTechExperienceSoftwareDev: "Internal Tool Development: ",
     woltTechExperienceSoftwareDevDescr: `
-    Micro services for internal use, with Typescript, Python, Docker and so on. For automating daily tasks for employees.
+    Designed and implemented internal microservices using TypeScript, Python, and Docker to automate routine tasks and improve operational efficiency.
     `,
-    woltTechExperienceDebug: "Debugging support:",
+    woltTechExperienceDebug: "System Debugging & Incident Analysis: ",
     woltTechExperienceDebugDescr: `
-    Analyze the system logs through Datadog or similar data logging tools and elaborate the
-    issues so to make it engineers can easily fix the software bugs.
+    Investigated software issues by analyzing system logs using Datadog and other monitoring tools. Clearly documented findings to assist engineering teams in resolving bugs effectively.
     `,
-    woltTechExperienceAnalytics: "Analytics:",
+    woltTechExperienceAnalytics: "Data Analytics & Reporting: ",
     woltTechExperienceAnalyticsDescr: `
-    Based on requests from the business team, export desired data from Database with SQL
-    queries.
+    Responded to business team requests by extracting and analyzing data using SQL queries to support strategic decision-making.
     `,
     woltTechExperienceTechSupport: "Technical Support:",
     woltTechExperienceTechSupportDescr: `
-    I handled hundreds of technical question / request from both internal and external
-    people(Bug reports / POS integrations / new feature requests / system logic questions).
+   Managed and resolved hundreds of technical inquiries and requests from both internal stakeholders and external partners, including bug reports, POS integrations, feature requests, and system behavior clarifications.
     `,
-    woltTechExperienceAccessManage: "Access/Device management:",
+    woltTechExperienceAccessManage: "Access & Device Management: ",
     woltTechExperienceAccessManageDesc: `
-    As an Admin of internal tools, I judged business justification for each person and decide to
-    grant access or not based on Compliance, Security policy and so on. (Internal operation tool, Google accounts etc..).
+    Acted as an administrator for internal tools and systems (e.g., Google Workspace), assessing access requests against compliance and security policies and making access control decisions accordingly.
     `,
-    woltTechExperiencePoliceReq: "Police requests:",
+    woltTechExperiencePoliceReq: "Legal & Compliance Support: ",
     woltTechExperiencePoliceReqDesc: `
-    Extract data from DB and provide it to Police.
+    Collaborated with law enforcement by securely retrieving and delivering relevant data from internal systems and databases in response to official police inquiries.
     `,
     woltTechExperienceDescriptionContent: `
-    In this role, I moved the division from Japan local to Global team and was responsible for the
-    company's internal technical/IT support on internal technical matters while performing as a HelpDesk at the same time.
-    I've been collaborating with the global product team(e.g. software engineers, product leads) and hundled variety of things from technical matters to legal matters. And I played the role mainly in English.
-    so I got used to naturally using English there. These above are what I do in this role.
-    To sum up with the role in short, the role is to facilitate shorthanded tasks and communications between business team and Product team, by using my technical knowledge/skills.
+    In this role, I led the transition of the division from a Japan-local operation to integration with the Global team, taking ownership of internal technical support across a wide range of systems and tools. While fulfilling the responsibilities of technical support, I went beyond typical Help Desk duties by actively developing internal tools and microservices (using TypeScript, Python, Docker, and more) to automate tasks and improve operational efficiency. I collaborated closely with global product teams, including software engineers and product leads, handling a broad spectrum of issues from technical troubleshooting to supporting compliance and legal data requests. My daily work required strong technical analysis skills, direct system investigations, and SQL-based data operations. Operating mainly in English, I developed a natural fluency in communicating across multicultural teams. In short, my role served as a technical bridge between business operations and the product engineering teams, enabling smoother collaboration and more efficient workflows through both support and self-driven software development initiatives.
     `,
     woltSAJobTitle: "- Support Associate",
     woltSAYears: "September 2021 - March 2022 ( 8 months )",
@@ -59,104 +51,107 @@ const translations = {
     woltSAExperienceCourierSupport: "Courier partner support: ",
     woltSAExperienceRestaurantSupport: "Restaurant partner support:",
     woltSAExperienceDescriptionContent: `
-      I joined this role right after graduating school. At first, it was mainly to save tuition of
-      Universities to go later. In this role, I was working in Full-time and I was responsible for supporting customers and all the company's partners. I was handling a variety of requests and facilitated communications to/between
-      them. As the time went by while I was working in the company, I was getting into the cultures and
-      talents(especially Product+team) that exist in the company and started thinking I’d like to keep working in this
-      organization while being inspired by Product+ team for tech world. So, I decided to apply for a position in which I was
-      also qualified at that point to join the Product+ organization.
+    I joined Wolt as a Support Associate immediately after graduating, initially with the goal of saving for future university studies. In this full-time role, I was responsible for supporting both customers and company partners, managing a wide range of inquiries, resolving issues, and facilitating effective communication between all parties. Over time, through exposure to Wolt’s culture and talent—particularly within the Product+ organization—I developed a strong interest in the technology and product development space. Motivated and inspired by the work of the Product+ team, I decided to pursue a more technical career path within the company, ultimately applying for and transitioning into a role where I could contribute using my technical skills.
     `,
     educationTitle: "EDUCATIONS",
     educationGenDiploma: "- General Diploma",
     educationYears: "April 2018 - April 2021",
     educationDesc: `
-    I studied general subject, focusing on the Science field. (Math, Physics, Chemistry, Biology,
-    Computer science, English). I graduated with honors and on most of the examinations when I was in
-    school, the Total scores in all subjects was in the top ten out of 400 of students - it was 5th/400 on
-    average. I had been getting high scores all years of school in every single subject by studying so hard.
+    I pursued a general curriculum with a strong focus on the sciences, including Mathematics, Physics, Chemistry, Biology, Computer Science, and English. Throughout my studies, I consistently achieved top academic performance, ranking within the top 10 out of approximately 400 students, with an average placement of 5th overall. I demonstrated particular strength in Geography, Physics, and Japanese, often achieving the highest scores in the entire student body. Through consistent hard work and academic excellence across all subjects, I graduated with honors.
     `,
     languageTitle: "LANGUAGES",
     languageEn: "English ( Business Proficieny )",
     languageJp: "Japanese ( Native )",
     languageFr: "French ( Ently level )",
     hobbiesTitle: "HOBBIES",
-    hobbiesFoodTitle: "Foods : ",
-    hobbiesFood: "I love exploring new foods, in particular international foods.",
-    hobbiesWalkTitle: "Walking/WorkOut : ",
-    hobbiesWalk: "Walking/WorkOut : It's my key to be confident and be relaxed in my free time.",
-    hobbiesStudyTitle: "Languages : ",
-    hobbiesStudy: "Languages : I keep learning French for years for better communication with my partners.",
+    hobbiesFoodTitle: "Food Exploration: ",
+    hobbiesFood: "Passionate about discovering and enjoying a wide variety of international cuisines.",
+    hobbiesWalkTitle: "Walking and Fitness: ",
+    hobbiesWalk: "Regular walking and workouts are essential to maintaining my confidence, focus, and relaxation outside of work.",
+    hobbiesStudyTitle: "Language Learning: ",
+    hobbiesStudy: "Committed to continuous learning, particularly in French, to enhance communication with international partners.",
     contactAddress: "Address:",
-    contactPhonenumber: "Phone number:",
+    contactPhonenumber: "Tel:",
 
   },
 
 
+
   fr: {
-    currentPositionName: "Ingénieur de support technique",
+    currentPositionName: "Princesse",
     changeLanguageTitle: "En",
     techExpertiseTitle: "EXPERTISE TECHNIQUE",
 
-    techExpertiseSkilled: "Qualifié",
+    techExpertiseSkilled: "Compétent",
     techExpertiseExperienced: "Expérimenté",
     experiencesTitle: "EXPÉRIENCES",
-    woltTechJobTitle: "- Ingénieur support technique I3",
-    woltTechYears: "Mars 2022 - Présent ( 3 ans )",
-    woltTechExperienceSoftwareDev: "Développement de logiciels:",
-    woltTechExperienceSoftwareDevDescr: `Microservices à usage interne, avec TypeScript, Python, Docker, etc. Pour automatiser les tâches quotidiennes des employés.`,
-    woltTechExperienceDebug: "Support de débogage:",
+    woltTechJobTitle: "- Princesse",
+    woltTechYears: "Mars 2022 - Présent (3 ans)",
+    woltTechExperienceSoftwareDev: "Développement d'outils internes :",
+    woltTechExperienceSoftwareDevDescr: `
+    Conception et mise en œuvre de microservices internes en TypeScript, Python et Docker pour automatiser les tâches répétitives et améliorer l'efficacité opérationnelle.
+    `,
+    woltTechExperienceDebug: "Débogage système et analyse d'incidents :",
     woltTechExperienceDebugDescr: `
-    Analysez les journaux système via Datadog ou des outils d'enregistrement de données similaires et détaillez les problèmes afin que les ingénieurs puissent facilement corriger les bugs logiciels
+    Investigation des problèmes logiciels en analysant les journaux système via Datadog et d'autres outils de surveillance, avec une documentation claire pour faciliter la résolution des bugs par les équipes d'ingénierie.
     `,
-    woltTechExperienceAnalytics: "Analytiques:",
+    woltTechExperienceAnalytics: "Analyse de données et rapports :",
     woltTechExperienceAnalyticsDescr: `
-    En fonction des demandes de l'équipe commerciale, exportez les données souhaitées depuis la base de données avec des requêtes SQL.
+    Réponse aux demandes de l'équipe commerciale en extrayant et analysant des données à l'aide de requêtes SQL pour soutenir la prise de décisions stratégiques.
     `,
-    woltTechExperienceTechSupport: "Support Technique:",
+    woltTechExperienceTechSupport: "Support technique :",
     woltTechExperienceTechSupportDescr: `
-    J'ai traité des centaines de questions et demandes techniques provenant de personnes internes et externes (rapports de bugs, intégrations de PDV, demandes de nouvelles fonctionnalités, questions sur la logique système).
+    Gestion et résolution de centaines de demandes techniques provenant de parties internes et externes, incluant des rapports de bugs, des intégrations POS, des demandes de fonctionnalités et des clarifications sur le comportement des systèmes.
     `,
-    woltTechExperienceAccessManage: "Gestion des accès/appareils:",
+    woltTechExperienceAccessManage: "Gestion des accès et des appareils :",
     woltTechExperienceAccessManageDesc: `
-    En tant qu'administrateur d'outils internes, j'évalue la justification commerciale de chaque personne et décide d'accorder ou non l'accès en fonction de la conformité, de la politique de sécurité, etc. (Outil d'exploitation interne, comptes Google, etc.).
+    Administrateur des outils internes (ex. Google Workspace), évaluant les demandes d'accès selon les politiques de conformité et de sécurité, et prenant les décisions d'accès en conséquence.
     `,
-    woltTechExperiencePoliceReq: "Demandes de la police :",
+    woltTechExperiencePoliceReq: "Support légal et conformité :",
     woltTechExperiencePoliceReqDesc: `
-    Extraire les données de la base de données et les fournir à la police.
+    Collaboration avec les forces de l'ordre pour extraire et transmettre de manière sécurisée les données pertinentes issues des systèmes internes, en réponse aux demandes officielles.
     `,
     woltTechExperienceDescriptionContent: `
-    À ce poste, j'ai transféré la division du Japon vers l'équipe mondiale et j'étais responsable du support technique et informatique interne de l'entreprise sur les questions techniques internes, tout en assurant le service d'assistance.
-    J'ai collaboré avec l'équipe produit mondiale (ingénieurs logiciels, chefs de produit, etc.) et géré diverses tâches, des questions techniques aux aspects juridiques. J'ai principalement travaillé en anglais, ce qui m'a permis de m'habituer naturellement à l'anglais. Voici ce que je fais à ce poste.
-    En résumé, mon rôle consiste à faciliter les tâches complexes et la communication entre l'équipe commerciale et l'équipe produit, en utilisant mes connaissances et compétences techniques.    
+    Dans ce rôle, j'ai dirigé la transition de la division d'une opération locale au Japon vers une intégration complète avec l'équipe mondiale, prenant en charge le support technique interne sur une grande variété de systèmes et d'outils. 
+    En plus du support technique traditionnel, j'ai activement développé des outils internes et des microservices (TypeScript, Python, Docker, etc.) pour automatiser les processus et améliorer l'efficacité. 
+    J'ai collaboré étroitement avec les équipes produit mondiales, comprenant ingénieurs logiciels et chefs de produit, en traitant un large éventail de problèmes, du dépannage technique aux demandes de conformité légale. 
+    Mon quotidien nécessitait de solides compétences d'analyse technique, d'enquêtes système directes et d'opérations sur données SQL, le tout principalement en anglais dans un environnement multiculturel. 
+    En résumé, mon rôle servait de passerelle technique entre les opérations commerciales et les équipes d'ingénierie produit, facilitant la collaboration et optimisant les flux de travail par le support et l'initiative en développement logiciel interne.
     `,
-    woltSAJobTitle: "- Assistant Support",
+    woltSAJobTitle: "- Associé Support",
     woltSAYears: "Septembre 2021 - Mars 2022 (8 mois)",
-    woltSAExperienceUserSupport: "Support utilisateur:",
-    woltSAExperienceDescr: "(Assistance par chat en ligne, assistance téléphonique, japonais/anglais)",
-    woltSAExperienceCourierSupport: "Assistance aux partenaires de messagerie :",
-    woltSAExperienceRestaurantSupport: "Assistance aux partenaires du restaurant :",
+    woltSAExperienceUserSupport: "Support utilisateur :",
+    woltSAExperienceDescr: "(Assistance par chat en ligne, assistance téléphonique, en japonais et en anglais)",
+    woltSAExperienceCourierSupport: "Support aux partenaires de livraison :",
+    woltSAExperienceRestaurantSupport: "Support aux partenaires restaurants :",
     woltSAExperienceDescriptionContent: `
-    J'ai rejoint ce poste juste après avoir obtenu mon diplôme. Au départ, c'était principalement pour économiser les frais de scolarité universitaires. À ce poste, je travaillais à temps plein et j'étais responsable du support des clients et de tous les partenaires de l'entreprise. Je traitais diverses demandes et facilitais la communication entre eux. Au fil du temps, je me suis familiarisée avec la culture et les talents de l'entreprise (notamment l'équipe Produit) et j'ai commencé à penser que je souhaitais continuer à travailler dans cette organisation, inspirée par l'équipe Produit+ pour le monde de la technologie. J'ai donc décidé de postuler à un poste pour lequel j'étais également qualifiée à ce moment-là pour rejoindre l'équipe Produit+.
+    J'ai rejoint Wolt en tant qu'Associé Support juste après l'obtention de mon diplôme, dans le but initial d'économiser pour mes futures études universitaires. 
+    En poste à temps plein, je soutenais les clients ainsi que les partenaires de l'entreprise, en gérant une large gamme de demandes, en résolvant les problèmes et en facilitant la communication entre toutes les parties. 
+    Progressivement, en découvrant la culture et les talents de Wolt — notamment au sein de l'équipe Produit+ —, j'ai développé un vif intérêt pour le domaine de la technologie et du développement de produits. 
+    Inspiré par le travail de l'équipe Produit+, j'ai décidé de m'orienter vers une carrière plus technique au sein de l'entreprise, postulant et réussissant la transition vers un poste utilisant mes compétences techniques.
     `,
-    educationTitle: "ÉDUCATIONS",
-    educationGenDiploma: "- Diplôme général",
+    educationTitle: "FORMATIONS",
+    educationGenDiploma: "- Diplôme Général",
     educationYears: "Avril 2018 - Avril 2021",
     educationDesc: `
-    J'ai étudié des matières générales, en me concentrant sur les sciences (mathématiques, physique, chimie, biologie, informatique, anglais). J'ai obtenu mon diplôme avec mention et, à la plupart des examens, j'ai obtenu une moyenne de 5e/400 élèves, toutes matières confondues. J'ai obtenu d'excellents résultats tout au long de ma scolarité, et ce, grâce à mes efforts.
+    J'ai suivi un cursus général axé sur les sciences, comprenant les mathématiques, la physique, la chimie, la biologie, l'informatique et l'anglais. 
+    Tout au long de mes études, j'ai maintenu des performances académiques d'excellence, me classant régulièrement parmi les 10 premiers sur environ 400 élèves, avec une moyenne de 5ᵉ place générale. 
+    Je me suis particulièrement distingué en géographie, physique et japonais, obtenant souvent les meilleurs résultats de l'établissement. 
+    Grâce à une assiduité constante et à un excellent niveau scolaire dans toutes les matières, j'ai obtenu mon diplôme avec mention.
     `,
-    languageTitle: "LANGAGES",
-    languageEn: "Anglais (maîtrise bilingue)",
+    languageTitle: "LANGUES",
+    languageEn: "Anglais (compétence professionnelle)",
     languageJp: "Japonais (langue maternelle)",
-    languageFr: "Français (niveau Ently)",
+    languageFr: "Français (niveau débutant)",
     hobbiesTitle: "LOISIRS",
-    hobbiesFoodTitle: "Nourriture : ",
-    hobbiesFood: "J'aime explorer de nouveaux aliments, en particulier les aliments internationaux.",
-    hobbiesWalkTitle: "Marche/Entraînement : ",
-    hobbiesWalk: "C'est ma clé pour avoir confiance en moi et être détendu pendant mon temps libre.",
-    hobbiesStudyTitle: "Langues : ",
-    hobbiesStudy: "J'apprends le français depuis des années pour une meilleure communication avec mes partenaires.",
-    contactAddress: "Adresse:",
-    contactPhonenumber: "Numéro de téléphone:",
+    hobbiesFoodTitle: "Exploration culinaire: ",
+    hobbiesFood: "Passionné par la découverte et la dégustation de cuisines internationales variées.",
+    hobbiesWalkTitle: "Marche et remise en forme: ",
+    hobbiesWalk: "La marche régulière et les entraînements sont essentiels pour maintenir ma confiance, ma concentration et ma détente en dehors du travail.",
+    hobbiesStudyTitle: "Apprentissage des langues: ",
+    hobbiesStudy: "Engagé dans l'apprentissage continu, notamment du français, pour améliorer la communication avec les partenaires internationaux.",
+    contactAddress: "Adresse :",
+    contactPhonenumber: "Téléphone :",
   }
 };
 

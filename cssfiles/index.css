@@ -333,6 +333,7 @@
 
     .experienceDescriptionContent {
         display: none;
+        text-align: left;
     }
 
     .shoeDescriptionButton {
