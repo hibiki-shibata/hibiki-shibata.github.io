@@ -399,7 +399,8 @@
 
 
     .inquiryForm input {
-        padding: 9px 20% 9px 10px;
+        padding: 9px 1% 9px 10px;
+        width: 45%;
         border-radius: 15px;
         font-weight: bold;
         font-size: 15px;
