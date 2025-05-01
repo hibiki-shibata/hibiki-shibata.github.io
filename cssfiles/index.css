@@ -104,59 +104,7 @@
         padding-right: 50%;
     }
 
-    .menuBarButton {
-        position: absolute;
-        padding: 7px;
-        padding-bottom: 0;
-        margin-left: 12px;
-        margin-top: 6.5px;
-        border-radius: 40px;
-        border: 0;
-        left: 0;
-        /* background-color: #3b86bc; */
-    }
-
-    .menuBarButton:hover {
-        background-color: #3b86bc;
-    }
-
-    .menuBarButton:active {
-        background-color: #3b86bcaf;
-    }
-
-
-    .menuSidebar {
-        position: fixed;
-        top: 0;
-        left: -250px;
-        /* hidden off-screen */
-        width: 160px;
-        height: 100%;
-        background-color: #30546e;
-        /* opacity: 0.9; */
-        padding-top: 70px;
-        transition: left 0.4s ease;
-        z-index: 1000;
-    }
-
-    .menuSidebar.open {
-        left: 0;
-    }
-
-    .menuSidebar a {
-        /* font-family: serif; */
-        padding: 10px 20px;
-        text-decoration: none;
-        color: white;
-        display: block;
-        border-radius: 10px;
-        /* border-bottom: 0.5px solid white; */
-    }
-
-    .menuSidebar a:hover {
-        background-color: #406e90;
-    }
-
+    
     .linkedInButton:hover path:first-of-type {
         fill: #0165b1;
         transition: fill 0.3s ease;

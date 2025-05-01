@@ -1,0 +1,15 @@
+.splashScreen {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00C2E8;
+    color: white;
+    padding: 60px;
+    font-family: sans-serif;
+    font-size: 30px;
+    border-radius: 100px;
+    opacity: 0;
+    z-index: 2;
+    transition: opacity 1s ease-in-out;
+}
