@@ -1,421 +1,353 @@
-    :root {
-        --body-bg-color: rgb(250, 245, 260);
-        --body-font-color: grey;
-        --skillIcons-bg-color: white;
-        --div-box-shadows: 3px 2px 2px rgb(197, 203, 214);
-        --techExpertiseDivs-bg-color: #f5f2db;
-        --experiencesDivs-bg-color: #dbeef6;
-        --educationsDivs-bg-color: rgb(236, 221, 246);
-        --languagesDivs-bg-color: rgb(254, 231, 195);
-        --hobbiesDivs-bg-color: rgb(250, 209, 222);
-        --subTitles-font-color: rgb(72, 87, 103);
-        --darkModeButton-colort: #232b4c;
-        /* --darkModeButton-colort-hover: rgba(255, 255, 255, 0.714); */
-        --darkModeButton-colort-hover: black;
-
-    }
-
-    html {
-        scroll-behavior: smooth;
-    }
-
-    body {
-        /* background-color: rgb(94, 172, 232); */
-        background-color: var(--body-bg-color);
-        color: var(--body-font-color);
-        margin: 0;
-        font-family: "Source Sans 3", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: weight;
-        font-style: normal;
-        text-align: center;
-        font-size: 19.2px;
-        transition: background-color 0.4s ease;
-    }
-
-    body.dark {
-        --body-bg-color: black;
-        /* --skillIcons-bg-color: rgba(255, 255, 255, 0.323); */
-        --skillIcons-bg-color: rgba(139, 139, 139, 0.323);
-
-        --techExpertiseDivs-bg-color: #f5f2dbaf;
-        --experiencesDivs-bg-color: #dbeef69e;
-        --educationsDivs-bg-color: rgba(236, 221, 246, 0.665);
-        --languagesDivs-bg-color: rgba(254, 231, 195, 0.525);
-        --hobbiesDivs-bg-color: rgba(250, 209, 222, 0.666);
-        --body-font-color: rgb(232, 230, 230);
-        --subTitles-font-color: white;
-        --darkModeButton-colort: rgba(255, 255, 255, 0.807);
-        --darkModeButton-colort-hover: white;
-        --div-box-shadows: none;
-
-    }
-
-
-    a {
-        margin-right: 5px;
-        margin-left: 5px;
-    }
-
-
-    ul {
-        display: inline-block;
-        text-align: left;
-    }
-
-    li {
-        margin: 5px;
-    }
-
-
-    .titleName {
-        font-size: 80px;
-        background-color: #4497d3;
-        color: white;
-        /* font-family: monospace; */
-        margin-left: 0;
-        margin-top: 0;
-        margin-right: 0;
-        margin-bottom: 0;
-        box-shadow: 15px 40px 40px #306c97;
-    }
-
-    .currentPositionName {
-        font-size: 40px;
-        margin-top: -20;
-        /* color: #c5f3fc; */
-        color: #c5e1e6;
-    }
-
-    .profilePhoto {
-        width: 100px;
-        margin-right: 10px;
-        margin-top: 20px;
-    }
-
-    .socialMediaIcons {
-        background-color: #3377a8;
-        margin-left: -52.3px;
-        size: 20px;
-        display: flex;
-        gap: 0;
-        /* padding-left: 46%; */
-        padding-left: 50%;
-        padding-right: 50%;
-    }
-
-    
-    .linkedInButton:hover path:first-of-type {
-        fill: #0165b1;
-        transition: fill 0.3s ease;
-    }
-
-    .githubInButton:hover path {
-        fill: white;
-        transition: fill 0.3s ease;
-    }
-
-
-    .languageTitle {
-        position: absolute;
-        right: 82.5px;
-        font-size: 15px;
-        /* right: 106px; */
-        /* margin-top: 13.5px; */
-        margin-top: 32px;
-        color: rgba(255, 255, 255, 0.807);
-        color: var();
-    }
-
-    .changeLanguageIcon {
-        margin-top: 6px;
-        position: absolute;
-        right: 75px;
-
-    }
-
-    .changeLanguageIcon:hover {
-        /* fill: rgba(255, 255, 255, 0.807); */
-        fill: white;
-        transition: fill 0.3s ease;
-    }
-
-    .changeLanguageIcon:active {
-        fill: rgba(255, 255, 255, 0.461);
-    }
-
-    .darkModeTitle {
-        color: var(--darkModeButton-colort);
-        position: absolute;
-        right: 32px;
-        font-size: 13px;
-        margin-top: 34px;
-        transition: color 0.4s ease;
-    }
-
-    .darkModeIcon {
-        margin-top: 6px;
-        position: absolute;
-        right: 30px;
-        fill: var(--darkModeButton-colort);
-    }
-
-    .darkModeIcon:hover {
-        /* fill: rgba(255, 255, 255, 0.714); */
-        fill: var(--darkModeButton-colort-hover);
-        transition: fill 0.4s ease;
-    }
-
-
-    .darkModeIcon:active {
-        fill: white;
-    }
-
-
-    /* Div Movement */
-    .techExpertiseDivs,
-    .experiencesDivs,
-    .educationsDivs,
-    .languagesDivs,
-    .hobbiesDivs,
-    .inquiryFormDivs {
-        margin-left: 8%;
-        margin-right: 8%;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        padding-top: 0.2px;
-        padding-bottom: 5%;
-        border-radius: 25px;
-        /* box-shadow: 3px 2px 2px rgb(197, 203, 214); */
-        box-shadow: var(--div-box-shadows);
-
-
-
-        transform: translateX(-100px);
-        transition: opacity 0.4s ease-out, transform 0.4s ease-out;
-        opacity: 0;
-    }
-
-    .visible {
-        opacity: 1;
-        transform: translateX(0);
-    }
-
-
-    .subTitles {
-        color: var(--subTitles-font-color);
-        margin-top: 70px;
-    }
-
-    .subTitleContact {
-        color: rgb(230, 232, 236);
-        /* margin-top: 70px; */
-        margin-top: 50px;
-
-    }
-
-    .techExpertiseDivs {
-        /* background-color: #f5f2db; */
-        background-color: var(--techExpertiseDivs-bg-color);
-    }
-
-    table {
-        margin: 0 auto;
-        text-align: left;
-    }
-
-    th {
-        text-align: center;
-    }
-
-    table li {
-        margin-left: 20px;
-    }
-
-    .skillIconsDiv {
-        /* flex: auto; */
-        display: flex;
-        flex-wrap: wrap;
-
-        justify-content: center;
-        margin-left: 16%;
-        margin-right: 16%;
-        margin-top: 3%;
-    }
-
-
-    .skillIcons {
-        /* background-color: white; */
-        background-color: var(--skillIcons-bg-color);
-        margin: 2px;
-        border-radius: 5px;
-    }
-
-
-    .experiencesDivs {
-        /* background-color: #dbeef6; */
-        background-color: var(--experiencesDivs-bg-color);
-    }
-
-    .experienceWoltTitleAndRef,
-    .educationChikuzenTitleAndRef {
-        margin: 0;
-        padding: 0;
-        color: var(--body-font-color);
-        text-decoration: none;
-        transition: color 0.3s ease;
-    }
-
-    .experienceWoltTitleAndRef:hover {
-        color: #00C2E8;
-        text-decoration: none;
-    }
-
-    .educationChikuzenTitleAndRef:hover {
-        color: #8D092D;
-    }
-
-    .experienceDescriotionsTitle {
-        margin-bottom: 0;
-    }
-
-    .experienceDescriptionContent {
-        display: none;
-        text-align: left;
-    }
-
-    .shoeDescriptionButton {
-        background-color: #00C2E8;
-        border: 0;
-        color: white;
-        padding: 6px;
-        border-radius: 6px;
-        transition: background-color 0.3s ease;
-    }
-
-    .shoeDescriptionButton:hover {
-        background-color: rgb(2, 210, 251);
-    }
-
-    .shoeDescriptionButton:active {
-        background-color: #02b6da;
-    }
-
-    .educationsDivs {
-        /* background-color: rgb(236, 221, 246); */
-        background-color: var(--educationsDivs-bg-color);
-    }
-
-
-    .languagesDivs {
-        /* background-color: rgb(254, 231, 195); */
-        background-color: var(--languagesDivs-bg-color);
-    }
-
-    .hobbiesDivs {
-        /* background-color: rgb(250, 209, 222); */
-        background-color: var(--hobbiesDivs-bg-color);
-    }
-
-    .hobbyTitles {
-        font-weight: bold;
-    }
-
-    .inquiryFormDivs {
-        background-color: red;
-
-    }
-
-    .contactTitles {
-        color: rgb(171, 183, 214);
-        font-weight: bold;
-    }
-
-    .contactSubTitle {
-        color: rgb(230, 232, 236);
-        margin-top: 70px;
-        margin-left: 20px;
-    }
-
-    .contactDivs {
-        background-color: rgb(54, 63, 73);
-        color: rgb(250, 245, 260);
-        margin: 0;
-        padding-top: 0.2px;
-        /* padding-bottom: 5%; */
-        padding-bottom: 2%;
-    }
-
-
-    .inquiryForm input {
-        padding: 9px 1% 9px 10px;
-        width: 45%;
-        border-radius: 15px;
-        font-weight: bold;
-        font-size: 15px;
-        border-color: grey;
-        background-color: rgb(238, 238, 238);
-    }
-
-
-    .inquiryForm textarea {
-        padding: 12px 50% 12px 10px;
-        border-radius: 15px;
-        font-family: -apple-system, "system-ui", Roboto, "Segoe UI", Arimo, "Open Sans", sans-serif;
-        background-color: rgb(238, 238, 238);
-        margin-bottom: -10px;
-    }
-
-
-    .inquiryForm button {
-        background-color: #00C2E8;
-        padding: 10px 20px 10px 20px;
-        color: white;
-        border: none;
-        font-weight: bold;
-        border-radius: 10px;
-    }
-
-    .inquiryForm button:hover {
-        background-color: rgb(2, 210, 251);
-    }
-
-    .inquiryForm button:active {
-        background-color: #02b6da;
-    }
-
-
-    .contactInfos {
-        display: flex;
-        justify-content: center;
-        margin-top: 50px;
-        font-size: 15px;
-    }
-
-    .copyRightDivs {
-        background-color: rgb(54, 63, 73);
-        padding-bottom: 8px;
-        color: rgb(128, 128, 128);
-    }
-
-
-    .toTop {
-        position: fixed;
-        /* background-color: rgb(111, 111, 111); */
-        /* background-color: #306c97; */
-        background-color: #00b1d5;
-        bottom: 0.5%;
-        left: 3px;
-        padding: 6px 10px 6px 10px;
-        margin: 0px 2px 2px 0px;
-        border-radius: 50px;
-        opacity: 0.7;
-        color: white;
-        text-decoration: none;
-        font-size: 15px;
-    }
-
-    .toTop:hover {
-        /* background-color: rgb(72, 72, 72); */
-        background-color: #00C2E8;
-    }
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+    font-size: 19.2px;
+    transition: background-color 0.4s ease;
+}
+
+
+
+a {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+li {
+    margin: 5px;
+}
+
+
+.titleName {
+    font-size: 80px;
+    background-color: #4497d3;
+    color: white;
+    /* font-family: monospace; */
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    box-shadow: 15px 40px 40px #306c97;
+}
+
+.currentPositionName {
+    font-size: 40px;
+    margin-top: -20;
+    /* color: #c5f3fc; */
+    color: #c5e1e6;
+}
+
+.profilePhoto {
+    width: 100px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.socialMediaIcons {
+    background-color: #3377a8;
+    margin-left: -52.3px;
+    size: 20px;
+    display: flex;
+    gap: 0;
+    /* padding-left: 46%; */
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+
+.linkedInButton:hover path:first-of-type {
+    fill: #0165b1;
+    transition: fill 0.3s ease;
+}
+
+.githubInButton:hover path {
+    fill: white;
+    transition: fill 0.3s ease;
+}
+
+
+.languageTitle {
+    position: absolute;
+    right: 82.5px;
+    font-size: 15px;
+    /* right: 106px; */
+    /* margin-top: 13.5px; */
+    margin-top: 32px;
+    color: rgba(255, 255, 255, 0.807);
+}
+
+.changeLanguageIcon {
+    margin-top: 6px;
+    position: absolute;
+    right: 75px;
+
+}
+
+.changeLanguageIcon:hover {
+    /* fill: rgba(255, 255, 255, 0.807); */
+    fill: white;
+    transition: fill 0.3s ease;
+}
+
+.changeLanguageIcon:active {
+    fill: rgba(255, 255, 255, 0.461);
+}
+
+.darkModeTitle {
+    position: absolute;
+    right: 32px;
+    font-size: 13px;
+    margin-top: 34px;
+    transition: color 0.4s ease;
+}
+
+.darkModeIcon {
+    margin-top: 6px;
+    position: absolute;
+    right: 30px;
+}
+
+.darkModeIcon:hover {
+    transition: fill 0.4s ease;
+}
+
+
+.darkModeIcon:active {
+    fill: white;
+}
+
+
+/* Div Movement */
+.techExpertiseDivs,
+.experiencesDivs,
+.educationsDivs,
+.languagesDivs,
+.hobbiesDivs,
+.inquiryFormDivs {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-top: 0.2px;
+    padding-bottom: 5%;
+    border-radius: 25px;
+
+
+
+    transform: translateX(-100px);
+    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.subTitles {
+    margin-top: 70px;
+}
+
+.subTitleContact {
+    color: rgb(230, 232, 236);
+    /* margin-top: 70px; */
+    margin-top: 50px;
+
+}
+
+
+table {
+    margin: 0 auto;
+    text-align: left;
+}
+
+th {
+    text-align: center;
+}
+
+table li {
+    margin-left: 20px;
+}
+
+.skillIconsDiv {
+    /* flex: auto; */
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 3%;
+}
+
+
+.skillIcons {
+    margin: 2px;
+    border-radius: 5px;
+}
+
+
+.experienceWoltTitleAndRef,
+.educationChikuzenTitleAndRef {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+.experienceWoltTitleAndRef:hover {
+    color: #00C2E8;
+    text-decoration: none;
+}
+
+
+.educationChikuzenTitleAndRef:hover {
+    color: #8D092D;
+}
+
+
+.experienceDescriotionsTitle {
+    margin-bottom: 0;
+}
+
+
+.experienceDescriptionContent {
+    display: none;
+    text-align: left;
+}
+
+
+.shoeDescriptionButton {
+    background-color: #00C2E8;
+    border: 0;
+    color: white;
+    padding: 6px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.shoeDescriptionButton:hover {
+    background-color: rgb(2, 210, 251);
+}
+
+.shoeDescriptionButton:active {
+    background-color: #02b6da;
+}
+
+.hobbyTitles {
+    font-weight: bold;
+}
+
+.inquiryFormDivs {
+    background-color: red;
+
+}
+
+.contactTitles {
+    color: rgb(171, 183, 214);
+    font-weight: bold;
+}
+
+.contactSubTitle {
+    color: rgb(230, 232, 236);
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.contactDivs {
+    background-color: rgb(54, 63, 73);
+    color: rgb(250, 245, 260);
+    margin: 0;
+    padding-top: 0.2px;
+    /* padding-bottom: 5%; */
+    padding-bottom: 2%;
+}
+
+
+.inquiryForm input {
+    padding: 9px 1% 9px 10px;
+    width: 45%;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    border-color: grey;
+    background-color: rgb(238, 238, 238);
+}
+
+
+.inquiryForm textarea {
+    padding: 12px 50% 12px 10px;
+    border-radius: 15px;
+    font-family: -apple-system, "system-ui", Roboto, "Segoe UI", Arimo, "Open Sans", sans-serif;
+    background-color: rgb(238, 238, 238);
+    margin-bottom: -10px;
+}
+
+
+.inquiryForm button {
+    background-color: #00C2E8;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.inquiryForm button:hover {
+    background-color: rgb(2, 210, 251);
+}
+
+.inquiryForm button:active {
+    background-color: #02b6da;
+}
+
+
+.contactInfos {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.copyRightDivs {
+    background-color: rgb(54, 63, 73);
+    padding-bottom: 8px;
+    color: rgb(128, 128, 128);
+}
+
+
+.toTop {
+    position: fixed;
+    /* background-color: rgb(111, 111, 111); */
+    /* background-color: #306c97; */
+    background-color: #00b1d5;
+    bottom: 0.5%;
+    left: 3px;
+    padding: 6px 10px 6px 10px;
+    margin: 0px 2px 2px 0px;
+    border-radius: 50px;
+    opacity: 0.7;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.toTop:hover {
+    /* background-color: rgb(72, 72, 72); */
+    background-color: #00C2E8;
+}
