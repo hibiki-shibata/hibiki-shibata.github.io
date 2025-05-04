@@ -7,7 +7,7 @@ const toggleButtons = document.getElementById("changeLanguageIcon");
 const translations = {
   en: {
     // currentPositionName: "Tech Support Engineer",
-    currentPositionName: "Princess",
+    currentPositionName: "Tech Support Engineer",
     changeLanguageTitle: "Fr",
     techExpertiseTitle: "TECH EXPERTISE",
 
@@ -21,7 +21,7 @@ const translations = {
     techExpertiseSkilled: "Skilled",
     techExpertiseExperienced: "Experienced",
     experiencesTitle: "EXPERIENCES",
-    woltTechJobTitle: "- Princess",
+    woltTechJobTitle: "- Tech Support Engineer",
     // woltTechJobTitle: "- Technical support Engineer I3",
     woltTechYears: "March 2022 - Present ( 3 years )",
     woltTechExperienceSoftwareDev: "Internal Tool Development: ",
@@ -90,7 +90,7 @@ const translations = {
 
 
   fr: {
-    currentPositionName: "Princesse",
+    currentPositionName: "Ingénieur de support technique",
     changeLanguageTitle: "En",
     techExpertiseTitle: "EXPERTISE TECHNIQUE",
 
@@ -104,7 +104,7 @@ const translations = {
     techExpertiseSkilled: "Compétent",
     techExpertiseExperienced: "Expérimenté",
     experiencesTitle: "EXPÉRIENCES",
-    woltTechJobTitle: "- Princesse",
+    woltTechJobTitle: "- Ingénieur de support technique",
     woltTechYears: "Mars 2022 - Présent (3 ans)",
     woltTechExperienceSoftwareDev: "Développement d'outils internes :",
     woltTechExperienceSoftwareDevDescr: `
