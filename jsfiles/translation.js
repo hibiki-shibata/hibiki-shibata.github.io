@@ -7,7 +7,7 @@ const toggleButtons = document.getElementById("changeLanguageIcon");
 const translations = {
   en: {
     // currentPositionName: "Tech Support Engineer",
-    currentPositionName: "Tech Support Engineer",
+    currentPositionName: "Technical Support Engineer",
     changeLanguageTitle: "Fr",
     techExpertiseTitle: "TECH EXPERTISE",
 
@@ -21,7 +21,7 @@ const translations = {
     techExpertiseSkilled: "Skilled",
     techExpertiseExperienced: "Experienced",
     experiencesTitle: "EXPERIENCES",
-    woltTechJobTitle: "- Tech Support Engineer",
+    woltTechJobTitle: "- Technical Support Engineer",
     // woltTechJobTitle: "- Technical support Engineer I3",
     woltTechYears: "March 2022 - Present ( 3 years )",
     woltTechExperienceSoftwareDev: "Internal Tool Development: ",
@@ -90,7 +90,7 @@ const translations = {
 
 
   fr: {
-    currentPositionName: "Ingénieur de support technique",
+    currentPositionName: "Ingénieur Support Technique",
     changeLanguageTitle: "En",
     techExpertiseTitle: "EXPERTISE TECHNIQUE",
 
@@ -105,7 +105,7 @@ const translations = {
     techExpertiseExperienced: "Expérimenté",
     experiencesTitle: "EXPÉRIENCES",
     woltTechJobTitle: "- Ingénieur de support technique",
-    woltTechYears: "Mars 2022 - Présent (3 ans)",
+    woltTechYears: "Mars 2022 - Aujourd'hui ( 3 ans )",
     woltTechExperienceSoftwareDev: "Développement d'outils internes :",
     woltTechExperienceSoftwareDevDescr: `
     Conception et mise en œuvre de microservices internes en TypeScript, Python et Docker pour automatiser les tâches répétitives et améliorer l'efficacité opérationnelle.
@@ -138,7 +138,7 @@ const translations = {
     En résumé, mon rôle servait de passerelle technique entre les opérations commerciales et les équipes d'ingénierie produit, facilitant la collaboration et optimisant les flux de travail par le support et l'initiative en développement logiciel interne.
     `,
     woltSAJobTitle: "- Associé Support",
-    woltSAYears: "Septembre 2021 - Mars 2022 (8 mois)",
+    woltSAYears: "Septembre 2021 - Mars 2022 ( 8 mois )",
     woltSAExperienceUserSupport: "Support utilisateur :",
     woltSAExperienceDescr: "(Assistance par chat en ligne, assistance téléphonique, en japonais et en anglais)",
     woltSAExperienceCourierSupport: "Support aux partenaires de livraison :",
@@ -146,7 +146,7 @@ const translations = {
     woltSAExperienceDescriptionContent: `
     J'ai rejoint Wolt en tant qu'Associé Support juste après l'obtention de mon diplôme, dans le but initial d'économiser pour mes futures études universitaires. 
     En poste à temps plein, je soutenais les clients ainsi que les partenaires de l'entreprise, en gérant une large gamme de demandes, en résolvant les problèmes et en facilitant la communication entre toutes les parties. 
-    Progressivement, en découvrant la culture et les talents de Wolt — notamment au sein de l'équipe Produit+ —, j'ai développé un vif intérêt pour le domaine de la technologie et du développement de produits. 
+    Progressivement, en découvrant la culture et les talents de Wolt ( notamment au sein de l'équipe Produit+ ), j'ai développé un vif intérêt pour le domaine de la technologie et du développement de produits. 
     Inspiré par le travail de l'équipe Produit+, j'ai décidé de m'orienter vers une carrière plus technique au sein de l'entreprise, postulant et réussissant la transition vers un poste utilisant mes compétences techniques.
     `,
     educationTitle: "FORMATIONS",
