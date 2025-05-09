@@ -82,7 +82,7 @@ const translations = {
 
     formName: "*Name",
     formEmail: "*Your Email Address",
-    formTextArea: "Write your inquiry here",
+    formTextArea: "Write your inquiry here. You'll receive response via email in 2~3 days.",
     formSend: "Send",
 
   },
@@ -174,7 +174,7 @@ const translations = {
 
     formName: "*Nom",
     formEmail: "*Votre Email",
-    formTextArea: "Écrire votre demande",
+    formTextArea: "Écrire votre demande. Vous recevrez une réponse par e-mail dans les 2 à 3 jours.",
     formSend: "Envoyer",
   }
 };
