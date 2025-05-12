@@ -82,7 +82,7 @@ const translations = {
 
     formName: "*Name",
     formEmail: "*Your Email Address",
-    formTextArea: "Write your inquiry here. You'll receive response via email in 2~3 days.",
+    formTextArea: "Write your inquiry here. You'll a response via email in 2~3 days.",
     formSend: "Send",
 
   },
