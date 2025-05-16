@@ -14,6 +14,14 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('inquiryForm').addEventListener('submit', function (event) {
         event.preventDefault();
 
+        textArea = document.querySelector('textarea');
+        if (textArea.value.length < 10) {
+            alert('Please enter at least 10 characters in the textarea');
+            return
+        }
+
+
+
         submitButton.disabled = true;
         submitButton.textContent = 'Sending...';
 
