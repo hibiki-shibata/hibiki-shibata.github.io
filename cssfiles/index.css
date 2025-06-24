@@ -43,6 +43,14 @@ li {
     box-shadow: 15px 40px 40px #306c97;
 }
 
+/* Style for Mobile devices */
+@media only screen and (max-width: 500px) {
+    .titleName {
+        width: 100vw;
+        height: 94.5vh;
+    }
+}
+
 .currentPositionName {
     font-size: 40px;
     margin-top: -20;
