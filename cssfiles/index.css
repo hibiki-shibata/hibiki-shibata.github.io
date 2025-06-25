@@ -46,10 +46,12 @@ li {
 /* Style for Mobile devices */
 @media only screen and (max-width: 500px) {
     .titleName {
-        width: 100vw;
+        /* width: 100vw;
+        height: 94.5vh; */
         height: 94.5vh;
-        background-image: linear-gradient(to bottom, #4497d3,  #367caf, #3372a0, #2a5b7e);
+        background-image: linear-gradient(to bottom, #4497d3, #367caf, #3372a0, #2a5b7e);
     }
+
 }
 
 .currentPositionName {
