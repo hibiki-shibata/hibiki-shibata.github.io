@@ -35,7 +35,7 @@ li {
     font-size: 80px;
     background-color: #4497d3;
     color: white;
-    /* font-family: monospace; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 0;
     margin-top: 0;
     margin-right: 0;
@@ -48,6 +48,7 @@ li {
     .titleName {
         width: 100vw;
         height: 94.5vh;
+        background-image: linear-gradient(to bottom, #4497d3,  #367caf, #3372a0, #2a5b7e);
     }
 }
 
