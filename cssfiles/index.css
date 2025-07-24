@@ -33,7 +33,7 @@ li {
 
 .titleName {
     font-size: 80px;
-    background-color: #4497d3;
+    /* background-color: #4497d3; */
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 0;
@@ -68,7 +68,7 @@ li {
 }
 
 .socialMediaIcons {
-    background-color: #3377a8;
+    /* background-color: #3377a8; */
     margin-left: -52.3px;
     size: 20px;
     display: flex;
