@@ -89,6 +89,11 @@ li {
     transition: fill 0.3s ease;
 }
 
+.discordButton:hover path {
+    fill: #7289da;
+    transition: fill 0.3s ease;
+}
+
 
 .languageTitle {
     position: absolute;
