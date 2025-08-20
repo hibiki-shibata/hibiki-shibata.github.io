@@ -1,7 +1,8 @@
 :root {
   --body-bg-color: rgb(250, 245, 260);
   --body-font-color: grey;
-  --titleName-bg-color: #4497d3;
+  /* --titleName-bg-color: #4497d3; */
+  --titleName-bg-color: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(26, 49, 146, 1) 0%, rgba(68, 151, 211, 1) 100%);
   --socialMediaIcons-bg-color: #3377a8;
   --div-box-shadows: 3px 2px 2px rgb(197, 203, 214);
   --techExpertiseDivs-bg-color: #f5f2db;
@@ -25,7 +26,8 @@ body {
 body.dark {
   --body-bg-color: black;
   /* --skillIcons-bg-color: rgba(255, 255, 255, 0.323); */
-  --titleName-bg-color: #3476a6;
+  /* --titleName-bg-color: #3476a6; */
+  --titleName-bg-color: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 25%, rgba(0, 212, 255, 1) 100%);;
   --skillIcons-bg-color: rgba(139, 139, 139, 0.323);
   --socialMediaIcons-bg-color: #1e4a69;
   --techExpertiseDivs-bg-color: #f5f2dbaf;
@@ -42,7 +44,8 @@ body.dark {
 
 
 .titleName {
-  background-color: var(--titleName-bg-color);
+  /* background-color: var(--titleName-bg-color); */
+  background: var(--titleName-bg-color);
 }
 
 .buttonsOf-menu-social-siteSettings {
