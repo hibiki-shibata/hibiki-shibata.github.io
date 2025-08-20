@@ -67,15 +67,20 @@ li {
     margin-top: 20px;
 }
 
-.socialMediaIcons {
-    /* background-color: #3377a8; */
-    margin-left: -52.3px;
-    size: 20px;
+.buttonsOf-menu-social-siteSettings {
     display: flex;
-    gap: 0;
-    /* padding-left: 46%; */
-    padding-left: 50%;
-    padding-right: 50%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.socialMediaIconsDiv {
+    display: flex;
+    gap: 5px;
 }
 
 
@@ -95,55 +100,45 @@ li {
 }
 
 
-.languageTitle {
-    position: absolute;
-    right: 82.5px;
-    font-size: 15px;
-    /* right: 106px; */
-    /* margin-top: 13.5px; */
-    margin-top: 32px;
-    color: rgba(255, 255, 255, 0.807);
-}
 
-.changeLanguageIcon {
-    margin-top: 6px;
-    position: absolute;
-    right: 75px;
-
+.siteSettingButtons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    ;
 }
 
 .changeLanguageIcon:hover {
-    /* fill: rgba(255, 255, 255, 0.807); */
     fill: white;
     transition: fill 0.3s ease;
 }
 
 .changeLanguageIcon:active {
     fill: rgba(255, 255, 255, 0.461);
+    color: rgba(255, 255, 255, 0.461);
 }
 
-.darkModeTitle {
-    position: absolute;
-    right: 32px;
-    font-size: 13px;
-    margin-top: 34px;
-    transition: color 0.4s ease;
+.languageTitle {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.807);
+    margin-top: -8px;
 }
 
-.darkModeIcon {
-    margin-top: 6px;
-    position: absolute;
-    right: 30px;
-}
 
 .darkModeIcon:hover {
     transition: fill 0.4s ease;
 }
 
-
 .darkModeIcon:active {
     fill: white;
 }
+
+.darkModeTitle {
+    font-size: 13px;
+    margin-top: -8px;
+}
+
+
 
 
 /* Div Movement */
@@ -200,7 +195,6 @@ table li {
 }
 
 .skillIconsDiv {
-    /* flex: auto; */
     display: flex;
     flex-wrap: wrap;
 
