@@ -26,8 +26,7 @@ body {
 body.dark {
   --body-bg-color: black;
   /* --skillIcons-bg-color: rgba(255, 255, 255, 0.323); */
-  /* --titleName-bg-color: #3476a6; */
-  --titleName-bg-color: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 25%, rgba(0, 212, 255, 1) 100%);;
+  --titleName-bg-color: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 32%, rgba(68, 151, 211, 1) 100%);
   --skillIcons-bg-color: rgba(139, 139, 139, 0.323);
   --socialMediaIcons-bg-color: #1e4a69;
   --techExpertiseDivs-bg-color: #f5f2dbaf;
