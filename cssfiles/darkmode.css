@@ -1,7 +1,7 @@
 :root {
   /* --body-bg-color: rgb(250, 245, 260); */
-  /* --body-bg: radial-gradient(circle,rgba(207, 253, 255, 1) 0%, rgba(255, 255, 255, 1) 94%); */
-  --body-bg: radial-gradient(circle,rgba(189, 189, 189, 1) 0%, rgba(255, 255, 255, 1) 94%);
+  --body-bg: linear-gradient(87deg,rgba(140, 207, 255, 1) 0%, rgba(255, 191, 232, 1) 100%);
+
   --body-font-color: grey;
   /* --titleName-bg-color: #4497d3; */
   --titleName-bg-color: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(26, 49, 146, 1) 0%, rgba(68, 151, 211, 1) 100%);
