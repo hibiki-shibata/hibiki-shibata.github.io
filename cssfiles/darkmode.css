@@ -1,5 +1,7 @@
 :root {
-  --body-bg-color: rgb(250, 245, 260);
+  /* --body-bg-color: rgb(250, 245, 260); */
+  /* --body-bg: radial-gradient(circle,rgba(207, 253, 255, 1) 0%, rgba(255, 255, 255, 1) 94%); */
+  --body-bg: radial-gradient(circle,rgba(189, 189, 189, 1) 0%, rgba(255, 255, 255, 1) 94%);
   --body-font-color: grey;
   /* --titleName-bg-color: #4497d3; */
   --titleName-bg-color: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(26, 49, 146, 1) 0%, rgba(68, 151, 211, 1) 100%);
@@ -12,19 +14,18 @@
   --hobbiesDivs-bg-color: rgb(250, 209, 222);
   --subTitles-font-color: rgb(72, 87, 103);
   --darkModeButton-colort: #232b4c;
-  /* --darkModeButton-colort-hover: rgba(255, 255, 255, 0.714); */
   --darkModeButton-colort-hover: black;
 }
 
 
 body {
   /* background-color: rgb(94, 172, 232); */
-  background-color: var(--body-bg-color);
+  background: var(--body-bg);
   color: var(--body-font-color);
 }
 
 body.dark {
-  --body-bg-color: black;
+  --body-bg: black;
   /* --skillIcons-bg-color: rgba(255, 255, 255, 0.323); */
   --titleName-bg-color: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 32%, rgba(68, 151, 211, 1) 100%);
   --skillIcons-bg-color: rgba(139, 139, 139, 0.323);

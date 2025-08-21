@@ -18,7 +18,7 @@
 .menuSidebar {
     position: fixed;
     top: 0;
-    right: -250px;
+    left: -250px;
     width: 160px;
     height: 100%;
     background-color: #30546e;
