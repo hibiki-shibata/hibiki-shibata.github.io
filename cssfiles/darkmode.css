@@ -1,6 +1,9 @@
 :root {
-  /* --body-bg-color: rgb(250, 245, 260); */
-  --body-bg: linear-gradient(87deg,rgba(140, 207, 255, 1) 0%, rgba(255, 191, 232, 1) 100%);
+  /* --body-bg: linear-gradient(87deg,rgba(140, 207, 255, 1) 0%, rgba(255, 191, 232, 1) 100%); */
+  --body-bg: linear-gradient(161deg, rgba(102, 165, 204, 1) 0%, rgba(79, 74, 99, 1) 100%);
+
+  
+  
 
   --body-font-color: grey;
   /* --titleName-bg-color: #4497d3; */
