@@ -61,10 +61,22 @@ li {
     color: #c5e1e6;
 }
 
+@keyframes spin {
+    0% {
+        transform: rotate(0deg)scale(1.1);
+    }
+
+    100% {
+        transform: rotate(1440deg);
+    }
+}
+
 .profilePhoto {
     width: 100px;
     margin-right: 10px;
     margin-top: 20px;
+    animation: spin 3s ease-out 1;
+    animation-delay: 3.2s;
 }
 
 .buttonsOf-menu-social-siteSettings {
@@ -103,18 +115,71 @@ li {
 .githubInButton:hover,
 .discordButton:hover {
     transition: 0.3s;
-    transform: scale(1.1) translateY(-5px);
 }
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+        ;
+    }
+
+    10% {
+        transform: translateY(-40px);
+    }
+
+    20% {
+        transform: translateY(0);
+    }
+
+    28% {
+        transform: translateY(-20px);
+    }
+
+    36% {
+        transform: translateY(0);
+    }
+
+    43% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    56% {
+        transform: translateY(-3px);
+    }
+
+    60% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.linkedInButton,
+.githubInButton,
+.discordButton {
+    animation: jump 2.5s ease;
+    animation-delay: 2.7s;
+}
+
+
 
 .siteSettingButtons {
     display: flex;
     justify-content: center;
+    padding-top: 5px;
     gap: 12px;
 }
 
 .changeLanguageIcon:hover {
     fill: white;
     transition: fill 0.3s ease;
+    transform: scale(1.1)
 }
 
 .changeLanguageIcon:active {
@@ -123,14 +188,15 @@ li {
 }
 
 .languageTitle {
-    font-size: 15px;
+    font-size: 14px;
     color: rgba(255, 255, 255, 0.807);
-    margin-top: -8px;
+    margin-top: -11px;
 }
 
 
 .darkModeIcon:hover {
     transition: fill 0.4s ease;
+    transform: scale(1.1)
 }
 
 .darkModeIcon:active {
@@ -138,8 +204,8 @@ li {
 }
 
 .darkModeTitle {
-    font-size: 13px;
-    margin-top: -8px;
+    font-size: 12px;
+    margin-top: -10px;
 }
 
 
@@ -362,11 +428,9 @@ table li {
 
 .toTop {
     position: fixed;
-    /* background-color: rgb(111, 111, 111); */
-    /* background-color: #306c97; */
     background-color: #00b1d5;
     bottom: 0.5%;
-    left: 3px;
+    right: 0.5%;
     padding: 6px 10px 6px 10px;
     margin: 0px 2px 2px 0px;
     border-radius: 50px;
