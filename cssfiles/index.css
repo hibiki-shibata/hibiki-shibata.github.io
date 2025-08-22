@@ -35,7 +35,10 @@ li {
     font-size: 80px;
     /* background-color: #4497d3; */
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif;*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    ;
     margin-left: 0;
     margin-top: 0;
     margin-right: 0;
