@@ -65,14 +65,9 @@ body.dark {
 }
 
 .skillIcons {
-  /* background-color: white; */
   background-color: var(--skillIcons-bg-color);
 }
 
-.skillIcons:hover {
-  transform: scale(1.0001) translateY(-1px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
 
 .techExpertiseDivs,
 .experiencesDivs,

@@ -286,15 +286,18 @@ table li {
     justify-content: center;
     margin-left: 16%;
     margin-right: 16%;
-    margin-top: 3%;
 }
 
 
 .skillIcons {
-    margin: 2px;
+    margin: 4px;
     border-radius: 5px;
 }
 
+.skillIcons:hover {
+  transform: scale(1.01) translateY(-4px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
 
 .experienceWoltTitleAndRef,
 .educationChikuzenTitleAndRef {
