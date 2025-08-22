@@ -86,20 +86,25 @@ li {
 
 .linkedInButton:hover path:first-of-type {
     fill: #0165b1;
-    transition: fill 0.3s ease;
+    transition: fill 0.1s ease;
 }
 
 .githubInButton:hover path {
     fill: white;
-    transition: fill 0.3s ease;
+    transition: fill 0.1s ease;
 }
 
 .discordButton:hover path {
     fill: #7289da;
-    transition: fill 0.3s ease;
+    transition: fill 0.1s ease;
 }
 
-
+.linkedInButton:hover,
+.githubInButton:hover,
+.discordButton:hover {
+    transition: 0.3s;
+    transform: scale(1.1) translateY(-5px);
+}
 
 .siteSettingButtons {
     display: flex;
@@ -154,12 +159,24 @@ li {
     padding-top: 0.2px;
     padding-bottom: 5%;
     border-radius: 25px;
-
-
     transform: translateX(-100px);
     transition: opacity 0.4s ease-out, transform 0.4s ease-out;
     opacity: 0;
 }
+
+
+.techExpertiseDivs:hover,
+.experiencesDivs:hover,
+.educationsDivs:hover,
+.languagesDivs:hover,
+.hobbiesDivs:hover,
+.inquiryFormDivs:hover {
+    transform: scale(1.01) translateY(-1px);
+    transition: 0.001s;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+
 
 .visible {
     opacity: 1;

@@ -2,12 +2,12 @@
   /* --body-bg: linear-gradient(87deg,rgba(140, 207, 255, 1) 0%, rgba(255, 191, 232, 1) 100%); */
   --body-bg: linear-gradient(161deg, rgba(102, 165, 204, 1) 0%, rgba(79, 74, 99, 1) 100%);
 
-  
-  
+
+
 
   --body-font-color: grey;
   /* --titleName-bg-color: #4497d3; */
-  --titleName-bg-color: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(26, 49, 146, 1) 0%, rgba(68, 151, 211, 1) 100%);
+  --titleName-bg-color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(26, 49, 146, 1) 0%, rgba(68, 151, 211, 1) 100%);
   --socialMediaIcons-bg-color: #3377a8;
   --div-box-shadows: 3px 2px 2px rgb(197, 203, 214);
   --techExpertiseDivs-bg-color: #f5f2db;
@@ -30,7 +30,7 @@ body {
 body.dark {
   --body-bg: black;
   /* --skillIcons-bg-color: rgba(255, 255, 255, 0.323); */
-  --titleName-bg-color: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 32%, rgba(68, 151, 211, 1) 100%);
+  --titleName-bg-color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 32%, rgba(68, 151, 211, 1) 100%);
   --skillIcons-bg-color: rgba(139, 139, 139, 0.323);
   --socialMediaIcons-bg-color: #1e4a69;
   --techExpertiseDivs-bg-color: #f5f2dbaf;
@@ -58,7 +58,11 @@ body.dark {
 .skillIcons {
   /* background-color: white; */
   background-color: var(--skillIcons-bg-color);
+}
 
+.skillIcons:hover {
+  transform: scale(1.0001) translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .techExpertiseDivs,
