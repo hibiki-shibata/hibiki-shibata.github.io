@@ -115,8 +115,9 @@ li {
 .githubInButton:hover,
 .discordButton:hover {
     transition: 0.3s;
-    transform: scale(1.1) translateY(-4px);
+    transform: scale(1.1) translateY(-1.5px);
 }
+
 
 @keyframes jump {
     0% {
