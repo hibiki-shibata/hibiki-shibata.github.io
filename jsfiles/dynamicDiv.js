@@ -8,7 +8,7 @@ const observer = new IntersectionObserver((targetDivs) => {
     }
   });
 }, {
-  threshold: 0.1
+  threshold: 0.09
 });
 
 sections.forEach(section => {
