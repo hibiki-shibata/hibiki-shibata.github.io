@@ -30,38 +30,35 @@ li {
 }
 
 
-.titleName {
+/* .titleName {
     font-size: 80px;
-    /* background-color: #4497d3; */
     color: white;
-    /* font-family: Georgia, 'Times New Roman', Times, serif;*/
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    ;
     margin-left: 0;
     margin-top: 0;
     margin-right: 0;
     margin-bottom: 0;
     box-shadow: 15px 40px 0px #306c97;
-}
+} */
 
 /* Style for Mobile devices */
-@media only screen and (max-width: 500px) {
-  .titleName {
-    height: 84.5vh;
-    background: linear-gradient(to bottom, #4497d3, #367caf, #3372a0, #2a5b7e);
-  }
-  .toTop {
-    position: fixed !important;
-    right: 43% !important;
-  }
+@media only screen and (max-width: 700px) {
+    .titleNameDiv {
+        height: 84.5vh;
+        /* background: linear-gradient(to bottom, #4497d3, #367caf, #3372a0, #2a5b7e); */
+    }
+
+    .toTop {
+        position: fixed !important;
+        right: 43% !important;
+    }
 }
 
 
 .currentPositionName {
     font-size: 40px;
-    margin-top: -20;
-    /* color: #c5f3fc; */
+    font-family: 'Montserrat', sans-serif;
     color: #c5e1e6;
 }
 
@@ -78,7 +75,7 @@ li {
 .profilePhoto {
     width: 100px;
     margin-right: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     animation: spin 3s ease-out 1;
     animation-delay: 3.2s;
 }

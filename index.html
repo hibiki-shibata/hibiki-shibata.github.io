@@ -59,6 +59,7 @@
     <link rel="stylesheet" href="./cssfiles/darkmode.css">
     <link rel="stylesheet" href="./cssfiles/splash.css">
     <link rel="stylesheet" href="./cssfiles/menuBar.css">
+    <link rel="stylesheet" href="./cssfiles/titleName.css">
     <link rel="stylesheet" href="./cssfiles/index.css">
 
 </head>
@@ -101,12 +102,45 @@
 
 <body>
 
+    <div class="titleNameDiv">
 
-    <h1 class="titleName">HIBIKI SHIBATA
-        <!-- <p2 class="currentPositionName" data-i18n="currentPositionName">Technical Support Engineer</p2> -->
-        <p2 class="currentPositionName" data-i18n="currentPositionName">Technical Support Engineer</p2>
-        <img class="profilePhoto" src="./assets/Kirbynasai-photoaidcom-cropped.png">
-    </h1>
+
+        <svg>
+            <!-- Symbol-->
+            <symbol id="s-text">
+                <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle">
+                    Hibiki Shibata
+                </text>
+            </symbol>
+            <!-- Duplicate symbols-->
+            <use class="text" xlink:href="#s-text"></use>
+            <use class="text" xlink:href="#s-text"></use>
+            <use class="text" xlink:href="#s-text"></use>
+            <use class="text" xlink:href="#s-text"></use>
+            <use class="text" xlink:href="#s-text"></use>
+        </svg>
+  
+
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px;">
+            <div>
+                <p class="currentPositionName">Technical Support Engineer</p>
+            </div>
+
+            <!-- Avatar -->
+            <div class="avatar">
+                <img class="profilePhoto" src="./assets/Kirbynasai-photoaidcom-cropped.png" alt="profile">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div>
+
+        <h1 class="titleName">HIBIKI SHIBATA
+            <p2 class="currentPositionName" data-i18n="currentPositionName">Technical Support Engineer</p2>
+            <img class="profilePhoto" src="./assets/Kirbynasai-photoaidcom-cropped.png">
+        </h1>
+    </div> -->
 
 
     <div class="buttonsOf-menu-social-siteSettings">
@@ -840,6 +874,7 @@
     <script src="./jsfiles/menuBar.js"></script>
     <script src="./jsfiles/inquiryForm.js"></script>
     <script src="./jsfiles/splash.js"></script>
+
 
 
 </body>
