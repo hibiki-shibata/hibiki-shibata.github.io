@@ -10,7 +10,6 @@ body {
     font-style: normal;
     text-align: center;
     font-size: 19.2px;
-    transition: background-color 0.4s ease;
 }
 
 
@@ -48,14 +47,16 @@ li {
 
 /* Style for Mobile devices */
 @media only screen and (max-width: 500px) {
-    .titleName {
-        /* width: 100vw;
-        height: 94.5vh; */
-        height: 94.5vh;
-        background-image: linear-gradient(to bottom, #4497d3, #367caf, #3372a0, #2a5b7e);
-    }
-
+  .titleName {
+    height: 84.5vh;
+    background: linear-gradient(to bottom, #4497d3, #367caf, #3372a0, #2a5b7e);
+  }
+  .toTop {
+    position: fixed !important;
+    right: 43% !important;
+  }
 }
+
 
 .currentPositionName {
     font-size: 40px;
@@ -66,7 +67,7 @@ li {
 
 @keyframes spin {
     0% {
-        transform: rotate(0deg)scale(1.1);
+        transform: rotate(0deg)scale(1.05);
     }
 
     100% {
@@ -107,7 +108,9 @@ li {
 .githubInButton:hover path {
     fill: white;
     transition: fill 0.3s ease;
+    transition: 0.3s;
 }
+
 
 .discordButton:hover path {
     fill: #7289da;
@@ -225,8 +228,8 @@ li {
 .inquiryFormDivs {
     margin-left: 8%;
     margin-right: 8%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 2.5%;
+    margin-bottom: 3%;
     padding-top: 0.2px;
     padding-bottom: 5%;
     border-radius: 25px;
@@ -242,8 +245,8 @@ li {
 .languagesDivs:hover,
 .hobbiesDivs:hover,
 .inquiryFormDivs:hover {
-    transform: scale(1.01) translateY(-1px);
-    transition: 0.001s;
+    transform: scale(1.01) translateY(0px);
+    /* transition: 0.001s; */
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -296,8 +299,8 @@ table li {
 }
 
 .skillIcons:hover {
-  transform: scale(1.01) translateY(-4px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01) translateY(-4px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .experienceWoltTitleAndRef,
