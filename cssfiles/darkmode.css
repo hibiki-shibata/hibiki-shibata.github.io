@@ -8,6 +8,7 @@
   --body-font-color: grey;
   /* --titleName-bg-color: #4497d3; */
   --titleName-bg-color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(26, 49, 146, 1) 0%, rgba(68, 151, 211, 1) 100%);
+  --titleName-font-color: white;
   --socialMediaIcons-bg-color: #3377a8;
   --div-box-shadows: 3px 2px 2px rgb(197, 203, 214);
   --techExpertiseDivs-bg-color: #f5f2db;
@@ -28,16 +29,23 @@ body {
 }
 
 body.dark {
-  --body-bg: black;
+  --body-bg: linear-gradient(152deg, rgba(1, 37, 115, 1) 0%, rgba(11, 1, 31, 1) 100%);
   /* --skillIcons-bg-color: rgba(255, 255, 255, 0.323); */
   --titleName-bg-color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 32%, rgba(68, 151, 211, 1) 100%);
+  --titleName-font-color: white;
   --skillIcons-bg-color: rgba(139, 139, 139, 0.323);
-  --socialMediaIcons-bg-color: #1e4a69;
-  --techExpertiseDivs-bg-color: #f5f2dbaf;
-  --experiencesDivs-bg-color: #dbeef69e;
-  --educationsDivs-bg-color: rgba(236, 221, 246, 0.665);
-  --languagesDivs-bg-color: rgba(254, 231, 195, 0.525);
-  --hobbiesDivs-bg-color: rgba(250, 209, 222, 0.666);
+  --socialMediaIcons-bg-color: #101052;
+  /*#1e4a69;*/
+  --techExpertiseDivs-bg-color: linear-gradient(152deg, rgba(44, 10, 112, 1) 0%, rgba(11, 1, 31, 1) 100%);
+  /*#f5f2dbaf*/
+  --experiencesDivs-bg-color: linear-gradient(152deg, rgba(10, 66, 92, 1) 0%, rgba(2, 2, 38, 1) 100%);
+  /*#dbeef69e;*/
+  --educationsDivs-bg-color: linear-gradient(152deg, rgba(140, 124, 0, 1) 0%, rgba(2, 2, 38, 1) 100%);
+  /*rgba(236, 221, 246, 0.665);*/
+  --languagesDivs-bg-color: linear-gradient(152deg, rgba(0, 163, 122, 1) 0%, rgba(2, 2, 38, 1) 100%);
+  /*rgba(254, 231, 195, 0.525);*/
+  --hobbiesDivs-bg-color: linear-gradient(152deg, rgba(163, 0, 106, 1) 0%, rgba(2, 2, 38, 1) 100%);
+  /* rgba(250, 209, 222, 0.666); */
   --body-font-color: rgb(232, 230, 230);
   --subTitles-font-color: white;
   --darkModeButton-colort: rgba(255, 255, 255, 0.807);
@@ -49,6 +57,7 @@ body.dark {
 .titleName {
   /* background-color: var(--titleName-bg-color); */
   background: var(--titleName-bg-color);
+  color: var(--titleName-font-color);
 }
 
 .buttonsOf-menu-social-siteSettings {
@@ -56,14 +65,9 @@ body.dark {
 }
 
 .skillIcons {
-  /* background-color: white; */
   background-color: var(--skillIcons-bg-color);
 }
 
-.skillIcons:hover {
-  transform: scale(1.0001) translateY(-1px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
 
 .techExpertiseDivs,
 .experiencesDivs,
@@ -77,12 +81,12 @@ body.dark {
 
 
 .techExpertiseDivs {
-  background-color: var(--techExpertiseDivs-bg-color);
+  background: var(--techExpertiseDivs-bg-color);
 }
 
 
 .experiencesDivs {
-  background-color: var(--experiencesDivs-bg-color);
+  background: var(--experiencesDivs-bg-color);
 }
 
 
@@ -93,18 +97,18 @@ body.dark {
 
 
 .educationsDivs {
-  background-color: var(--educationsDivs-bg-color);
+  background: var(--educationsDivs-bg-color);
 }
 
 
 .languagesDivs {
-  background-color: var(--languagesDivs-bg-color);
+  background: var(--languagesDivs-bg-color);
 }
 
 
 .hobbiesDivs {
   /* background-color: rgb(250, 209, 222); */
-  background-color: var(--hobbiesDivs-bg-color);
+  background: var(--hobbiesDivs-bg-color);
 }
 
 
