@@ -2,9 +2,6 @@
   /* --body-bg: linear-gradient(87deg,rgba(140, 207, 255, 1) 0%, rgba(255, 191, 232, 1) 100%); */
   --body-bg: linear-gradient(161deg, rgba(102, 165, 204, 1) 0%, rgba(79, 74, 99, 1) 100%);
 
-
-
-
   --body-font-color: grey;
   /* --titleName-bg-color: #4497d3; */
   --titleName-bg-color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(26, 49, 146, 1) 0%, rgba(68, 151, 211, 1) 100%);
@@ -27,6 +24,7 @@ body {
   background: var(--body-bg);
   color: var(--body-font-color);
 }
+
 
 body.dark {
   --body-bg: linear-gradient(152deg, rgba(1, 37, 115, 1) 0%, rgba(11, 1, 31, 1) 100%);
@@ -60,9 +58,11 @@ body.dark {
   color: var(--titleName-font-color);
 }
 
+
 .buttonsOf-menu-social-siteSettings {
   background-color: var(--socialMediaIcons-bg-color);
 }
+
 
 .skillIcons {
   background-color: var(--skillIcons-bg-color);
@@ -76,7 +76,6 @@ body.dark {
 .hobbiesDivs,
 .inquiryFormDivs {
   box-shadow: var(--div-box-shadows);
-
 }
 
 
