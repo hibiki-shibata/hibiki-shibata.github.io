@@ -50,7 +50,7 @@ body.dark {
 }
 
 
-.titleName {
+.titleNameDiv {
   /* background-color: var(--titleName-bg-color); */
   background: var(--titleName-bg-color);
   color: var(--titleName-font-color);
