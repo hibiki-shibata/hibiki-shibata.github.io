@@ -186,10 +186,6 @@ const translations = {
 
 function setLanguage(lang) {
 
-  const nameInput = document.querySelector('input[name="name"]');
-  const emailInput = document.querySelector('input[name="email"]');
-  const messageTextarea = document.querySelector('textarea[name="message"]');
-
   const elements = document.querySelectorAll('[data-i18n]');
   console.log(elements)
 

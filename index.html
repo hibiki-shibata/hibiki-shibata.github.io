@@ -56,6 +56,8 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
 
+    <link rel="stylesheet" href="./cssfiles/titleName.css">
+    <link rel="stylesheet" href="./cssfiles/kirbyImageGame.css">
     <link rel="stylesheet" href="./cssfiles/darkmode.css">
     <link rel="stylesheet" href="./cssfiles/splash.css">
     <link rel="stylesheet" href="./cssfiles/menuBar.css">
@@ -118,12 +120,14 @@
 
         <h1 class="titleNameSmallScreen">HIBIKI SHIBATA</h1>
 
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 50px; margin-right: 55px; margin-left: 55px;">
+
+        <div class="currentPositionNameDiv">
             <div>
-                <p class="currentPositionName">Technical Support Engineer</p>
+                <p class="currentPositionName" data-i18n="currentPositionName">Technical Support Engineer</p>
             </div>
-            <div>
-                <img class="profilePhoto" src="./assets/Kirbynasai-photoaidcom-cropped.png" alt="profile">
+            <div class="profilePhoto" id="avatar">
+                <img src="./assets/Kirbynasai-photoaidcom-cropped.png" alt="profile">
+                 <div class="spark-layer" aria-hidden="true"></div>
             </div>
         </div>
     </div>
@@ -862,13 +866,15 @@
 
 
 
-    <script src="./jsfiles/dynamicDiv.js"></script>
-    <script src="./jsfiles/description.js"></script>
+    <script src="./jsfiles/splash.js"></script>
+    <script src="./jsfiles/kirbyImageGame.js"></script>
+    <script src="./jsfiles/menuBar.js"></script>
     <script src="./jsfiles/darkmode.js"></script>
     <script src="./jsfiles/translation.js"></script>
-    <script src="./jsfiles/menuBar.js"></script>
+    <script src="./jsfiles/dynamicDiv.js"></script>
+    <script src="./jsfiles/description.js"></script>
     <script src="./jsfiles/inquiryForm.js"></script>
-    <script src="./jsfiles/splash.js"></script>
+
 
 
 
