@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const wrapper = document.getElementById('avatar');
-  const layer   = wrapper.querySelector('.spark-layer');
+  const wrapper = document.getElementById('title-card__subtitle__avatar');
+  const layer   = wrapper.querySelector('.title-card__subtitle__spark-layer');
 
   wrapper.addEventListener('click', (e) => burst(e));
 
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const COUNT = 8;
     for (let i = 0; i < COUNT; i++) {
       const node = document.createElement('div');
-      node.className = 'star';
+      node.className = 'title-card__subtitle__star';
       node.textContent = Math.random() < 0.5 ? '✨' : '⭐';
 
       // random direction, distance, duration, rotation, size

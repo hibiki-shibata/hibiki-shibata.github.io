@@ -1,4 +1,4 @@
-/* Main styles */
+/* my name in title svg */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
 
 .text {
@@ -55,13 +55,14 @@
 
 
 
-.titleNameBigScreen {
+.title-card__myname-in-big-screen {
+  margin-bottom: -30px;
+  margin-top: 30px;
   font: 5em/1 Open Sans, Impact;
   text-transform: uppercase;
 }
 
-
-.titleNameSmallScreen {
+.title-card__myname-in-small-screen {
   display: none;
   font-size: 80px;
   color: white;
@@ -73,56 +74,3 @@
   margin-bottom: 0;
   box-shadow: 15px 40px 0px #306c97;
 }
-
-
-
-.titleNameDiv svg {
-  margin-bottom: -30px;
-  margin-top: 30px;
-}
-
-
-.currentPositionNameDiv {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 50px;
-  margin-right: 55px;
-  margin-left: 55px;
-}
-
-
-.currentPositionName {
-  font-size: 25px;
-  font-family: 'Montserrat', sans-serif;
-  color: #c5e1e6;
-  margin-top: 50px;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg)scale(1.05);
-  }
-
-  100% {
-    transform: rotate(1440deg);
-  }
-}
-
-
-/* .profilePhoto img {
-  width: 100px;
-  border-radius: 50%;
-  margin-right: 10px;
-  margin-top: 10px;
-  animation: spin 3s ease-out 1;
-  animation-delay: 2.7s;
-  cursor: pointer;
-}
-
-
-
-.profilePhoto:hover img {
-  transform: scale(1.03);
-  filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.35));
-} */
