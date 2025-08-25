@@ -1,4 +1,4 @@
-const toggleButton = document.getElementById("darkModeIcon");
+const toggleButton = document.getElementById("control-bar-card__site-settings__darkmode-svg");
 
 toggleButton.addEventListener("click", () => {
 
@@ -21,7 +21,7 @@ toggleButton.addEventListener("click", () => {
 
 
 function changeButtonTitle(isDarkMode) {
-    const buttonTitle = document.getElementById('darkModeTitle')
+    const buttonTitle = document.getElementById('control-bar-card__site-settings__darkmode-title')
     // const savedTheme = localStorage.getItem("theme");
 
     if (isDarkMode === "dark") {

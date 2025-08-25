@@ -1,0 +1,126 @@
+.control-bar-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+    padding-right: 20px;
+    padding-left: 20px;
+    transition: 0.4s;
+}
+
+
+.control-bar-card__menu-button {
+    /* left: 0%; */
+    padding: 7px;
+    padding-bottom: 0;
+    border-radius: 40px;
+    border: 0;
+}
+
+.control-bar-card__menu-button:hover {
+    background-color: #3b86bc;
+}
+
+.control-bar-card__menu-button:active {
+    background-color: #3b86bcaf;
+}
+
+.control-bar-card__menu-side-bar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 160px;
+    height: 100%;
+    background-color: #30546e;
+    padding-top: 70px;
+    transition: left 0.4s ease;
+    z-index: 1000;
+}
+
+.control-bar-card__menu-side-bar.open {
+    left: 0;
+}
+
+.control-bar-card__menu-side-bar a {
+    /* font-family: serif; */
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    border-radius: 10px;
+    /* border-bottom: 0.5px solid white; */
+}
+
+.control-bar-card__menu-side-bar a:hover {
+    background-color: #406e90;
+}
+
+
+
+.control-bar-card__social-icons {
+    display: flex;
+    gap: 5px;
+}
+
+.control-bar-card__social-icons__linkedin:hover path:first-of-type {
+    fill: #0165b1;
+    transition: fill 0.3s ease;
+}
+
+.control-bar-card__social-icons__github:hover path {
+    fill: white;
+    transition: fill 0.3s ease;
+    transition: 0.3s;
+}
+
+.control-bar-card__social-icons__discord:hover path {
+    fill: #7289da;
+    transition: fill 0.3s ease;
+}
+
+.control-bar-card__social-icons__linkedin:hover,
+.control-bar-card__social-icons__github:hover,
+.control-bar-card__social-icons__discord:hover {
+    transition: 0.3s;
+    transform: scale(1.1) translateY(-1.5px);
+}
+
+.control-bar-card__site-settings {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    gap: 12px;
+}
+
+.control-bar-card__site-settings_language-svg:hover {
+    fill: white;
+    transition: fill 0.3s ease;
+    transform: scale(1.1)
+}
+
+.control-bar-card__site-settings__language-svg:active {
+    fill: rgba(255, 255, 255, 0.461);
+    color: rgba(255, 255, 255, 0.461);
+}
+
+.control-bar-card__site-settings__language-title {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.807);
+    margin-top: -10px;
+}
+
+.control-bar-card__site-settings__darkmode-svg:hover,
+.control-bar-card__site-settings__language-svg:hover {
+    transition: fill 0.4s ease;
+    transform: scale(1.1)
+}
+
+.control-bar-card__site-settings__darkmode_svg:active {
+    fill: white;
+}
+
+.control-bar-card__site-settings__darkmode-title {
+    font-size: 12px;
+    margin-top: -10px;
+}

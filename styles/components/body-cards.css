@@ -1,0 +1,209 @@
+.tech-expertise-card,
+.job-experience-card,
+.education-card,
+.language-skills-card,
+.hobbies-card {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2.5%;
+    margin-bottom: 3%;
+    padding-top: 0.2px;
+    padding-bottom: 5%;
+    border-radius: 25px;
+    transform: translateX(-100px);
+    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+    opacity: 0;
+}
+
+.tech-expertise-card:hover,
+.job-experience-card:hover,
+.education-card:hover,
+.language-skills-card:hover,
+.hobbies-card:hover {
+    transform: scale(1.01) translateY(0px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.tech-expertise-card__title,
+.job-experience-card__title,
+.education-card__title,
+.language-skills-card__title,
+.hobbies-card__title,
+.contact-card__title {
+    margin-top: 70px;
+}
+
+.job-experience-card__wolt,
+.education-card__chikuzen-high-school {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+
+/* Tech Expertiese */
+.tech-expertise-card table {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.tech-expertise-card th {
+    text-align: center;
+}
+
+.tech-expertise-card table li {
+    margin-left: 20px;
+}
+
+.tech-expertise-card__skill-icons {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+.tech-expertise-card__skill-icons__icon {
+    margin: 4px 1px 4px 1px;
+    border-radius: 5px;
+}
+
+.tech-expertise-card__skill-icons__icon:hover {
+    transform: scale(1.01) translateY(-4px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Job Experience */
+.job-experience-card__wolt:hover {
+    color: #00C2E8;
+    text-decoration: none;
+}
+
+.job-experience-card__show-description-button-title {
+    margin-bottom: 0;
+}
+
+.job-experience-card__show-description-button {
+    background-color: #00C2E8;
+    border: 0;
+    color: white;
+    padding: 6px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.job-experience-card__show-description-button:hover {
+    background-color: rgb(2, 210, 251);
+}
+
+.job-experience-card__show-description-button:active {
+    background-color: #02b6da;
+}
+
+.job-experience-card__description-content {
+    display: none;
+    text-align: left;
+}
+
+
+
+/* Education */
+.education-card__chikuzen-high-school:hover {
+    color: #8D092D;
+}
+
+
+
+/* Hobbies */
+.hobbies-card__hobby-name {
+    font-weight: bold;
+}
+
+
+
+/* Contact */
+.contact-card {
+    background-color: rgb(54, 63, 73);
+    color: rgb(250, 245, 260);
+    margin: 0;
+    padding-top: 0.2px;
+    /* padding-bottom: 5%; */
+    padding-bottom: 2%;
+}
+
+.contact-card__title {
+    color: rgb(230, 232, 236);
+    margin-top: 50px;
+}
+
+.contact-card__inquiry-form input {
+    padding: 9px 1% 9px 10px;
+    width: 45%;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    border-color: grey;
+    background-color: rgb(238, 238, 238);
+}
+
+.contact-card__inquiry-form textarea {
+    padding: 12px 10px;
+    width: 70%;
+    height: 50%;
+
+    border-radius: 15px;
+    font-family: -apple-system, "system-ui", Roboto, "Segoe UI", Arimo, "Open Sans", sans-serif;
+    background-color: rgb(238, 238, 238);
+    margin-bottom: -10px;
+}
+
+.contact-card__inquiry-form button {
+    background-color: #00C2E8;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.contact-card__inquiry-form button:hover {
+    background-color: rgb(2, 210, 251);
+}
+
+.contact-card__inquiry-form button:active {
+    background-color: #02b6da;
+}
+
+.contact-card__contact-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.contact-card__contact-info__address,
+.contact-card__contact-info__phone-number,
+.contact-card__contact-info__email {
+    color: rgb(230, 232, 236);
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+
+
+/* Copy right */
+.copy-right-card {
+    background-color: rgb(54, 63, 73);
+    padding-bottom: 8px;
+    color: rgb(128, 128, 128);
+}

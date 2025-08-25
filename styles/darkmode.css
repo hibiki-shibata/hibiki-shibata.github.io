@@ -1,0 +1,119 @@
+:root {
+  --body-bg: linear-gradient(161deg, rgba(102, 165, 204, 1) 0%, rgba(79, 74, 99, 1) 100%);
+  --body-font-color: grey;
+  --title-card-bg-color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(26, 49, 146, 1) 0%, rgba(68, 151, 211, 1) 100%);
+  --title-card-font-color: white;
+
+  --control-bar-card__site-settings__darkmode-button-color: #232b4c;
+  --control-bar-card__site-settings__darkmode-button-color-hover: black;
+  --control-bar-card__social-icons__github-color: black;
+  --control-bar-card-bg-color: #3377a8;
+
+  --body-cards-box-shadows: 3px 2px 2px rgb(197, 203, 214);
+  --body-cards__titles-font-color: rgb(72, 87, 103);
+  --tech-expertise-card-bg-color: #f5f2db;
+  --job-experience-card-bg-color: #dbeef6;
+  --education-card-bg-color: rgb(236, 221, 246);
+  --language-skills-card-bg-color: rgb(254, 231, 195);
+  --hobbies-card-bg-color: rgb(250, 209, 222);
+}
+
+
+body.dark {
+  --body-bg: linear-gradient(152deg, rgba(1, 37, 115, 1) 0%, rgba(11, 1, 31, 1) 100%);
+  --body-font-color: rgb(232, 230, 230);
+  --title-card-bg-color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 32%, rgba(68, 151, 211, 1) 100%);
+  --title-card-font-color: white;
+
+  --control-bar-card__site-settings__darkmode-button-color: rgba(255, 255, 255, 0.807);
+  --control-bar-card__site-settings__darkmode-button-color-hover: white;
+  --control-bar-card__social-icons__github-color: white;
+  --control-bar-card-bg-color: #101052;
+
+  --body-cards-box-shadows: none;
+  --body-cards__titles-font-color: white;
+  --tech-expertise-card-bg-color: linear-gradient(152deg, rgba(44, 10, 112, 1) 0%, rgba(11, 1, 31, 1) 100%);
+  --tech-expertise-card__skill-icons__icon-bg-color: rgba(139, 139, 139, 0.323);
+  --job-experience-card-bg-color: linear-gradient(152deg, rgba(10, 66, 92, 1) 0%, rgba(2, 2, 38, 1) 100%);
+  --education-card-bg-color: linear-gradient(152deg, rgba(140, 124, 0, 1) 0%, rgba(2, 2, 38, 1) 100%);
+  --language-skills-card-bg-color: linear-gradient(152deg, rgba(0, 163, 122, 1) 0%, rgba(2, 2, 38, 1) 100%);
+  --hobbies-card-bg-color: linear-gradient(152deg, rgba(163, 0, 106, 1) 0%, rgba(2, 2, 38, 1) 100%);
+}
+
+
+body {
+  background: var(--body-bg);
+  color: var(--body-font-color);
+  transition: 0.4s;
+}
+
+.title-card {
+  background: var(--title-card-bg-color);
+  color: var(--title-card-font-color);
+}
+
+.control-bar-card {
+  background-color: var(--control-bar-card-bg-color);
+}
+
+.control-bar-card__site-settings__darkmode-title {
+  color: var(--control-bar-card__site-settings__darkmode-button-color);
+}
+
+.control-bar-card__site-settings__darkmode-svg {
+  fill: var(--control-bar-card__site-settings__darkmode-button-color);
+}
+
+.control-bar-card__site-settings__darkmode-svg:hover {
+  fill: var(--control-bar-card__site-settings__darkmode-button-color-hover);
+}
+
+.control-bar-card__social-icons__github path {
+  fill: var(--control-bar-card__social-icons__github-color);
+}
+
+.tech-expertise-card,
+.job-experience-card,
+.education-card,
+.language-skills-card,
+.hobbies-card {
+  box-shadow: var(--body-cards-box-shadows);
+}
+
+.tech-expertise-card__title,
+.job-experience-card__title,
+.education-card__title,
+.language-skills-card__title,
+.hobbies-card__title,
+.contact-card__title {
+  color: var(--body-cards__titles-font-color);
+}
+
+.tech-expertise-card {
+  background: var(--tech-expertise-card-bg-color);
+}
+
+.tech-expertise-card__skill-icons__icon {
+  background-color: var(--tech-expertise-card__skill-icons__icon-bg-color);
+}
+
+.job-experience-card {
+  background: var(--job-experience-card-bg-color);
+}
+
+.job-experience-card__wolt,
+.education-card__chikuzen-high-school {
+  color: var(--body-font-color);
+}
+
+.education-card {
+  background: var(--education-card-bg-color);
+}
+
+.language-skills-card {
+  background: var(--language-skills-card-bg-color);
+}
+
+.hobbies-card {
+  background: var(--hobbies-card-bg-color);
+}

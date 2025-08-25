@@ -2,7 +2,7 @@
 
 let currentLang = 'fr';
 
-const toggleButtons = document.getElementById("changeLanguageIcon");
+const toggleButtons = document.getElementById("control-bar-card__site-settings__language-svg");
 
 const translations = {
   en: {
@@ -181,26 +181,27 @@ const translations = {
 
 
 
-
-
-
 function setLanguage(lang) {
 
+<<<<<<< HEAD:scripts/ui/translation.js
+  const elements = document.querySelectorAll('[data-i18n]')
+=======
   const elements = document.querySelectorAll('[data-i18n]');
   console.log(elements)
 
+>>>>>>> 0fa7c7c83945c10cdc07bf37e6107d0c36e3b802:jsfiles/translation.js
   elements.forEach(el => {
-    const key = el.getAttribute('data-i18n');
+    const key = el.getAttribute('data-i18n')
 
     if (translations[lang][key]) {
       if (el.placeholder !== undefined) {
-        el.placeholder = translations[lang][key];
+        el.placeholder = translations[lang][key]
       } else {
-        el.textContent = translations[lang][key];
+        el.textContent = translations[lang][key]
       }
     }
   }
-  );
+  )
 }
 
 
@@ -208,15 +209,10 @@ function setLanguage(lang) {
 toggleButtons.addEventListener("click", () => {
   try {
     setLanguage(currentLang)
-
     currentLang = currentLang === 'en' ? 'fr' : 'en';
-
-
     console.log(currentLang)
-
   } catch (e) {
     console.log(e)
   }
 }
-);
-
+)
