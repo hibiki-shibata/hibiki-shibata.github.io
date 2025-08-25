@@ -72,6 +72,8 @@ body {
   fill: var(--control-bar-card__social-icons__github-color);
 }
 
+
+
 .tech-expertise-card,
 .job-experience-card,
 .education-card,
@@ -84,8 +86,7 @@ body {
 .job-experience-card__title,
 .education-card__title,
 .language-skills-card__title,
-.hobbies-card__title,
-.contact-card__title {
+.hobbies-card__title {
   color: var(--body-cards__titles-font-color);
 }
 
