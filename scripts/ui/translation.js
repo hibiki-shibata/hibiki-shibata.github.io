@@ -183,13 +183,8 @@ const translations = {
 
 function setLanguage(lang) {
 
-<<<<<<< HEAD:scripts/ui/translation.js
   const elements = document.querySelectorAll('[data-i18n]')
-=======
-  const elements = document.querySelectorAll('[data-i18n]');
-  console.log(elements)
 
->>>>>>> 0fa7c7c83945c10cdc07bf37e6107d0c36e3b802:jsfiles/translation.js
   elements.forEach(el => {
     const key = el.getAttribute('data-i18n')
 
