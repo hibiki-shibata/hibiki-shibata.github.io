@@ -1,0 +1,136 @@
+:root {
+  /* --body-bg: linear-gradient(87deg,rgba(140, 207, 255, 1) 0%, rgba(255, 191, 232, 1) 100%); */
+  --body-bg: linear-gradient(161deg, rgba(102, 165, 204, 1) 0%, rgba(79, 74, 99, 1) 100%);
+
+  --body-font-color: grey;
+  /* --titleName-bg-color: #4497d3; */
+  --titleName-bg-color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(26, 49, 146, 1) 0%, rgba(68, 151, 211, 1) 100%);
+  --titleName-font-color: white;
+  --github-icon-color: black;
+  --socialMediaIcons-bg-color: #3377a8;
+  --div-box-shadows: 3px 2px 2px rgb(197, 203, 214);
+  --techExpertiseDivs-bg-color: #f5f2db;
+  --experiencesDivs-bg-color: #dbeef6;
+  --educationsDivs-bg-color: rgb(236, 221, 246);
+  --languagesDivs-bg-color: rgb(254, 231, 195);
+  --hobbiesDivs-bg-color: rgb(250, 209, 222);
+  --subTitles-font-color: rgb(72, 87, 103);
+  --darkModeButton-colort: #232b4c;
+  --darkModeButton-colort-hover: black;
+}
+
+
+body {
+  /* background-color: rgb(94, 172, 232); */
+  background: var(--body-bg);
+  color: var(--body-font-color);
+  transition: 0.4s;
+
+
+}
+
+body.dark {
+  --body-bg: linear-gradient(152deg, rgba(1, 37, 115, 1) 0%, rgba(11, 1, 31, 1) 100%);
+  /* --skillIcons-bg-color: rgba(255, 255, 255, 0.323); */
+  --titleName-bg-color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 32%, rgba(68, 151, 211, 1) 100%);
+  --titleName-font-color: white;
+  --github-icon-color: white;
+  --skillIcons-bg-color: rgba(139, 139, 139, 0.323);
+  --socialMediaIcons-bg-color: #101052;
+  --techExpertiseDivs-bg-color: linear-gradient(152deg, rgba(44, 10, 112, 1) 0%, rgba(11, 1, 31, 1) 100%);
+  --experiencesDivs-bg-color: linear-gradient(152deg, rgba(10, 66, 92, 1) 0%, rgba(2, 2, 38, 1) 100%);
+  --educationsDivs-bg-color: linear-gradient(152deg, rgba(140, 124, 0, 1) 0%, rgba(2, 2, 38, 1) 100%);
+  --languagesDivs-bg-color: linear-gradient(152deg, rgba(0, 163, 122, 1) 0%, rgba(2, 2, 38, 1) 100%);
+  --hobbiesDivs-bg-color: linear-gradient(152deg, rgba(163, 0, 106, 1) 0%, rgba(2, 2, 38, 1) 100%);
+  --body-font-color: rgb(232, 230, 230);
+  --subTitles-font-color: white;
+  --darkModeButton-colort: rgba(255, 255, 255, 0.807);
+  --darkModeButton-colort-hover: white;
+  --div-box-shadows: none;
+}
+
+
+.titleNameDiv {
+  /* background-color: var(--titleName-bg-color); */
+  background: var(--titleName-bg-color);
+  color: var(--titleName-font-color);
+}
+
+
+
+.buttonsOf-menu-social-siteSettings {
+  background-color: var(--socialMediaIcons-bg-color);
+  transition: 0.4s;
+}
+
+
+
+.skillIcons {
+  background-color: var(--skillIcons-bg-color);
+}
+
+
+.githubInButton path {
+  fill: var(--github-icon-color);
+  transition: 0.4s;
+}
+
+
+.techExpertiseDivs,
+.experiencesDivs,
+.educationsDivs,
+.languagesDivs,
+.hobbiesDivs,
+.inquiryFormDivs {
+  box-shadow: var(--div-box-shadows);
+}
+
+
+.techExpertiseDivs {
+  background: var(--techExpertiseDivs-bg-color);
+}
+
+
+.experiencesDivs {
+  background: var(--experiencesDivs-bg-color);
+}
+
+
+.experienceWoltTitleAndRef,
+.educationChikuzenTitleAndRef {
+  color: var(--body-font-color);
+}
+
+
+.educationsDivs {
+  background: var(--educationsDivs-bg-color);
+}
+
+
+.languagesDivs {
+  background: var(--languagesDivs-bg-color);
+}
+
+
+.hobbiesDivs {
+  /* background-color: rgb(250, 209, 222); */
+  background: var(--hobbiesDivs-bg-color);
+}
+
+
+.subTitles {
+  color: var(--subTitles-font-color);
+}
+
+.darkModeTitle {
+  color: var(--darkModeButton-colort);
+}
+
+
+.darkModeIcon {
+  fill: var(--darkModeButton-colort);
+}
+
+.darkModeIcon:hover {
+  fill: var(--darkModeButton-colort-hover);
+}
