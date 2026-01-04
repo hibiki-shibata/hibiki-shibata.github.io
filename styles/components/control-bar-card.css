@@ -58,6 +58,7 @@
 
 .control-bar-card__social-icons {
     display: flex;
+    flex-wrap: wrap;
     gap: 5px;;
 }
 
