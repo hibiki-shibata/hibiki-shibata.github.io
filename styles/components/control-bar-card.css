@@ -56,15 +56,13 @@
     background-color: #406e90;
 }
 
-
-
 .control-bar-card__social-icons {
     display: flex;
-    gap: 5px;
+    flex-wrap: wrap;
+    gap: 5px;;
 }
 
 .control-bar-card__social-icons__linkedin:hover path:first-of-type {
-    fill: #0165b1;
     transition: fill 0.3s ease;
 }
 
@@ -74,14 +72,14 @@
     transition: 0.3s;
 }
 
-.control-bar-card__social-icons__discord:hover path {
-    fill: #7289da;
-    transition: fill 0.3s ease;
-}
-
 .control-bar-card__social-icons__linkedin:hover,
 .control-bar-card__social-icons__github:hover,
-.control-bar-card__social-icons__discord:hover {
+.control-bar-card__social-icons__discord:hover,
+.control-bar-card__social-icons__twitter:hover,
+.control-bar-card__social-icons__instagram:hover,
+.control-bar-card__social-icons__facebook:hover,
+.control-bar-card__social-icons__youtube:hover,
+.control-bar-card__social-icons__twitch:hover {
     transition: 0.3s;
     transform: scale(1.1) translateY(-1.5px);
 }

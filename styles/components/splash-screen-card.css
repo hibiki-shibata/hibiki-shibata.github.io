@@ -85,7 +85,12 @@
 
  .control-bar-card__social-icons__linkedin,
  .control-bar-card__social-icons__github,
- .control-bar-card__social-icons__discord {
+ .control-bar-card__social-icons__discord,
+ .control-bar-card__social-icons__twitter,
+ .control-bar-card__social-icons__instagram,
+ .control-bar-card__social-icons__facebook,
+ .control-bar-card__social-icons__youtube,
+ .control-bar-card__social-icons__twitch {
      animation: jump 2.5s ease;
      animation-delay: 2.7s;
  }
