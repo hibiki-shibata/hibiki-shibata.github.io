@@ -9,20 +9,50 @@
     transition: 0.4s;
 }
 
+.mobile-only-control-bar-card {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+    padding-right: 20px;
+    padding-left: 20px;
+    transition: 0.4s;
+}
 
-.control-bar-card__menu-button {
-    /* left: 0%; */
+@media (max-width: 1000px) {
+    .control-bar-card__menu-button {
+        display: none;
+    }
+
+    .control-bar-card__site-settings {
+        display: none !important;
+    }
+
+    .mobile-only-control-bar-card {
+        display: flex !important;
+    }
+}
+
+.mobile-only-control-bar-card {
+    display: none;
+}
+
+.control-bar-card__menu-button,
+.mobile-only-control-bar-card__menu-button {
     padding: 7px;
     padding-bottom: 0;
     border-radius: 40px;
     border: 0;
 }
 
-.control-bar-card__menu-button:hover {
+.control-bar-card__menu-button:hover,
+.mobile-only-control-bar-card__menu-button:hover {
     background-color: #3b86bc;
 }
 
-.control-bar-card__menu-button:active {
+.control-bar-card__menu-button:active,
+.mobile-only-control-bar-card__menu-button:active {
     background-color: #3b86bcaf;
 }
 
@@ -61,7 +91,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 5px;;
+    gap: 5px;
+    ;
 }
 
 .control-bar-card__social-icons__linkedin:hover path:first-of-type {
@@ -86,7 +117,8 @@
     transform: scale(1.1) translateY(-1.5px);
 }
 
-.control-bar-card__site-settings {
+.control-bar-card__site-settings,
+.mobile-only-control-bar-card__site-settings {
     display: flex;
     justify-content: center;
     padding-top: 5px;
