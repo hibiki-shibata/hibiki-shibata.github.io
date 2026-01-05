@@ -1,6 +1,16 @@
 const toggleButton = document.getElementById("control-bar-card__site-settings__darkmode-svg");
+const mobileToggleButton = document.getElementById("mobile-only-control-bar-card__site-settings__darkmode-svg");
 
 toggleButton.addEventListener("click", () => {
+    toggleDarkMode();
+}
+)
+mobileToggleButton.addEventListener("click", () => {
+    toggleDarkMode();
+})
+
+
+function toggleDarkMode() {
     try {
         document.body.classList.toggle("dark");
         if (document.body.classList.contains("dark")) {
@@ -14,7 +24,7 @@ toggleButton.addEventListener("click", () => {
         console.log(e)
     }
 }
-)
+
 
 function changeButtonTitle(isDarkMode) {
     const buttonTitle = document.getElementById('control-bar-card__site-settings__darkmode-title')

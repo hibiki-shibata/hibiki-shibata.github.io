@@ -3,6 +3,7 @@
 let currentLang = 'fr';
 
 const toggleButtons = document.getElementById("control-bar-card__site-settings__language-svg");
+const mobileToggleButtons = document.getElementById("mobile-only-control-bar-card__site-settings__language-svg");
 
 const translations = {
   en: {
@@ -199,9 +200,7 @@ function setLanguage(lang) {
   )
 }
 
-
-
-toggleButtons.addEventListener("click", () => {
+function toggleLanguage() {
   try {
     setLanguage(currentLang)
     currentLang = currentLang === 'en' ? 'fr' : 'en';
@@ -209,5 +208,14 @@ toggleButtons.addEventListener("click", () => {
   } catch (e) {
     console.log(e)
   }
+}
+
+toggleButtons.addEventListener("click", () => {
+  toggleLanguage();
+}
+)
+
+mobileToggleButtons.addEventListener("click", () => {
++  toggleLanguage();
 }
 )
