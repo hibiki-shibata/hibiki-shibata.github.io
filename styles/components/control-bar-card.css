@@ -20,7 +20,10 @@
     transition: 0.4s;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 850px) {
+    .control-bar-card {
+        justify-content: center;
+    }
     .control-bar-card__menu-button {
         display: none;
     }
