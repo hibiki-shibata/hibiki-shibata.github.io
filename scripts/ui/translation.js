@@ -8,7 +8,7 @@ const mobileToggleButtons = document.getElementById("mobile-only-control-bar-car
 const translations = {
   en: {
     // currentPositionName: "Tech Support Engineer",
-    currentPositionName: "Technical Support Engineer",
+    currentPositionName: "Software Desiging Enthusiast",
     changeLanguageTitle: "Fr",
     techExpertiseTitle: "TECH EXPERTISE",
 
@@ -91,7 +91,7 @@ const translations = {
 
 
   fr: {
-    currentPositionName: "Ingénieur Support Technique",
+    currentPositionName: "Développeur De Logiciels",
     changeLanguageTitle: "En",
     techExpertiseTitle: "EXPERTISE TECHNIQUE",
 
