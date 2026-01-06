@@ -76,8 +76,8 @@ const translations = {
     hobbiesFood: "Passionate about discovering and enjoying a wide variety of international cuisines.",
     hobbiesWalkTitle: "Walking and Fitness: ",
     hobbiesWalk: "Regular walking and workouts are essential to maintaining my confidence, focus, and relaxation outside of work.",
-    hobbiesStudyTitle: "Language Learning: ",
-    hobbiesStudy: "Committed to continuous learning, particularly in French, to enhance communication with international partners.",
+    hobbiesStudyTitle: "Linguistic: ",
+    hobbiesStudy: "Committed to continuous learning, and looking to expand my perspectives through communication with diverse people.",
     contactAddress: "Address:",
     contactPhonenumber: "Tel:",
 
