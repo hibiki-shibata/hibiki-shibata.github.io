@@ -186,6 +186,7 @@
 
 .contact-card__contact-info {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
     font-size: 15px;

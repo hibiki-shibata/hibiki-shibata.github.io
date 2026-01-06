@@ -8,7 +8,7 @@ const mobileToggleButtons = document.getElementById("mobile-only-control-bar-car
 const translations = {
   en: {
     // currentPositionName: "Tech Support Engineer",
-    currentPositionName: "Technical Support Engineer",
+    currentPositionName: "Software Desiging Enthusiast",
     changeLanguageTitle: "Fr",
     techExpertiseTitle: "TECH EXPERTISE",
 
@@ -76,8 +76,8 @@ const translations = {
     hobbiesFood: "Passionate about discovering and enjoying a wide variety of international cuisines.",
     hobbiesWalkTitle: "Walking and Fitness: ",
     hobbiesWalk: "Regular walking and workouts are essential to maintaining my confidence, focus, and relaxation outside of work.",
-    hobbiesStudyTitle: "Language Learning: ",
-    hobbiesStudy: "Committed to continuous learning, particularly in French, to enhance communication with international partners.",
+    hobbiesStudyTitle: "Linguistic: ",
+    hobbiesStudy: "Committed to continuous learning, and looking to expand my perspectives through communication with diverse people.",
     contactAddress: "Address:",
     contactPhonenumber: "Tel:",
 
@@ -91,7 +91,7 @@ const translations = {
 
 
   fr: {
-    currentPositionName: "Ingénieur Support Technique",
+    currentPositionName: "Développeur De Logiciels",
     changeLanguageTitle: "En",
     techExpertiseTitle: "EXPERTISE TECHNIQUE",
 
