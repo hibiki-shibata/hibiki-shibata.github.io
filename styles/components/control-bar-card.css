@@ -114,7 +114,8 @@
 .control-bar-card__social-icons__instagram:hover,
 .control-bar-card__social-icons__facebook:hover,
 .control-bar-card__social-icons__youtube:hover,
-.control-bar-card__social-icons__twitch:hover {
+.control-bar-card__social-icons__twitch:hover,
+.control-bar-card__social-icons__tiktok:hover {
     transition: 0.3s;
     transform: scale(1.1) translateY(-1.5px);
 }
