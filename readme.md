@@ -1,6 +1,6 @@
-Visit my official website: https://hibiki-shibata.github.io
+### Source code of my [Official website](https://hibiki-shibata.github.io)✨
 
-1.  This is using Github page to host a website for free.
+1.  Hosting the website using Github page for free.
 
 
 <p align="center" border="none">
