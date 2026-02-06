@@ -1,4 +1,7 @@
-{/* <a class="control-bar-card__social-icons__twitter" href="https://x.com/hibiki_shibata" target="_blank">
+function twitterIcon() {
+    return (
+        <>
+            <a href="https://x.com/hibiki_shibata" target="_blank">
                 <svg width="64px" height="64px" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -9,4 +12,9 @@
                             fill="white"></path>
                     </g>
                 </svg>
-            </a> */}
+            </a>
+        </>
+    );
+}
+
+export default twitterIcon;

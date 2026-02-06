@@ -1,4 +1,7 @@
-{/* <a class="control-bar-card__social-icons__instagram" href="https://www.instagram.com/hibiki.shibata/"
+function instagramIcon() {
+    return (
+        <>
+            <a href="https://www.instagram.com/hibiki.shibata/"
                 target="_blank">
                 <svg width="64px" height="64px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -42,4 +45,9 @@
                         </defs>
                     </g>
                 </svg>
-            </a> */}
+            </a>
+        </>
+    )
+}
+
+export default instagramIcon

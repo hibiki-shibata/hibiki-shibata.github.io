@@ -1,4 +1,7 @@
-{/* <a class="control-bar-card__social-icons__youtube" href="https://www.youtube.com/@hibiki.shibata"
+function youtubeIcon() {
+    return (
+        <>
+            <a href="https://www.youtube.com/@hibiki.shibata"
                 target="_blank">
                 <svg width="64px" height="64px" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -10,4 +13,9 @@
                             fill="white"></path>
                     </g>
                 </svg>
-            </a> */}
+            </a>
+        </>
+    );
+}
+
+export default youtubeIcon;            

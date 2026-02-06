@@ -1,4 +1,7 @@
-{/* <a class="control-bar-card__social-icons__github" href="https://github.com/hibiki-shibata/" target="_blank">
+function githubIcon() {
+    return (
+        <>
+            <a href="https://github.com/hibiki-shibata/" target="_blank">
                 <svg width="64px" height="64px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -10,4 +13,9 @@
                         </path>
                     </g>
                 </svg>
-            </a> */}
+            </a>
+        </>
+    )
+}
+
+export default githubIcon

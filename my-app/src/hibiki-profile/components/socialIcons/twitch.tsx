@@ -1,14 +1,24 @@
-{/* <a class="control-bar-card__social-icons__twitch" href="https://www.twitch.tv/hibiki_shibata"
+function twitchIcon() {
+    return (
+        <>
+            <a href="https://www.twitch.tv/hibiki_shibata"
                 target="_blank">
                 <svg width="64px" height="64px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"
                     fill="#000000">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                     <g id="SVGRepo_iconCarrier">
-                        <circle cx="512" cy="512" r="512" style="fill:#9146ff"></circle>
+                        <circle cx="512" cy="512" r="512" ></circle>
+                        {/* <circle cx="512" cy="512" r="512" style="fill:#9146ff"></circle> */}
                         <path
                             d="M692.9 535 617 607h-76l-66.5 63v-63H389V337.2h303.9V535zM370 301.2l-95 89.9v323.8h114v89.9l95-89.9h76L730.9 553V301.2H370zM636 403h-38v107.9h38V403zm-142.5-.5h38v107.9h-38V402.5z"
-                            style="fill:#fff"></path>
+                        // style="fill:#fff"></path>
+                        ></path>
                     </g>
                 </svg>
-            </a> */}
+            </a>
+        </>
+    );
+}
+
+export default twitchIcon;
