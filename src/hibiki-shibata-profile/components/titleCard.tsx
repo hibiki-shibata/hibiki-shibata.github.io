@@ -30,10 +30,7 @@ function titleCard() {
                     <div aria-hidden="true"></div>
                 </div>
             </div>
-            < MenuBar />
-            < SplashScreenContainer />
-            
-
+            {/* < MenuBar />  */}
         </>
     )
 }
