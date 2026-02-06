@@ -1,3 +1,6 @@
+import MenuBar from './menuBarCard'
+import SplashScreenContainer from './splashScreenContainer'
+
 function titleCard() {
 
     return (
@@ -27,6 +30,9 @@ function titleCard() {
                     <div aria-hidden="true"></div>
                 </div>
             </div>
+            < MenuBar />
+            < SplashScreenContainer />
+            
 
         </>
     )
