@@ -1,6 +1,3 @@
-import MenuBar from './menuBarCard'
-import SplashScreenContainer from './splashScreenContainer'
-
 function titleCard() {
 
     return (
