@@ -1,8 +1,8 @@
 function titleCard() {
 
     return (
-        <>
-            <svg viewBox="0 0 1500 100">
+        <div className="bg-gradient-to-r from-blue-950 to-blue-400 justify-center py-10 text-2xl flex flex-col gap-10">
+            {/* <svg viewBox="0 0 1500 100">
                 <symbol id="s-text">
                     <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle">
                         Hibiki Shibata
@@ -13,7 +13,7 @@ function titleCard() {
                 <use ></use>
                 <use ></use>
                 <use ></use>
-            </svg>
+            </svg> */}
 
             <h1 >HIBIKI SHIBATA</h1>
 
@@ -28,7 +28,7 @@ function titleCard() {
                 </div>
             </div>
             {/* < MenuBar />  */}
-        </>
+        </div>
     )
 }
 
