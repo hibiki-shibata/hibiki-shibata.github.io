@@ -1,6 +1,6 @@
 import SiteSettingsCard from "./siteSettingsCard"
 
-function titleCard() {
+function titleNameCard() {
 
     return (
         <>
@@ -31,4 +31,4 @@ function titleCard() {
     )
 }
 
-export default titleCard
+export default titleNameCard
