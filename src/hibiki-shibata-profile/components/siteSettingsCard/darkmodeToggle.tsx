@@ -1,6 +1,6 @@
 function darkmodeToggle() {
     return (
-        <>
+        <div className="flex flex-col">
             <svg
                 // <svg class="control-bar-card__site-settings__darkmode-svg"
                 id="control-bar-card__site-settings__darkmode-svg" width="31px" height="31px" viewBox="0 0 48 48"
@@ -24,10 +24,11 @@ function darkmodeToggle() {
                     </g>
                 </g>
             </svg>
-            <div
+            <p
                 // <div class="control-bar-card__site-settings__darkmode-title"
-                id="control-bar-card__site-settings__darkmode-title">Dark</div>
-        </>
+                id="control-bar-card__site-settings__darkmode-title">Dark
+            </p>
+        </div>
     )
 }
 

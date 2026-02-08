@@ -1,6 +1,6 @@
 function languageToggle() {
     return (
-        <>
+        <div className="flex flex-col">
             <svg
                 // <svg class="control-bar-card__site-settings__language-svg"
                 id="control-bar-card__site-settings__language-svg" xmlns="http://www.w3.org/2000/svg"
@@ -14,9 +14,9 @@ function languageToggle() {
                     </path>
                 </g>
             </svg>
-            <div data-i18n="changeLanguageTitle">Fr</div>
+            <p>Fr</p>
             {/* <div class="control-bar-card__site-settings__language-title" data-i18n="changeLanguageTitle">Fr</div>z */}
-        </>
+        </div>
     )
 }
 

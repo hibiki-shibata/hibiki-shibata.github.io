@@ -1,4 +1,4 @@
-function menuBarCard() {
+function menuBar() {
     return (
         <>
             <div id="control-bar-card__menu-button">
@@ -11,7 +11,8 @@ function menuBarCard() {
                     </g>
                 </svg>
             </div>
-            <div id="control-bar-card__menu-side-bar">
+            {/* Need to fix later */}
+            <div className="hidden">
                 <a data-i18n="menuBarHome" href="#">HOME</a>
                 <a data-i18n="menuBarTechExpat" href="#tech-expertise-card">Tech Expert</a>
                 <a data-i18n="menuBarExperience" href="#job-experience-card">Experiences</a>
@@ -24,4 +25,4 @@ function menuBarCard() {
     )
 }
 
-export default menuBarCard
+export default menuBar
