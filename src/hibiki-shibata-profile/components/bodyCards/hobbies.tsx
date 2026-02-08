@@ -1,7 +1,7 @@
 function hobbies() {
     return (
         <>
-            <div className="bg-pink-900 p-5 rounded-2xl shadow-lg text-white">
+            <div className="bg-pink-900 p-5 rounded-2xl shadow-lg ">
                 {/* <div class="hobbies-card" id="hobbies-card"> */}
                 <h2 data-i18n="hobbiesTitle">HOBBIES</h2>
                 {/* <h2 class="hobbies-card__title" data-i18n="hobbiesTitle">HOBBIES</h2> */}

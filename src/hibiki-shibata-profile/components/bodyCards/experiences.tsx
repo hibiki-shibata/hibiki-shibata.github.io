@@ -2,7 +2,7 @@ function experiences() {
     return (
         <>
             {/* <div class="job-experience-card" id="job-experience-card"> */}
-            <div className="bg-sky-900 p-5 rounded-2xl shadow-lg text-white">
+            <div className="bg-sky-900 p-5 rounded-2xl shadow-lg ">
                 {/* <h2 class="job-experience-card__title" data-i18n="experiencesTitle">EXPERIENCES</h2> */}
                 <h2 data-i18n="experiencesTitle">EXPERIENCES</h2>
 
