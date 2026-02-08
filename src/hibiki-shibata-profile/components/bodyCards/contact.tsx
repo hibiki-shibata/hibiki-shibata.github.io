@@ -5,7 +5,7 @@ function ContactCard() {
     };
 
     return (
-        <div className="contact-card" id="contact-card">
+        <div className="bg-orange-800 p-5 rounded-2xl shadow-lg text-white">
             <h2 className="contact-card__title">CONTACT</h2>
 
             <form

@@ -1,10 +1,8 @@
-import SoftwareIcons from '../softwareIcons'
-
 function experiences() {
     return (
         <>
             {/* <div class="job-experience-card" id="job-experience-card"> */}
-            <div id="job-experience-card">
+            <div className="bg-sky-900 p-5 rounded-2xl shadow-lg text-white">
                 {/* <h2 class="job-experience-card__title" data-i18n="experiencesTitle">EXPERIENCES</h2> */}
                 <h2 data-i18n="experiencesTitle">EXPERIENCES</h2>
 
@@ -157,7 +155,6 @@ function experiences() {
                     ultimately
                     applying for and transitioning into a role where I could contribute using my technical skills.
                 </blockquote>
-                <SoftwareIcons />
             </div>
         </>
     )

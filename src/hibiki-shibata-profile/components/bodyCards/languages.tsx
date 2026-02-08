@@ -1,9 +1,9 @@
 function languages() {
     return (
         <>
-            <div id="language-skills-card">
+            <div className="bg-yellow-900 p-5 rounded-2xl shadow-lg text-white px-50">
                 {/* <div class="language-skills-card" id="language-skills-card"> */}
-                <h2 data-i18n="languageTitle">LANGUAGES</h2>
+                <h2 data-i18n="languageTitle">LANGUAGE</h2>
                 {/* <h2 class="language-skills-card__title" data-i18n="languageTitle">LANGUAGES</h2> */}
                 <ul >
                     {/* <ul style="font-weight: bold;"> */}

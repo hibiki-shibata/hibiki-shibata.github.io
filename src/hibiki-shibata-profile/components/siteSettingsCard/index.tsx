@@ -10,7 +10,7 @@ function siteSettingsCard() {
                 <div className="sm:flex hidden">
                     <MenuBar />
                 </div>
-                <div className="flex gap-3 flex-wrap">
+                <div className="flex gap-3 sm:flex-wrap ">
                     <SocialIcons />
                 </div>
                 <div className="sm:flex gap-2 hidden">

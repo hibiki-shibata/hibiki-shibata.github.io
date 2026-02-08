@@ -3,7 +3,7 @@ function educations() {
         <>
 
             {/* <div class="education-card" id="education-card"> */}
-            <div id="education-card">
+            <div className="bg-green-900 p-5 rounded-2xl shadow-lg text-white">
                 {/* <h2 class="education-card__title" data-i18n="educationTitle">EDUCATIONS</h2> */}
                 <h2 data-i18n="educationTitle">EDUCATIONS</h2>
 
