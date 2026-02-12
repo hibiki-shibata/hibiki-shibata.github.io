@@ -3,7 +3,7 @@ import SoftwareIcons from '../softwareIcons'
 function techExpertise() {
     return (
         <>
-            <div className="bg-red-900 p-5 rounded-2xl shadow-lg  px-50">
+            <div className="bg-red-900 p-5 rounded-2xl shadow-lg">
                 <h1 data-i18n="techExpertiseTitle">TECH EXPERTISE</h1>
                 <div className="flex flex-row items-center justify-center mt-5 gap-15">
                     <div>
