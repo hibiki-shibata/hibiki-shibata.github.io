@@ -6,24 +6,20 @@ function ContactCard() {
 
     return (
         <>
-            <h2 className="contact-card__title">CONTACT</h2>
-
             <form
-                className="contact-card__inquiry-form"
-                id="contact-card__inquiry-form"
-                onSubmit={handleSubmit}
-            >
+                onSubmit={handleSubmit}>
                 <input
+                    className="bg-gray-200 text-black rounded-lg w-3xl p-1"
                     type="text"
                     name="name"
                     placeholder="*Name"
                     data-i18n="formName"
-                    required
-                />
+                    required />
                 <br />
                 <br />
 
                 <input
+                    className="bg-gray-200 text-black rounded-lg w-3xl p-1"
                     type="email"
                     name="email"
                     placeholder="*Your Email Address"
@@ -34,12 +30,11 @@ function ContactCard() {
                 <br />
 
                 <textarea
+                    className="bg-gray-200 text-black rounded-lg w-5xl p-2"
                     name="message"
-                    // rows="8"                    
+                    rows={8}
                     placeholder="Write your inquiry here. You'll receive a response via email in 2~3 days."
-                    data-i18n="formTextArea"
-                    required
-                />
+                    required />
                 <br />
                 <br />
 
@@ -48,34 +43,26 @@ function ContactCard() {
                 </button>
             </form>
 
-            <div className="contact-card__contact-info">
+            <div className="flex gap-3 mt-5">
                 <div>
-                    <p className="contact-card__contact-info__address" data-i18n="contactAddress">
-                        Address:
-                    </p>
-                    <p>Tokyo, Japan</p>
+                    Address: Tokyo, Japan
                 </div>
 
                 <div>
-                    <p className="contact-card__contact-info__phone-number" data-i18n="contactPhonenumber">
-                        Tel:
-                    </p>
-                    <p>(+81)7089737939</p>
+                    Tel:(+81)7089737939
                 </div>
 
                 <div>
-                    <p className="contact-card__contact-info__email">Email:</p>
-                    <p>hibiki.shibata@wolt.com</p>
+                    Email: hibiki.shibata@wolt.com
                 </div>
 
                 <div>
-                    <p className="contact-card__contact-info__email">
+                    <p>
                         <a
                             href="https://hibiki-shibata.github.io/ride.driver.frontend/home"
                             target="_blank"
                             rel="noopener noreferrer"
-                            style={{ color: "white" }}
-                        >
+                            style={{ color: "white" }} >
                             Amazones (React portfolio)
                         </a>
                     </p>
