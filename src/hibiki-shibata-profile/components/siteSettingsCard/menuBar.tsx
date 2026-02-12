@@ -1,7 +1,11 @@
+import { useState } from 'react'
+
 function menuBar() {
+    const [isMenuOpen, setMenuOpen] = useState(false);
+
     return (
         <>
-            <div id="control-bar-card__menu-button">
+            <div onClick={() => setMenuOpen(!isMenuOpen)} className="cursor-pointer">
                 <svg width="26px" height="26px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -11,16 +15,18 @@ function menuBar() {
                     </g>
                 </svg>
             </div>
-            {/* Need to fix later */}
-            <div className="hidden">
-                <a data-i18n="menuBarHome" href="#">HOME</a>
-                <a data-i18n="menuBarTechExpat" href="#tech-expertise-card">Tech Expert</a>
-                <a data-i18n="menuBarExperience" href="#job-experience-card">Experiences</a>
-                <a data-i18n="menuBarEducation" href="#education-card">Educations</a>
-                <a data-i18n="menuBarLang" href="#language-skills-card">Languages</a>
-                <a data-i18n="menuBarHobby" href="#hobbies-card">Hobbies</a>
-                <a href="#contact-card">Contact</a>
-            </div>
+            {isMenuOpen && (
+                <div className="absolute left-0 top-0 bg-sky-900 flex flex-col gap-5 p-4 z-50 text-xl h-full text-white"
+                    onClick={() => setMenuOpen(false)}>
+                    <a href="#">HOME</a>
+                    <a href="#tech-expertise-card">Tech Expert</a>
+                    <a href="#job-experience-card">Experiences</a>
+                    <a href="#education-card">Educations</a>
+                    <a href="#language-skills-card">Languages</a>
+                    <a href="#hobbies-card">Hobbies</a>
+                    <a href="#contact-card">Contact</a>
+                </div>
+            )}
         </>
     )
 }
