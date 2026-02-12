@@ -22,7 +22,7 @@ function titleNameCard() {
             </svg> */}
                 <h1 >HIBIKI SHIBATA</h1>
 
-                <p data-i18n="currentPositionName">Enthusiast Of Desiging Softwares
+                <p>Enthusiast Of Desiging Softwares
                 </p>
                 {/* <img src="./assets/Kirbynasai-photoaidcom-cropped.png" alt="profile"> */}
             </div>

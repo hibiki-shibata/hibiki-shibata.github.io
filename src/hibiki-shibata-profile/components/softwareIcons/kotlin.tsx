@@ -2,11 +2,9 @@ function kotlin() {
     return (
         <>
             <a href="https://kotlinlang.org/" target="_blank">
-                {/* <div class="tech-expertise-card__skill-icons__icon"> */}
-                <div>
-                    {/* <div class="tech-expertise-card__skill-icons__icon"> */}
+
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
-                        viewBox="0 0 48 48">
+                        viewBox="0 0 48 48" className="bg-blue-950">
                         <polygon fill="#0d91d6" points="24,6 17.99,12.35 11.97,18.69 6,25 6,6"></polygon>
                         <polygon fill="#f88909"
                             points="24,6 23.96,6 17.97,12.33 11.96,18.68 6,24.97 6,25 6,25.09 6,42 14.69,33.31 20.87,27.13 27.06,20.94 33.25,14.75 42,6">
@@ -25,7 +23,6 @@ function kotlin() {
                         <polygon fill="#557bde" points="33.86,42 25.68,42 15.84,32.17 19.92,28.09"></polygon>
                         <polygon fill="#806ee3" points="42,42 33.86,42 19.92,28.09 24,24"></polygon>
                     </svg>
-                </div>
             </a>
         </>
     )
