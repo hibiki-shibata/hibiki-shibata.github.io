@@ -20,9 +20,9 @@ function menuBar() {
                     onClick={() => setMenuOpen(false)}>
                     <a href="#">HOME</a>
                     <a href="#tech-expertise-card">Tech Expert</a>
-                    <a href="#job-experience-card">Experiences</a>
-                    <a href="#education-card">Educations</a>
-                    <a href="#language-skills-card">Languages</a>
+                    <a href="#experiences-card">Experiences</a>
+                    <a href="#educations-card">Educations</a>
+                    <a href="#languages-card">Languages</a>
                     <a href="#hobbies-card">Hobbies</a>
                     <a href="#contact-card">Contact</a>
                 </div>

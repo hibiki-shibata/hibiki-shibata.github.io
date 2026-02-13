@@ -1,11 +1,11 @@
 function educations() {
     return (
         <>
-            <a href="https://chikuzen.fku.ed.jp/" target="_blank" >
+            <a href="https://chikuzen.fku.ed.jp/" target="_blank">
                 <h2 className="text-xl font-bold  text-white hover:text-blue-200 mb-5">
-                     Fukuoka Prefectural Chikuzen High School ( Fukuoka, Japan )
+                    Fukuoka Prefectural Chikuzen High School ( Fukuoka, Japan )
                     <h3>- General Diploma</h3>
-                <p>April 2018 - April 2021</p>
+                    <p>April 2018 - April 2021</p>
                 </h2>
             </a>
 
