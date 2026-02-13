@@ -64,7 +64,7 @@ function experiences() {
 
             <h3 className="m-4 font-bold text-xl">- Description -</h3>
             <button
-                className="mb-3 hover:underline"
+                className="mb-3"
                 onClick={() => setIsVisible(!isVisible)}>
                 {isVisible ? "Hide Description" : "Show Description"}
             </button>
