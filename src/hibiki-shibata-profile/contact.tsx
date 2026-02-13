@@ -5,11 +5,12 @@ function ContactCard() {
     };
 
     return (
-        <>
+        <div className="flex flex-col items-center py-20 bg-gray-900 text-white" id="contact-card">
+            <h2 className="text-3xl font-bold mb-6">CONTACT</h2>
             <form
                 onSubmit={handleSubmit}>
                 <input
-                    className="bg-gray-200 text-black rounded-lg w-3xl p-1"
+                    className="bg-gray-200 text-black rounded-lg w-xs lg:w-3xl p-1"
                     type="text"
                     name="name"
                     placeholder="*Name"
@@ -19,7 +20,7 @@ function ContactCard() {
                 <br />
 
                 <input
-                    className="bg-gray-200 text-black rounded-lg w-3xl p-1"
+                    className="bg-gray-200 text-black rounded-lg w-xs lg:w-3xl p-1"
                     type="email"
                     name="email"
                     placeholder="*Your Email Address"
@@ -30,7 +31,7 @@ function ContactCard() {
                 <br />
 
                 <textarea
-                    className="bg-gray-200 text-black rounded-lg w-5xl p-2"
+                    className="bg-gray-200 text-black rounded-lg w-sm lg:w-5xl p-2"
                     name="message"
                     rows={8}
                     placeholder="Write your inquiry here. You'll receive a response via email in 2~3 days."
@@ -43,7 +44,7 @@ function ContactCard() {
                 </button>
             </form>
 
-            <div className="flex gap-3 mt-5">
+            <div className="flex flex-wrap justify-center gap-3 mt-15">
                 <div>
                     Address: Tokyo, Japan
                 </div>
@@ -68,7 +69,7 @@ function ContactCard() {
                     </p>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

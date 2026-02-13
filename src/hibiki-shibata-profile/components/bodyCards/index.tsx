@@ -3,7 +3,7 @@ import Experiences from "./experiences";
 import Hobbies from "./hobbies";
 import Education from "./educations";
 import Languages from "./languages";
-import Contact from "./contact";
+import Contact from "../../contact";
 import BodyCardsFrame from "./bodyCardsFrame";
 
 function bodyCards() {
@@ -14,7 +14,7 @@ function bodyCards() {
             <BodyCardsFrame BodyCard={Education} title="EDUCATION" bgColor="bg-purple-900" />
             <BodyCardsFrame BodyCard={Languages} title="LANGUAGES" bgColor="bg-red-900" />
             <BodyCardsFrame BodyCard={Hobbies} title="HOBBIES" bgColor="bg-yellow-900" />
-            <BodyCardsFrame BodyCard={Contact} title="CONTACT" bgColor="bg-orange-900" />
+            {/* <BodyCardsFrame BodyCard={Contact} title="CONTACT" bgColor="bg-orange-900" /> */}
         </div>
     )
 }
