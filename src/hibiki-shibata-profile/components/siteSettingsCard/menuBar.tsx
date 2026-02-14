@@ -15,18 +15,26 @@ function menuBar() {
                     </g>
                 </svg>
             </div>
-            {isMenuOpen && (
-                <div className="absolute left-0 top-16 bg-sky-900 flex flex-col gap-5 p-4 z-50 text-xl text-white"
-                    onClick={() => setMenuOpen(false)}>
-                    <a href="#">HOME</a>
-                    <a href="#tech-expertise-card">Tech Expert</a>
-                    <a href="#experiences-card">Experiences</a>
-                    <a href="#educations-card">Educations</a>
-                    <a href="#languages-card">Languages</a>
-                    <a href="#hobbies-card">Hobbies</a>
-                    <a href="#contact-card">Contact</a>
-                </div>
-            )}
+            <div
+                className={`fixed top-0 left-0 h-full w-64 bg-sky-900 flex flex-col gap-5 p-4 z-50 text-xl
+          transition-transform duration-[200ms] ease-in-out
+          ${isMenuOpen ? "translate-x-0" : "-translate-x-full"}`}>
+                <a href="#">HOME</a>
+                <a href="#tech-expertise-card">Tech Expert</a>
+                <a href="#experiences-card">Experiences</a>
+                <a href="#educations-card">Educations</a>
+                <a href="#languages-card">Languages</a>
+                <a href="#hobbies-card">Hobbies</a>
+                <a href="#contact-card">Contact</a>
+
+                <button
+                    onClick={() => setMenuOpen(false)}
+                    className="bg-gray-500 rounded-lg active:bg-gray-400"
+                >
+                    X Close
+                </button>
+            </div>
+
         </>
     )
 }

@@ -5,11 +5,11 @@ import ContactCard from './contact'
 function hibikiProfile() {
 
     return (
-        <>
+        <div>
             <TitleNameCard />
             <BodyCards />
             <ContactCard />
-        </>
+        </div>
     )
 }
 
