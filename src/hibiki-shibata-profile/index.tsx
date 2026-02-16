@@ -1,15 +1,17 @@
 import TitleNameCard from './components/titleNameCard'
 import BodyCards from './components/bodyCards'
-import ContactCard from './contact'
+import ContactCard from './components/contactCard'
+import SplashScreen from './components/splashScreenCard'
 
 function hibikiProfile() {
 
     return (
-        <div>
+        <>
             <TitleNameCard />
+            <SplashScreen />
             <BodyCards />
             <ContactCard />
-        </div>
+        </>
     )
 }
 

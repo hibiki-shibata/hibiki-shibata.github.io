@@ -1,8 +1,20 @@
-function splashScreenContainer() {
+import { useEffect, useState } from 'react';
 
+function splashScreenContainer() {
+    const [isVisible, setIsVisible] = useState(true)
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setIsVisible(false);
+        }, 1000);
+
+        return () => clearTimeout(timer);
+    }, [])
     return (
         <>
-            <div >
+            <div className={`absolute bg-sky-400 p-10 text-xl font-bold flex flex-col rounded-lg left-1/2 transform -translate-x-1/2 transition-all duration-700 ease-in-out
+                ${isVisible ? "top-1/2 -translate-y-1/2 opacity-100" : "-top-full opacity-0"}`}
+            >
                 <h2>Welcome back to Hibiki's Official</h2>
                 <p>~ I'm happy to be connected witn you ~</p>
 
