@@ -1,11 +1,11 @@
-name: Validate Data
+name: Prepare for deployment
 
 on:
   push:    
   pull_request:
 
 jobs:
-  bulding-workflow:
+  prepare-for-deployment:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
