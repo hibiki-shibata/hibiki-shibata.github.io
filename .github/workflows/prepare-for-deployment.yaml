@@ -1,10 +1,8 @@
 name: Prepare for deployment
 
 on:
-  push:
-    branches:
-      - "*"
-      - "!main"
+  pull_request:
+    types: [opened, synchronize, reopened]
 
 jobs:
   prepare-for-deployment:
