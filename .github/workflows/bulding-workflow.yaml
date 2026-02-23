@@ -1,8 +1,8 @@
 name: Validate Data
 
 on:
-  push:    
-  pull_request:
+  push:
+    [main]
 
 jobs:
   bulding-workflow:
