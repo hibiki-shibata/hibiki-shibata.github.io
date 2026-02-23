@@ -1,14 +1,31 @@
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 function ContactCard() {
-    const handleSubmit = (e: any) => {
+    const form = useRef<HTMLFormElement>(null);
+
+    const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        // handle form submission here
-    };
+
+        if (form.current) {
+            emailjs.sendForm('service_638tkkh', 'template_75qb1he', form.current, {
+                publicKey: '7WDvLgcRJ6PFV4dsO',
+            }).then(() => {
+                alert('Your message has been sent successfully!')
+                // Blank the form after successful submission
+                if (form.current) form.current.reset()
+            }, (error) => {
+                console.log('FAILED...', error.text)
+            })
+        } else {
+            console.log('Form reference is null.')
+        }
+    }
 
     return (
         <div className="flex flex-col items-center py-20 bg-gray-900 text-white" id="contact-card">
             <h2 className="text-3xl font-bold mb-6">CONTACT</h2>
-            <form
-                onSubmit={handleSubmit}>
+            <form ref={form} onSubmit={sendEmail}>
                 <input
                     className="bg-gray-200 text-black rounded-lg w-xs lg:w-3xl p-1"
                     type="text"
