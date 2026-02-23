@@ -21,36 +21,9 @@ jobs:
         run: npm run build
 
       - name: Commit and push changes
-        env:
-          COMMIT_MSG: "Prepare for deployment"
         run: |
-          # determine target branch:
-          if [ -n "${GITHUB_HEAD_REF}" ]; then
-            # for pull_request events
-            BRANCH="${GITHUB_HEAD_REF}"
-          else
-            # for push events GITHUB_REF looks like refs/heads/<branch>
-            BRANCH="${GITHUB_REF#refs/heads/}"
-          fi
-          echo "Target branch: $BRANCH"
-
-          # ensure we have a branch ref locally (avoid detached HEAD)
-          # if git shows an empty current branch, create it at HEAD
-          if [ -z "$(git rev-parse --abbrev-ref HEAD 2>/dev/null | grep -v HEAD || true)" ] || [ "$(git rev-parse --abbrev-ref HEAD)" = "HEAD" ]; then
-            echo "Creating local branch $BRANCH from current HEAD"
-            git switch -c "$BRANCH"
-          fi
-
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          git add -A
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
-
-          git commit -m "$COMMIT_MSG"
-
-          # push: use full refspec to avoid ambiguous ref errors
-          git push origin "HEAD:refs/heads/$BRANCH"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "username@users.noreply.github.com"
+          git add .
+          git commit -m "Prepare for deployment" || echo "No changes to commit"
+          git push origin HEAD || echo "No changes to push"
