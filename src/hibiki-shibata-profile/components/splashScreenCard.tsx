@@ -12,7 +12,7 @@ function splashScreenContainer() {
     }, [])
     return (
         <>
-            <div className={`absolute bg-sky-400 p-10 text-xl font-bold flex flex-col rounded-lg left-1/2 transform -translate-x-1/2 transition-all duration-700 ease-in-out
+            <div className={`absolute bg-sky-400 p-10 text-3xl font-bold flex flex-col rounded-xl left-1/2 -translate-x-1/2 duration-700 ease-in-out
                 ${isVisible ? "top-1/2 -translate-y-1/2 opacity-100" : "-top-full opacity-0"}`}
             >
                 <h2>Welcome back to Hibiki's Official</h2>

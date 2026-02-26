@@ -6,7 +6,7 @@ function experiences() {
         <>
             <a href="https://wolt.com/" target="_blank">
                 <h2 className="text-xl font-bold  text-white hover:text-blue-200 mb-5">
-                    Wolt / DoorDash ( Tokyo, Japan ) - Tech Support Engineer
+                    Wolt / DoorDash ( Tokyo, Japan ) - Tech Support Specialist
                     <p>March 2022 - Present ( 3 years )</p>
                 </h2>
             </a>
