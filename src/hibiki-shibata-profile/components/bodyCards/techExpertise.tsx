@@ -5,7 +5,7 @@ function techExpertise() {
         <>
             <div className="flex flex-row items-center justify-center gap-15">
                 <div>
-                    <h2 className='text-2xl font-bold mb-3'>Experienced</h2>
+                    <h2 className='text-2xl font-bold mb-3'>Used</h2>
                     <ul className="list-disc font-base">
                         <li>Kotlin </li>
                         <li>Javascript</li>
@@ -19,7 +19,7 @@ function techExpertise() {
                     </ul>
                 </div>
                 <div className="flex flex-col">
-                    <h2 className='text-2xl font-bold mb-3'>Basic level</h2>
+                    <h2 className='text-2xl font-bold mb-3'>Elementary</h2>
                     <ul className="list-disc">
                         <li>Java </li>
                         <li>Go</li>
