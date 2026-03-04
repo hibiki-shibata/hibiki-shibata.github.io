@@ -29,8 +29,7 @@ function menuBar() {
 
                 <button
                     onClick={() => setMenuOpen(false)}
-                    className="bg-gray-500 rounded-lg active:bg-gray-400"
-                >
+                    className="bg-gray-500 rounded-lg active:bg-gray-400 mt-auto ">
                     X Close
                 </button>
             </div>
