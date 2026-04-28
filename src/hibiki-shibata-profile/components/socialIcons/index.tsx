@@ -8,6 +8,7 @@ import TiktokIcon from './tiktok'
 import YoutubeIcon from './youtube'
 import DiscordIcon from './discord'
 import TwitchIcon from './twitch'
+import SnapChatIcon from './snapchat'
 
 function socoalIcons() {
     return (
@@ -22,6 +23,7 @@ function socoalIcons() {
             <YoutubeIcon />
             <DiscordIcon />
             <TwitchIcon />
+            <SnapChatIcon />
         </>
     )
 }
