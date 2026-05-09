@@ -9,11 +9,13 @@ import YoutubeIcon from './youtube'
 import DiscordIcon from './discord'
 import TwitchIcon from './twitch'
 import SnapChatIcon from './snapchat'
+import GitlabIcon from './gitlab'
 
 function socoalIcons() {
     return (
         <>
             <GithubIcon />
+            <GitlabIcon />
             <LinkedinIcon />
             <TwitterIcon />
             <FacebookIcon />

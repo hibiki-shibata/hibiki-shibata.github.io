@@ -6,9 +6,8 @@ function twitchIcon() {
             rel="noreferrer"
         >
             <svg
-                width="59px"
-                height="59px"
-                viewBox="0 -50 1020 1070"
+                width="64px" height="64px" 
+                viewBox="-90 0 1150 1050"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="#000000"
             >
