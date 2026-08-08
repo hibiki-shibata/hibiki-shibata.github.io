@@ -1,42 +1,49 @@
 import SoftwareIcons from '../softwareIcons'
 
+const PROFICIENT = ["Kotlin", "JavaScript", "TypeScript", "Python", "HTML", "CSS", "Git", "Docker / Rancher", "PostgreSQL"]
+const FAMILIAR = ["Java", "Go", "Redis", "React JS", "Apache Kafka", "MongoDB", "Kubernetes", "AWS", "GCP"]
+
 function techExpertise() {
     return (
-        <>
-            <div className="flex flex-row items-center justify-center gap-15">
+        <div className="flex flex-col gap-8">
+            <div className="grid sm:grid-cols-2 gap-8 text-left">
                 <div>
-                    <h2 className='text-2xl font-bold mb-3'>Used</h2>
-                    <ul className="list-disc font-base">
-                        <li>Kotlin </li>
-                        <li>Javascript</li>
-                        <li>Typescript </li>
-                        <li>Python</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Git</li>
-                        <li>Docker / Rancher</li>
-                        <li>PostgreSQL</li>
-                    </ul>
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="h-2 w-2 rounded-full bg-blue-300" />
+                        <h3 className="text-sm font-bold tracking-widest text-blue-100">PROFICIENT</h3>
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                        {PROFICIENT.map((skill) => (
+                            <span
+                                key={skill}
+                                className="px-3 py-1 text-sm rounded-full bg-blue-800/60 border border-blue-500/40 text-blue-50"
+                            >
+                                {skill}
+                            </span>
+                        ))}
+                    </div>
                 </div>
-                <div className="flex flex-col">
-                    <h2 className='text-2xl font-bold mb-3'>Elementary</h2>
-                    <ul className="list-disc">
-                        <li>Java </li>
-                        <li>Go</li>
-                        <li>Redis</li>
-                        <li>React JS </li>
-                        <li>Apache Kafka</li>
-                        <li>Mongo DB</li>
-                        <li>Kubernetes</li>
-                        <li>AWS</li>
-                        <li>GCP</li>
-                    </ul>
+                <div>
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="h-2 w-2 rounded-full bg-blue-300/40" />
+                        <h3 className="text-sm font-bold tracking-widest text-blue-200/70">FAMILIAR</h3>
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                        {FAMILIAR.map((skill) => (
+                            <span
+                                key={skill}
+                                className="px-3 py-1 text-sm rounded-full bg-blue-950/60 border border-blue-700/40 text-blue-200/80"
+                            >
+                                {skill}
+                            </span>
+                        ))}
+                    </div>
                 </div>
             </div>
-            <div className='flex flex-wrap justify-center gap-2 px-5 mt-5'>
+            <div className="flex flex-wrap justify-center gap-3 pt-6 border-t border-blue-700/30">
                 <SoftwareIcons />
             </div>
-        </>
+        </div>
     )
 }
 

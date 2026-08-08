@@ -1,18 +1,17 @@
 import SiteSettingsCard from "./siteSettingsCard"
 
 function titleNameCard() {
-
     return (
         <>
-            <div>
-                <SiteSettingsCard />
-            </div>
-            <div className="bg-gradient-to-r from-blue-950 to-blue-400 justify-center py-10 text-2xl flex flex-col gap-10">
-                <h1 >HIBIKI SHIBATA</h1>
-                <p>Enthusiast Of Softwares Designs
+            <SiteSettingsCard />
+            <div className="bg-gradient-to-br from-blue-950 via-blue-800 to-blue-400 py-16 sm:py-24 px-6 flex flex-col items-center gap-4 text-center">
+                <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-white">
+                    HIBIKI SHIBATA
+                </h1>
+                <p className="text-base sm:text-lg text-blue-100/80 font-light tracking-wide">
+                    Enthusiast of Software Design
                 </p>
             </div>
-
         </>
     )
 }
