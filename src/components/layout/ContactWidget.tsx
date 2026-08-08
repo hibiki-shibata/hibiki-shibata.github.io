@@ -80,7 +80,7 @@ export default function ContactWidget() {
                 <MessageCircle size={16} />
               </div>
               <div>
-                <h2 className="text-sm font-semibold text-slate-100">Inquiry Chat</h2>
+                <h2 className="text-sm font-semibold text-slate-100">Inquiry</h2>
                 <p className="text-[11px] text-slate-500">Replies by email · 2-3 days</p>
               </div>
             </div>

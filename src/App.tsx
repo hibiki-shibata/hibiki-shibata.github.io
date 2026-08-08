@@ -17,10 +17,6 @@ import Socials from "./components/sections/Socials";
 export default function App() {
   return (
     <div style={{ background: colors.bg, color: colors.text, fontFamily: "'Inter', sans-serif" }} >
-      <style>{`
-        @keyframes blink { 50% { opacity: 0; } }             
-      `}</style>
-
 
       <Nav />
       <header className="max-w-5xl mx-auto px-6 pt-16 grid md:grid-cols-2 gap-10 items-center card-shine-effect">
