@@ -9,6 +9,7 @@ import Educations from "./components/sections/Educations";
 import Languages from "./components/sections/Languages";
 import Hobbies from "./components/sections/Hobbies";
 import Footer from "./components/layout/Footer";
+import ContactWidget from "./components/layout/ContactWidget";
 
 const FONT_IMPORT = `@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap');`;
 
@@ -60,6 +61,7 @@ export default function App() {
 
       {/* Footer / Contact */}
       <Footer />
+      <ContactWidget />
     </div>
   );
 }

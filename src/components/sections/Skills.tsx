@@ -36,9 +36,9 @@ export default function Skills() {
                 <Reveal><SkillGroup title="Proficient" note="Daily driver, production-tested" dotColor={colors.accent}
                     items={['TypeScript', 'JavaScript', 'HTML', 'CSS', 'Git', 'Docker / Rancher', 'PostgreSQL']} /></Reveal>
                 <Reveal delay={80}><SkillGroup title="Shipped in projects" note="Used to build and deploy double.backend / ride-app" dotColor={colors.accent3}
-                    items={['React', 'Redis', 'Kubernetes', 'GCP', 'AWS']} /></Reveal>
+                    items={['React(Vite x Tailwind)', 'Redis', 'Kubernetes', 'GCP']} /></Reveal>
                 <Reveal delay={160}><SkillGroup title="Building fluency" note="Actively learning" dotColor={colors.accent2}
-                    items={['Kotlin', 'Python']} /></Reveal>
+                    items={['Kotlin', 'Python', 'AWS']} /></Reveal>
             </div>
         </>
     )
