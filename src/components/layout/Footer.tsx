@@ -7,7 +7,9 @@ export default function Footer() {
             <div className="max-w-5xl mx-auto px-6 py-12 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
                 <div>
                     <div className="text-sm mb-1" style={{ fontFamily: "'JetBrains Mono', monospace", color: colors.accent }}>$ contact --send</div>
-                    <p className="text-sm" style={{ color: colors.muted }}>Open to software developer roles. Open to relocation !</p>
+                    {/* <p className="text-sm" style={{ color: colors.muted }}>Open to software developer roles. Open to relocation !</p> */}
+                    <p className="text-sm" style={{ color: colors.muted }}>Tel: (+81)7089737939</p>
+                    <p className="text-sm" style={{ color: colors.muted }}>Please use this number only if inquiry chat in the right bottom didn't work:)</p>
                 </div>
                 <div className="flex gap-3">
                     <a href="https://github.com/hibiki-shibata" target="_blank" rel="noreferrer"

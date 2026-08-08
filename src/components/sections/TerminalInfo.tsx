@@ -6,7 +6,7 @@ export default function TerminalInfo() {
         { p: '$ whoami', o: 'hibiki_shibata' },
         { p: '$ role --current', o: 'Technical Support Specialist, Wolt \u2192 transitioning to Backend Engineering' },
         { p: '$ location', o: 'Tokyo, Japan' },
-        { p: '$ contact --list', o: 'github.com/hibiki-shibata' },
+        { p: '$ contact --list', o: 'linkedin.com/in/hibiki-shibata' },
     ];
     const [shown, setShown] = useState(0);
     const [charCount, setCharCount] = useState(0);

@@ -1,6 +1,6 @@
 import { colors } from "../../data/colors";
 
-const navItems = ['Skills', 'Experience', 'Projects', 'Education', 'Contact'];
+const navItems = ['Socials', 'Skills', 'Experience', 'Projects', 'Education', 'Hobies'];
 
 export default function Nav() {
     return (
@@ -10,7 +10,7 @@ export default function Nav() {
         >
             <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
                 <span className="text-sm font-semibold" style={{ fontFamily: "'JetBrains Mono', monospace", color: colors.accent }}>
-                    HIBIKI.SYS
+                    HIBIKI.PROFILE
                 </span>
                 <div className="hidden sm:flex gap-6 text-sm" style={{ color: colors.muted }}>
                     {navItems.map((n) => (

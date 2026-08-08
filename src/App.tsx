@@ -10,6 +10,7 @@ import Languages from "./components/sections/Languages";
 import Hobbies from "./components/sections/Hobbies";
 import Footer from "./components/layout/Footer";
 import ContactWidget from "./components/layout/ContactWidget";
+import Socials from "./components/sections/Socials";
 
 const FONT_IMPORT = `@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap');`;
 
@@ -26,19 +27,20 @@ export default function App() {
       {/* Nav */}
       <Nav />
 
-      <header className="max-w-5xl mx-auto px-6 pt-16 pb-14 grid md:grid-cols-2 gap-10 items-center">
+      <header className="max-w-5xl mx-auto px-6 pt-16 grid md:grid-cols-2 gap-10 items-center">
         {/* Hero */}
         <Hero />
         {/* <Terminal_ /> */}
         <TerminalInfo />
       </header>
+        <Socials/>
 
       <section id="skills" className="max-w-5xl mx-auto px-6 py-14">
         {/* Skills */}
         <Skills />
       </section>
 
-      <section id="experience" className="max-w-5xl mx-auto px-6 py-14">
+      <section id="experience" className="max-w-5xl mx-auto px-6 py-15">
         {/* Experience */}
         <Experiences />
       </section>
@@ -55,7 +57,7 @@ export default function App() {
       </section>
 
       {/* Hobbies */}
-      <section id="projects" className="max-w-5xl mx-auto px-6 py-14">
+      <section id="hobies" className="max-w-5xl mx-auto px-6 py-14">
         <Hobbies />
       </section>
 
