@@ -4,7 +4,7 @@ import { colors } from "../../data/colors";
 export default function Footer() {
     return (
         <footer id="contact" className="border-t" style={{ borderColor: colors.border }}>
-            <div className="max-w-5xl mx-auto px-6 py-12 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+            <div className="max-w-5xl mx-auto px-6 py-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
                 <div>
                     <div className="text-sm mb-1" style={{ fontFamily: "'JetBrains Mono', monospace", color: colors.accent }}>$ contact --send</div>
                     {/* <p className="text-sm" style={{ color: colors.muted }}>Open to software developer roles. Open to relocation !</p> */}

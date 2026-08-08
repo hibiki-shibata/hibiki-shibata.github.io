@@ -12,6 +12,7 @@ import Twitch from "../svg/socialIcons/Twitch";
 import Twitter from "../svg/socialIcons/Twitter";
 import YouTube from "../svg/socialIcons/Youtube";
 import Eyebrow from "../ui/Eyebrow";
+import Reveal from "../ui/Reveal";
 
 type Social = {
     name: string;
@@ -97,30 +98,22 @@ const socials: Social[] = [
 
 export default function Socials() {
     return (
-        <section id="socials" className="pt-15 pb-21">
+        <Reveal>
             <div className="max-w-5xl mx-auto px-6">
 
                 {/* Heading */}
-                <div className="mb-10">
+                <div className="mb-8">
                     <Eyebrow>Connect</Eyebrow>
 
                     <h2
-                        className="text-3xl md:text-4xl font-semibold"
+                        className="text-2xl font-semibold"
                         style={{
                             fontFamily: "'Space Grotesk', sans-serif",
                             color: colors.text,
                         }}
                     >
-                        Find me online.
+                        Find me online
                     </h2>
-
-                    <p
-                        className="mt-3 max-w-lg text-sm leading-6"
-                        style={{ color: colors.muted }}
-                    >
-                        Connect with me across the platforms where I share
-                        projects, ideas, and updates.
-                    </p>
                 </div>
 
                 {/* Social cards */}
@@ -190,6 +183,6 @@ export default function Socials() {
                     })}
                 </div>
             </div>
-        </section>
+        </Reveal>
     );
 }

@@ -12,56 +12,63 @@ import Footer from "./components/layout/Footer";
 import ContactWidget from "./components/layout/ContactWidget";
 import Socials from "./components/sections/Socials";
 
-const FONT_IMPORT = `@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap');`;
+// const FONT_IMPORT = `@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap');`;
 
 export default function App() {
   return (
-    <div style={{ background: colors.bg, color: colors.text, fontFamily: "'Inter', sans-serif" }} className="min-h-screen w-full">
+    <div style={{ background: colors.bg, color: colors.text, fontFamily: "'Inter', sans-serif" }} className="relative min-h-screen overflow-hidden">
+
       <style>{`
-        ${FONT_IMPORT}
-        @keyframes blink { 50% { opacity: 0; } }
-        html { scroll-behavior: smooth; }
-        ::selection { background: ${colors.accent}; color: ${colors.bgAlt}; }
+        @keyframes blink { 50% { opacity: 0; } }                
       `}</style>
+      <div
+        className="
+                    pointer-events-none
+                    absolute
+                    z-0
+                    w-[200vw]
+                    h-[200vh]
+                    -top-[50vh]
+                    -left-[50vw]
+                    bg-gradient-to-br
+                    from-transparent
+                    via-white/[0.025]
+                    to-transparent
+                    animate-[background-shine_8s_ease-in-out_infinite_alternate]
+                "
+      />
 
-      {/* Nav */}
       <Nav />
-
-      <header className="max-w-5xl mx-auto px-6 pt-16 grid md:grid-cols-2 gap-10 items-center">
-        {/* Hero */}
+      <header className="max-w-5xl mx-auto px-6 pt-16 grid md:grid-cols-2 gap-10 items-center card-shine-effect">
         <Hero />
-        {/* <Terminal_ /> */}
         <TerminalInfo />
       </header>
-        <Socials/>
+
+      <section id="socials" className="pt-15 pb-21">
+        <Socials />
+      </section>
 
       <section id="skills" className="max-w-5xl mx-auto px-6 py-14">
-        {/* Skills */}
         <Skills />
       </section>
 
       <section id="experience" className="max-w-5xl mx-auto px-6 py-15">
-        {/* Experience */}
         <Experiences />
       </section>
 
       <section id="projects" className="max-w-5xl mx-auto px-6 py-14">
-        {/* Projects */}
         <Projects />
       </section>
 
       <section id="education" className="max-w-5xl mx-auto px-6 py-14 grid md:grid-cols-2 gap-5">
-        {/* Education + Languages */}
         <Educations />
         <Languages />
       </section>
 
-      {/* Hobbies */}
       <section id="hobies" className="max-w-5xl mx-auto px-6 py-14">
         <Hobbies />
       </section>
 
-      {/* Footer / Contact */}
       <Footer />
       <ContactWidget />
     </div>
