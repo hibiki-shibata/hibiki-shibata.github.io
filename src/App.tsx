@@ -16,27 +16,11 @@ import Socials from "./components/sections/Socials";
 
 export default function App() {
   return (
-    <div style={{ background: colors.bg, color: colors.text, fontFamily: "'Inter', sans-serif" }} className="relative min-h-screen overflow-hidden">
+    <div style={{ background: colors.bg, color: colors.text, fontFamily: "'Inter', sans-serif" }} >
 
       <style>{`
-        @keyframes blink { 50% { opacity: 0; } }                
+        @keyframes blink { 50% { opacity: 0; } }             
       `}</style>
-      <div
-        className="
-                    pointer-events-none
-                    absolute
-                    z-0
-                    w-[200vw]
-                    h-[200vh]
-                    -top-[50vh]
-                    -left-[50vw]
-                    bg-gradient-to-br
-                    from-transparent
-                    via-white/[0.025]
-                    to-transparent
-                    animate-[background-shine_8s_ease-in-out_infinite_alternate]
-                "
-      />
 
       <Nav />
       <header className="max-w-5xl mx-auto px-6 pt-16 grid md:grid-cols-2 gap-10 items-center card-shine-effect">
