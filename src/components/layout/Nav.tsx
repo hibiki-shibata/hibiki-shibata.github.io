@@ -5,7 +5,7 @@ const navItems = ['Socials', 'Skills', 'Experience', 'Projects', 'Education', 'H
 export default function Nav() {
     return (
         <nav
-            className="sticky top-0 z-20 backdrop-blur"
+            className="relative sticky top-0 z-20 backdrop-blur"
             style={{ background: `${colors.bg}E6`, borderBottom: `1px solid ${colors.border}` }}
         >
             <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
