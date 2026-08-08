@@ -2,5 +2,6 @@
 compile:
 	@echo "Compiling the project..."
 	npm run build
-	cp -r dist/* ~/hibiki-shibata.github.io/docs/
+# 	cp -r dist/* ~/hibiki-shibata.github.io/docs/
 	git add .
+	git commit -m "Compiled & Ready to Deploy"
