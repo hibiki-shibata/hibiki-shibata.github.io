@@ -9,7 +9,7 @@ export default function Footer() {
                     <div className="text-sm mb-1" style={{ fontFamily: "'JetBrains Mono', monospace", color: colors.accent }}>$ contact --send</div>
                     {/* <p className="text-sm" style={{ color: colors.muted }}>Open to software developer roles. Open to relocation !</p> */}
                     <p className="text-sm" style={{ color: colors.muted }}>Tel: (+81)7089737939</p>
-                    <p className="text-sm" style={{ color: colors.muted }}>Please use this number only if inquiry chat in the right bottom didn't work:)</p>
+                    <p className="text-sm" style={{ color: colors.muted }}>Caution: Please use the inquiry chat. I rarely pick up the calls.</p>
                 </div>
                 <div className="flex gap-3">
                     <a href="https://github.com/hibiki-shibata" target="_blank" rel="noreferrer"
@@ -23,6 +23,10 @@ export default function Footer() {
                         <ExternalLink size={16} /> Portfolio
                     </a>
                 </div>
+            </div>
+            <div className="flex item-center justify-center pt-2.5 pb-4" style={{ color: colors.muted }}>
+                <ExternalLink size={15} />
+                <a className='text-sm pl-1' href='https://github.com/hibiki-shibata/hibiki-shibata.github.io' target="_blank">Source Code</a>
             </div>
         </footer>
     )
