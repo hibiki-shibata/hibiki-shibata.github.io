@@ -20,11 +20,11 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v5.0.0
         with:
-          run_install: true
+          run_install: false
           version: 11
 
-      # - name: Install node dependencies
-      #   run: pnpm install
+      - name: Install node dependencies
+        run: pnpm install
 
       - name: Compile typescript
         run: pnpm run build
