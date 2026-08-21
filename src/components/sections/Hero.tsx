@@ -11,8 +11,8 @@ export default function Hero() {
                     Hibiki Shibata
                 </h1>
                 <p className="text-base mb-6" style={{ color: colors.muted }}>
-                    Five years inside Wolt's support and incident-response systems, now building the backend
-                    services those systems ran on top of.
+                    Five years of engineering ops at Wolt,  building the backend services that empower them alongside.
+                    Now focusing on the Full-Stack development.
                 </p>
                 <div className="flex flex-wrap items-center gap-3 mb-8">
                     <span className="flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full" style={{ background: colors.surface, border: `1px solid ${colors.border}`, color: colors.muted }}>
