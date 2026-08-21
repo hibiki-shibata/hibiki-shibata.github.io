@@ -4,8 +4,8 @@ import { colors } from '../../data/colors';
 export default function TerminalInfo() {
     const lines = [
         { p: '$ whoami', o: 'hibiki_shibata' },
-        { p: '$ role --current', o: 'Technical Support Specialist, Wolt \u2192 transitioning to Backend Engineering' },
-        { p: '$ location', o: 'Tokyo, Japan' },
+        { p: '$ role --current', o: 'Software Developer, Tech Lab \u2192 transitioning to Full-Stack Engineer' },
+        { p: '$ location', o: 'Japan \u2194 Finland' },
         { p: '$ contact --list', o: 'linkedin.com/in/hibiki-shibata' },
     ];
     const [shown, setShown] = useState(0);
