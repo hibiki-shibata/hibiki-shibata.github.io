@@ -23,8 +23,8 @@ jobs:
           run_install: true
           version: 11
 
-      - name: Install node dependencies
-        run: pnpm install
+      # - name: Install node dependencies
+      #   run: pnpm install
 
       - name: Compile typescript
         run: pnpm run build
