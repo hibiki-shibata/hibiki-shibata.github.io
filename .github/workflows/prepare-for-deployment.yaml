@@ -24,7 +24,7 @@ jobs:
           version: 11
 
       - name: Install node dependencies
-        run: pnpm install
+        run: pnpm install --recursive
 
       - name: Compile typescript
         run: pnpm run build
