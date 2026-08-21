@@ -4,6 +4,13 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
 
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.sha }}
+  cancel-in-progress: true
+
 jobs:
   prepare-for-deployment:
     runs-on: ubuntu-latest
@@ -17,7 +24,7 @@ jobs:
           version: 11
 
       - name: Install node dependencies
-        run: pnpm ci
+        run: pnpm install
 
       - name: Compile typescript
         run: pnpm run build
