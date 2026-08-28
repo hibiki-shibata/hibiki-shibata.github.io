@@ -29,7 +29,7 @@ export default function Skills() {
     return (
         <>
             <Reveal>
-                <Eyebrow>Service registry</Eyebrow>
+                <Eyebrow>Skill registry</Eyebrow>
                 <h2 className="text-2xl font-semibold mb-8" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>Tech expertise</h2>
             </Reveal>
             <div className="grid sm:grid-cols-3 gap-4">
