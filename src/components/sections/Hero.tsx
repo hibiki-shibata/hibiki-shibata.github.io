@@ -6,7 +6,7 @@ export default function Hero() {
     return (
         <>
             <div>
-                <Eyebrow>Learning better design code</Eyebrow>
+                <Eyebrow>Learning better architecture code</Eyebrow>
                 <h1 className="text-4xl sm:text-5xl font-semibold mb-4 leading-tight" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
                     Hibiki Shibata
                 </h1>

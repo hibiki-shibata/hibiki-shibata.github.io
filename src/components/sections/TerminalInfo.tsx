@@ -5,8 +5,8 @@ export default function TerminalInfo() {
     const lines = [
         { p: '$ whoami', o: 'hibiki_shibata' },
         { p: '$ role --current', o: 'Software Developer, Tech Lab \u2192 transitioning to Full-Stack Engineer' },
-        { p: '$ location', o: 'Japan \u2194 Finland' },
-        { p: '$ contact --list', o: 'linkedin.com/in/hibiki-shibata' },
+        { p: '$ location', o: 'Minato, Tokyo' },
+        { p: '$ contact --show', o: 'linkedin.com/in/hibiki-shibata' },
     ];
     const [shown, setShown] = useState(0);
     const [charCount, setCharCount] = useState(0);
