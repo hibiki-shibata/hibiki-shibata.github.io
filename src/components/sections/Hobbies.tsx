@@ -3,9 +3,9 @@ import Eyebrow from "../ui/Eyebrow";
 import Reveal from "../ui/Reveal";
 
 const hobbies = [
-    { title: 'Food Exploration', desc: 'Discovering and enjoying a wide variety of international cuisines.' },
-    { title: 'Walking & Fitness', desc: 'Regular walking and workouts for confidence, focus and relaxation outside work.' },
-    { title: 'Linguistics', desc: 'Continuous learning through communication with people from different backgrounds.' },
+    { title: 'Food Discovery', desc: 'Discovering a wide variety of cuisines throughout the world travels. Fried frog I ate in Nice was the most shocking one.' },
+    { title: 'Fitness', desc: 'I believe in muscles. The human physique is the ultimate art form. Yes it is.' },
+    { title: 'Linguistics', desc: 'From English to Francais and more, I cherish the connections with people from a variety of backgrounds.' },
 ];
 
 export default function Hobbies() {
