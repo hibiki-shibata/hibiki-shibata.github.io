@@ -30,7 +30,7 @@ const socials: Social[] = [
     },
     {
         name: "LinkedIn",
-        username: "hibiki-shibata",
+        username: "@hibiki-shibata",
         href: "https://www.linkedin.com/in/hibiki-shibata",
         icon: LinkedIn,
     },
@@ -42,7 +42,7 @@ const socials: Social[] = [
     },
     {
         name: "Discord",
-        username: "hibiki.shibata",
+        username: "@hibiki.shibata",
         href: "https://discord.gg/ezHdmPaJ/",
         icon: Discord,
     },
@@ -60,7 +60,7 @@ const socials: Social[] = [
     },
     {
         name: "Twitch",
-        username: "hibiki_shibata",
+        username: "@hibiki_shibata",
         href: "https://www.twitch.tv/hibiki_shibata",
         icon: Twitch,
     },
@@ -78,7 +78,7 @@ const socials: Social[] = [
     },
     {
         name: "Facebook",
-        username: "hibiki.shibata",
+        username: "@hibiki.shibata",
         href: "https://www.facebook.com/profile.php?id=100084856399357",
         icon: Facebook,
     },

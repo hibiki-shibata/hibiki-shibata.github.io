@@ -9,13 +9,13 @@ export default function Footer() {
                     <div className="text-sm mb-1" style={{ fontFamily: "'JetBrains Mono', monospace", color: colors.accent }}>$ contact --send</div>
                     {/* <p className="text-sm" style={{ color: colors.muted }}>Open to software developer roles. Open to relocation !</p> */}
                     <p className="text-sm" style={{ color: colors.muted }}>Tel: (+81)7089737939</p>
-                    <p className="text-sm" style={{ color: colors.muted }}>Caution: Please use the inquiry chat. I rarely pick up the calls.</p>
+                    <p className="text-sm" style={{ color: colors.muted }}>Caution: Please use the inquiry chat. I rarely pick up random calls.</p>
                 </div>
                 <div className="flex gap-3">
-                    <a href="https://github.com/hibiki-shibata" target="_blank" rel="noreferrer"
+                    <a href="https://www.linkedin.com/in/hibiki-shibata/" target="_blank" rel="noreferrer"
                         className="flex items-center gap-2 text-sm px-4 py-2.5 rounded-md"
                         style={{ background: colors.accent, color: colors.bgAlt, fontWeight: 500 }}>
-                        github.com/hibiki-shibata
+                        linkedin.com/in/hibiki-shibata
                     </a>
                     <a href="https://hibiki-shibata.github.io/ride.driver.frontend/consumer/home" target="_blank" rel="noreferrer"
                         className="flex items-center gap-2 text-sm px-4 py-2.5 rounded-md"
