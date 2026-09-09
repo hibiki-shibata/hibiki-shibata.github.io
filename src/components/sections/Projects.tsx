@@ -11,9 +11,10 @@ const projects = [
         stack: ['TypeScript', 'Express', 'PostgreSQL', 'Prisma', 'Redis'],
         href: 'https://github.com/hibiki-shibata/double.backend/blob/main/doc/overview.md',
         points: [
-            'Feature-based MVC architecture, with a cached-repository using Redis (cache-aside, pattern-based invalidation).',
-            'Atomic conditional-UPDATE patterns to prevent TOCTOU races in wallet withdrawals and bet creation.',
-            'Request-scoped tracing via AsyncLocalStorage; Zod-validated Express middleware with RBAC (401 vs 403).',
+            'Architecture: Engineered a high-throughput backend service using TypeScript, Express, and PostgreSQL, designed around a feature-based MVC architecture.',
+            'Concurrency & Race Condition Prevention: Implemented atomic SQL updates and conditional logic to eliminate TOCTOU (Time-of-Check to Time-of-Use) race conditions in financial wallet transactions and bet creations.',
+            'Caching & Performance Optimization: Built a multi-layered caching architecture using Redis and the decorator pattern (Cache-Aside) to significantly reduce database load and query latency.',
+            'Type-Safe ORM & OOP Design: Utilized Prisma ORM with strict Object-Oriented Domain Driven principles to maintain clean data contracts and seamless schema management.',
         ],
     },
     {
@@ -22,9 +23,11 @@ const projects = [
         stack: ['GCP Cloud Run', 'Terraform', 'React(TypeScript)', 'TanStack Query'],
         href: 'https://github.com/hibiki-shibata/ride.driver.backend',
         points: [
-            'Terraform-provisioned GCP infra: Cloud Run, Cloud SQL over private VPC, Artifact Registry.',
-            'Workload Identity Federation for GitHub Actions CI/CD, with Secret Manager for runtime secrets.',
-            'React frontend with JWT auth and HTTP-only cookie refresh tokens, deployed via GitHub Pages.',
+            'Architecture: Built a RESTful MVC backend microservice for a ride-sharing driver platform using Kotlin and Spring Boot.',
+            'Database & Migrations: Designed normalized schemas in PostgreSQL, utilizing Flyway for automated, version-controlled database migrations.',
+            'Cloud: Provisioned cloud resources on GCP(Cloud Run, Cloud SQL) using Terraform-driven IaC.',
+            'CI/CD & DevSecOps: Configured GitHub Actions pipelines leveraging GCP Workload Identity Federation for keyless authentication and Google Secret Manager for secure runtime configurations.',
+            'Security & Auth: Implemented robust security standards featuring stateless JWT authentication with secure HTTP-only cookie refresh mechanics.',
         ],
     },
     {
