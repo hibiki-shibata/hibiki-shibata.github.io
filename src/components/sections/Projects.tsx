@@ -11,7 +11,7 @@ const projects = [
         stack: ['TypeScript', 'Express', 'PostgreSQL', 'Prisma', 'Redis'],
         href: 'https://github.com/hibiki-shibata/double.backend/blob/main/doc/overview.md',
         points: [
-            'Repository/service layering with a cached-repository decorator pattern over Redis (cache-aside, pattern-based invalidation).',
+            'Feature-based MVC architecture, with a cached-repository using Redis (cache-aside, pattern-based invalidation).',
             'Atomic conditional-UPDATE patterns to prevent TOCTOU races in wallet withdrawals and bet creation.',
             'Request-scoped tracing via AsyncLocalStorage; Zod-validated Express middleware with RBAC (401 vs 403).',
         ],
@@ -19,7 +19,7 @@ const projects = [
     {
         name: 'Ride App',
         tagline: 'Ride-hailing driver platform, cloud-native end to end',
-        stack: ['GCP', 'Terraform', 'Cloud Run', 'React', 'TanStack Query'],
+        stack: ['GCP Cloud Run', 'Terraform', 'React(TypeScript)', 'TanStack Query'],
         href: 'https://github.com/hibiki-shibata/ride.driver.backend',
         points: [
             'Terraform-provisioned GCP infra: Cloud Run, Cloud SQL over private VPC, Artifact Registry.',
@@ -30,7 +30,7 @@ const projects = [
     {
         name: 'Stock Profit Simulator',
         tagline: 'Calculate expected stock profits with multi-factors',
-        stack: ['React(Vite)', 'Typescript', 'GitHub Page'],
+        stack: ['React(Vite x Tailwind)', 'Typescript', 'GitHub Page'],
         href: 'https://hibiki-shibata.github.io/stock-profit-calculation/',
         points: [
             'Interactive web app for estimating investment returns, including profit, loss, and percentage gains across different scenarios.',
