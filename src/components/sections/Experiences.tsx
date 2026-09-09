@@ -12,8 +12,8 @@ const experience = [
         location: 'Tokyo, Japan',
         duration: '1 yr',
         points: [
-            'Tech stack => TypeScript( Node js & Vue ), Postgres, GitLab, Docker, AWS EC2.', ,
-            'Project => Load application & its management system. Full-Stack.', ,
+            { title: 'Tech Stack', content: 'TypeScript( Node js & Vue ), Postgres, GitLab, Docker, AWS EC2.' },
+            { title: 'Project', content: 'Load application & its management system. Full-Stack.' },
         ],
     },
     {
@@ -24,13 +24,11 @@ const experience = [
         location: 'Tokyo, Japan',
         duration: '4 yr',
         points: [
-            'Tech stack => TypeScript( Node js & React & Tailwind ), Python, Postgres, GitHub, Docker, AWS EKS.',
-            'Project => Internal utility tools to automate routine operational tasks. Built & deployed a micro-service to solve oprational issues identified from daily tech support tasks.',
-            'Debugged prod issues via Datadog log and DB data analysis, documenting findings for engineering handoff.',
-            'Served as Incident Commander during system outages, coordinating global company-wide teams and documenting postmortems.',
-            'Managed POS integrations with external aggregator developers - coordinating API design, issuing API keys, and validating data exchange.',
-            'Managed company-wide access to internal tools in compliance with ISO/IEC 27001 standards.',
-            'Handled secure data retrieval for law-enforcement inquiries under strict legal/compliance procedures as a public company.',
+            { title: 'Tech Stack', content: 'TypeScript( Node js & React & Tailwind ), Python, Postgres, GitHub, Docker, AWS EKS.' },
+            { title: 'Software Development', content: 'Designed, built, and deployed microservices on AWS EKS to resolve operational bottlenecks; created internal automation tools to streamline daily workflows.', },
+            { title: 'Prod Reliability & Incident Management', content: 'Acted as Incident Commander during critical outages, coordinating cross-functional global teams through resolution and postmortem documentation. Led root-cause analysis for production issues using Datadog and PostgreSQL queries.', },
+            { title: 'API & Integration Engineering', content: 'Led technical integrations with third-party aggregator developers, managing API schema design, credential provisioning, and end-to-end data validation.', },
+            { title: 'Security & Compliance:', content: 'Enforced ISO/IEC 27001 compliance standards for company-wide access controls and executed secure data extraction protocols for public company legal inquiries.', },
         ],
     },
     {
@@ -41,7 +39,7 @@ const experience = [
         location: 'Fukuoka, Japan',
         duration: '8 mo',
         points: [
-            'Supported users, courier partners and restaurant partners across chat and phone, in Japanese and English.',
+            { title: 'Online Support', content: 'Supported users, courier partners and restaurant partners across chat and phone, in Japanese and English.' },
         ],
     },
 ];
@@ -78,8 +76,14 @@ export default function Experiences() {
 
                             <ul className="space-y-1.5">
                                 {e.points.map((p) => (
-                                    <li key={p} className="text-sm flex gap-2" style={{ color: colors.text }}>
-                                        <span style={{ color: colors.muted }}>-</span>{p}
+                                    <li key={p.title} className="flex gap-2" style={{ color: colors.text }}>
+                                        <span style={{ color: colors.muted }}>-</span>
+                                        <div className="flex flex-col">
+                                            <span className="font-medium">{p.title}</span>
+                                            <span className="text-sm" style={{ color: colors.muted }}>
+                                                {p.content}
+                                            </span>
+                                        </div>
                                     </li>
                                 ))}
                             </ul>
