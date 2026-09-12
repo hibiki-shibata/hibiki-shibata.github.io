@@ -11,10 +11,22 @@ const projects = [
         stack: ['TypeScript', 'Express', 'PostgreSQL', 'Prisma', 'Redis'],
         href: 'https://github.com/hibiki-shibata/double.backend/blob/main/doc/overview.md',
         points: [
-            'Architecture: Engineered a high-throughput backend service using TypeScript, Express, and PostgreSQL, designed around a feature-based MVC architecture.',
-            'Concurrency & Race Condition Prevention: Implemented atomic SQL updates and conditional logic to eliminate TOCTOU (Time-of-Check to Time-of-Use) race conditions in financial wallet transactions and bet creations.',
-            'Caching & Performance Optimization: Built a multi-layered caching architecture using Redis and the decorator pattern (Cache-Aside) to significantly reduce database load and query latency.',
-            'Type-Safe ORM & OOP Design: Utilized Prisma ORM with strict Object-Oriented Domain Driven principles to maintain clean data contracts and seamless schema management.',
+            {
+                title: "Architecture",
+                content: "Engineered a high-throughput backend service using TypeScript, Express, and PostgreSQL, designed around a feature-based MVC architecture."
+            },
+            {
+                title: "Concurrency & Race Condition Prevention",
+                content: "Implemented atomic SQL updates and conditional logic to eliminate TOCTOU (Time-of-Check to Time-of-Use) race conditions in financial wallet transactions and bet creations."
+            },
+            {
+                title: "Caching & Performance Optimization",
+                content: "Built a multi-layered caching architecture using Redis and the decorator pattern (Cache-Aside) to significantly reduce database load and query latency."
+            },
+            {
+                title: "Type-Safe ORM & OOP Design",
+                content: "Utilized Prisma ORM with strict Object-Oriented Domain Driven principles to maintain clean data contracts and seamless schema management."
+            },
         ],
     },
     {
@@ -23,11 +35,26 @@ const projects = [
         stack: ['GCP Cloud Run', 'Terraform', 'React(TypeScript)', 'TanStack Query'],
         href: 'https://github.com/hibiki-shibata/ride.driver.backend',
         points: [
-            'Architecture: Built a RESTful MVC backend microservice for a ride-sharing driver platform using Kotlin and Spring Boot.',
-            'Database & Migrations: Designed normalized schemas in PostgreSQL, utilizing Flyway for automated, version-controlled database migrations.',
-            'Cloud: Provisioned cloud resources on GCP(Cloud Run, Cloud SQL) using Terraform-driven IaC.',
-            'CI/CD & DevSecOps: Configured GitHub Actions pipelines leveraging GCP Workload Identity Federation for keyless authentication and Google Secret Manager for secure runtime configurations.',
-            'Security & Auth: Implemented robust security standards featuring stateless JWT authentication with secure HTTP-only cookie refresh mechanics.',
+            {
+                title: "Architecture",
+                content: "Built a RESTful MVC backend microservice for a ride-sharing driver platform using Kotlin and Spring Boot."
+            },
+            {
+                title: "Database & Migrations",
+                content: "Designed normalized schemas in PostgreSQL, utilizing Flyway for automated, version-controlled database migrations."
+            },
+            {
+                title: "Infra / Cloud",
+                content: "Deployed on GCP(Cloud Run, Cloud SQL) using Terraform-driven as IaC."
+            },
+            {
+                title: "CI/CD & DevSecOps",
+                content: "Used GitHub Actions pipelines leveraging GCP Workload Identity Federation for keyless authentication and Google Secret Manager for secure runtime configurations."
+            },
+            {
+                title: "Security & Auth",
+                content: "Implemented stateless JWT authentication with secure HTTP-only cookie refresh token."
+            }
         ],
     },
     {
@@ -36,9 +63,18 @@ const projects = [
         stack: ['React(Vite x Tailwind)', 'Typescript', 'GitHub Page'],
         href: 'https://hibiki-shibata.github.io/stock-profit-calculation/',
         points: [
-            'Interactive web app for estimating investment returns, including profit, loss, and percentage gains across different scenarios.',
-            'Built with React, TypeScript, and Tailwind CSS, featuring responsive UI components, dynamic calculations, and real-time result updates.',
-            'Designed with reusable components and typed data models, focusing on maintainable code, and intuitive UX.',
+            {
+                title: "UI",
+                content: "Interactive web app for estimating investment returns, including profit, loss, and percentage gains across different scenarios."
+            },
+            {
+                title: "Tech Stack",
+                content: "Built with React, TypeScript, and Tailwind CSS, featuring responsive UI components, dynamic calculations, and real-time result updates."
+            },
+            {
+                title: "Design",
+                content: "Designed with reusable components and typed data models, focusing on maintainable code, and intuitive UX."
+            },
         ],
     },
 ];
@@ -63,8 +99,12 @@ export default function Projects() {
                                 <p className="text-sm mb-4" style={{ color: colors.muted }}>{p.tagline}</p>
                                 <ul className="space-y-1.5 mb-4 flex-1">
                                     {p.points.map((pt) => (
-                                        <li key={pt} className="text-sm flex gap-2" style={{ color: colors.text }}>
-                                            <span style={{ color: colors.muted }}>-</span>{pt}
+                                        <li key={pt.title} className="text-sm flex gap-2" style={{ color: colors.text }}>
+                                            <span style={{ color: colors.muted }}>-</span>
+                                            <div className="flex flex-col">
+                                                <span className="font-bold">{pt.title}:</span>
+                                                <span style={{ color: colors.muted }}>{pt.content}</span>
+                                            </div>
                                         </li>
                                     ))}
                                 </ul>
