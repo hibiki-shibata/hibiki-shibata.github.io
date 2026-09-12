@@ -6,39 +6,40 @@ import Reveal from "../ui/Reveal";
 const experience = [
     {
         role: 'Software Engineer',
-        company: 'Tech Lab',
+        company: 'Tech Lab Inc',
         href: 'https://techlab-inc.co.jp',
-        period: 'Oct 2026 - Present',
+        period: 'Sept 2026 - Present',
         location: 'Tokyo, Japan',
-        duration: '0 yr',
+        duration: '1 yr',
         points: [
-            'Starting Soon',
+            { title: 'Tech Stack', content: 'TypeScript( Node js & Vue ), Postgres, GitLab, Docker, AWS EC2.' },
+            { title: 'Project', content: 'Load application & its management system. Full-Stack.' },
         ],
     },
     {
         role: 'Technical Support Specialist',
-        company: 'Wolt (DoorDash / Deliveroo)',
+        company: 'Wolt (part of DoorDash / Deliveroo)',
         href: 'https://explore.wolt.com/en/fin/about',
         period: 'Mar 2022 - Apr 2026',
         location: 'Tokyo, Japan',
         duration: '4 yr',
         points: [
-            'Designed internal microservices in TypeScript, Python and Docker to automate routine operational tasks.',
-            'Investigated production issues via Datadog log analysis, documenting findings for engineering handoff.',
-            'Extracted and analyzed data with SQL to support business-team decision making.',
-            'Administered access for internal tools (incl. Google Workspace) against compliance and security policy.',
-            'Handled secure data retrieval for law-enforcement inquiries under strict legal/compliance procedures as a public company.',
+            { title: 'Tech Stack', content: 'TypeScript( Node js & React & Tailwind ), Python, Postgres, GitHub, Docker, AWS EKS.' },
+            { title: 'Software Development', content: 'Designed, built, and deployed microservices on AWS EKS to resolve operational bottlenecks; created internal automation tools to streamline daily workflows.', },
+            { title: 'Prod Reliability & Incident Management', content: 'Acted as Incident Commander during critical outages, coordinating cross-functional global teams through resolution and postmortem documentation. Led root-cause analysis for production issues using Datadog and PostgreSQL queries.', },
+            { title: 'API & Integration Engineering', content: 'Led technical integrations with third-party aggregator developers, managing API schema design, credential provisioning, and end-to-end data validation.', },
+            { title: 'Security & Compliance:', content: 'Enforced ISO/IEC 27001 compliance standards for company-wide access controls and executed secure data extraction protocols for public company legal inquiries.', },
         ],
     },
     {
         role: 'Support Associate',
-        company: 'Wolt (DoorDash / Deliveroo)',
+        company: 'Wolt (part of DoorDash / Deliveroo)',
         href: 'https://explore.wolt.com/en/fin/about',
         period: 'Sept 2021 - Mar 2022',
         location: 'Fukuoka, Japan',
         duration: '8 mo',
         points: [
-            'Supported users, courier partners and restaurant partners across chat and phone, in Japanese and English.',
+            { title: 'Online Support', content: 'Supported users, courier partners and restaurant partners across chat and phone, in Japanese and English.' },
         ],
     },
 ];
@@ -75,8 +76,14 @@ export default function Experiences() {
 
                             <ul className="space-y-1.5">
                                 {e.points.map((p) => (
-                                    <li key={p} className="text-sm flex gap-2" style={{ color: colors.text }}>
-                                        <span style={{ color: colors.muted }}>-</span>{p}
+                                    <li key={p.title} className="flex gap-2" style={{ color: colors.text }}>
+                                        <span style={{ color: colors.muted }}>-</span>
+                                        <div className="flex flex-col">
+                                            <span className="font-medium">{p.title}</span>
+                                            <span className="text-sm" style={{ color: colors.muted }}>
+                                                {p.content}
+                                            </span>
+                                        </div>
                                     </li>
                                 ))}
                             </ul>

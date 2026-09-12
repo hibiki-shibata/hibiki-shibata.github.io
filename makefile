@@ -1,7 +1,7 @@
 .phony: compile everything and prepare for github page deployment
 compile:
 	@echo "Compiling the project..."
-	npm run build
+	pnpm run build
 # 	cp -r dist/* ~/hibiki-shibata.github.io/docs/
 	git add .
 	git commit -m "Compiled & Ready to Deploy"
