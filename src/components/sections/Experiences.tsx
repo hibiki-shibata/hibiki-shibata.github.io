@@ -6,7 +6,7 @@ import Reveal from "../ui/Reveal";
 const experience = [
     {
         role: 'Software Engineer',
-        company: 'Tech Lab Inc',
+        company: 'Tech Lab, Inc',
         href: 'https://techlab-inc.co.jp',
         period: 'Sept 2026 - Present',
         location: 'Tokyo, Japan',
@@ -18,7 +18,7 @@ const experience = [
     },
     {
         role: 'Technical Support Specialist',
-        company: 'Wolt (part of DoorDash / Deliveroo)',
+        company: 'Wolt ( part of DoorDash / Deliveroo )',
         href: 'https://explore.wolt.com/en/fin/about',
         period: 'Mar 2022 - Apr 2026',
         location: 'Tokyo, Japan',
@@ -33,7 +33,7 @@ const experience = [
     },
     {
         role: 'Support Associate',
-        company: 'Wolt (part of DoorDash / Deliveroo)',
+        company: 'Wolt ( part of DoorDash / Deliveroo )',
         href: 'https://explore.wolt.com/en/fin/about',
         period: 'Sept 2021 - Mar 2022',
         location: 'Fukuoka, Japan',

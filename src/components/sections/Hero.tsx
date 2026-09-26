@@ -6,13 +6,15 @@ export default function Hero() {
     return (
         <>
             <div>
-                <Eyebrow>Keep learning & architect meticulously</Eyebrow>
+                <Eyebrow>SISU heart & meticulously design</Eyebrow>
                 <h1 className="text-4xl sm:text-5xl font-semibold mb-4 leading-tight" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
                     Hibiki Shibata
                 </h1>
                 <p className="text-base mb-6" style={{ color: colors.muted }}>
-                    Bilingual Software Staff five years of experience at Wolt & Tech Lab, combinding full-stack software development & Global scale production engineering and its operation.
-
+                    Bilingual Software Staff with Sisu sprit.
+                    I've been building & maintaining multi-scale services in Wolt and Tech Lab throughout the last 6 years.
+                    {/* software development & Global scale production engineering and its operation. */}
+                    {/* Cuisine, Linguistic, Beauty & its philosophies. */}
                 </p>
                 <div className="flex flex-wrap items-center gap-3 mb-8">
                     <span className="flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full" style={{ background: colors.surface, border: `1px solid ${colors.border}`, color: colors.muted }}>
