@@ -11,9 +11,9 @@ export default function Hero() {
                     Hibiki Shibata
                 </h1>
                 <p className="text-base mb-6" style={{ color: colors.muted }}>
-                    Bilingual Software Staff with Sisu sprit.
-                    I've been building & maintaining full-stack services in Wolt and Tech Lab the last 6 years.
-                    Exploring cuisines, English literature and fashions aside.
+                    Bilingual Sisu Software Staff.
+                    I've been building & maintaining Frontend/Backend services in Wolt and Tech Lab last 6 years.
+                    Exploring cuisines across borders, English literature & fashions aside.
                     {/* software development & Global scale production engineering and its operation. */}
                     {/* Cuisine, Linguistic, Beauty & its philosophies. */}
                 </p>
