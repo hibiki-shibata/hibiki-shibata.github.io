@@ -6,13 +6,14 @@ export default function Hero() {
     return (
         <>
             <div>
-                <Eyebrow>SISU heart & meticulously design</Eyebrow>
+                <Eyebrow>SISU heart & meticulous design</Eyebrow>
                 <h1 className="text-4xl sm:text-5xl font-semibold mb-4 leading-tight" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
                     Hibiki Shibata
                 </h1>
                 <p className="text-base mb-6" style={{ color: colors.muted }}>
                     Bilingual Software Staff with Sisu sprit.
-                    I've been building & maintaining multi-scale services in Wolt and Tech Lab throughout the last 6 years.
+                    I've been building & maintaining full-stack services in Wolt and Tech Lab the last 6 years.
+                    Exploring cuisines, English literature and fashions aside.
                     {/* software development & Global scale production engineering and its operation. */}
                     {/* Cuisine, Linguistic, Beauty & its philosophies. */}
                 </p>

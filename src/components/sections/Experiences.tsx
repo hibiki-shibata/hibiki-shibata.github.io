@@ -14,6 +14,7 @@ const experience = [
         points: [
             { title: 'Tech Stack', content: 'TypeScript( Node js & Vue ), Postgres, GitLab, Docker, AWS EC2.' },
             { title: 'Project', content: 'Load application & its management system. Full-Stack.' },
+            { title: 'Site reliability', content: 'Sight alerts and analysis it, implement permanent patch.' },
         ],
     },
     {
