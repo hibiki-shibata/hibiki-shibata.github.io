@@ -13,8 +13,9 @@ const experience = [
         duration: '1 yr',
         points: [
             { title: 'Tech Stack', content: 'TypeScript( Node js & Vue ), Postgres, GitLab, Docker, AWS EC2.' },
-            { title: 'Project', content: 'Load application & its management system. Full-Stack.' },
-            { title: 'Site reliability', content: 'Sight alerts and analysis it, implement permanent patch.' },
+            { title: 'Project', content: 'Loan application & its management system.' },
+            { title: 'Bug Fixes & Maintenance', content: 'Monitored system alerts and user-reported bugs across the stack (frontend/backend), analyzing application logs and database records to diagnose root causes and deploy patches.' },
+            { title: 'Site Reliability Engineering', content: 'Tracked and analyzed server resource metrics—including disk and memory utilization, resource spikes, and execution times—to optimize platform reliability.' }
         ],
     },
     {
