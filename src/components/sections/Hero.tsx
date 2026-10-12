@@ -20,10 +20,10 @@ export default function Hero() {
                 <div className="flex flex-wrap items-center gap-3 mb-8">
                     <span className="flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full" style={{ background: colors.surface, border: `1px solid ${colors.border}`, color: colors.muted }}>
                         <span className="w-1.5 h-1.5 rounded-full" style={{ background: colors.accent }} />
-                        Tokyo, JP
+                        Online
                     </span>
                     <span className="flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full" style={{ background: colors.surface, border: `1px solid ${colors.border}`, color: colors.muted }}>
-                        <Plane size={12} /> Open to relocation
+                        <Plane size={12} /> Tokyo, JP
                     </span>
                 </div>
                 <div className="flex gap-3">
